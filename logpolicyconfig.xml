@@ -1,0 +1,4023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rsp stat="ok" xmlns="http://openapi.samsung.com/api/1.0">
+<period val="2017-01-28T15:36:02" />
+<server type="operating" />
+<list>
+<service name="13_facerecog" url="https://lcprd1.samsungcloudsolution.net/openapi/log/13_facerecog" queue_max="30" expiration="60" loglevel="10" >
+<event name="SKCAM" loglevel="5" />
+</service>
+<service name="13_firstscreen" url="https://lcprd1.samsungcloudsolution.net/openapi/log/13_firstscreen" queue_max="30" expiration="60" loglevel="10" >
+<event name="CLICK_AD" loglevel="5" />
+<event name="CLICK_CATEGORY" loglevel="5" />
+<event name="CLICK_CLEARALL" loglevel="5" />
+<event name="CLICK_CONTEXTUAL_MENU" loglevel="5" />
+<event name="CLICK_FEATURED_CONTENT" loglevel="5" />
+<event name="CLICK_RECENT_CONTENT" loglevel="5" />
+<event name="CLOSE_FIRSTSCREEN" loglevel="5" />
+<event name="EXEGAME" loglevel="5" />
+<event name="PG_AD" loglevel="5" />
+<event name="PG_FEATURED" loglevel="5" />
+<event name="PG_RECENT" loglevel="5" />
+<event name="PG_SMARTHUB" loglevel="5" />
+<event name="PLAYGAME" loglevel="5" />
+<event name="VIEWGAME" loglevel="5" />
+</service>
+<service name="13_game" url="https://lcprd1.samsungcloudsolution.net/openapi/log/13_game" queue_max="30" expiration="60" loglevel="10" >
+<event name="CLKDW" loglevel="5" />
+<event name="DOFB" loglevel="5" />
+<event name="DOTWT" loglevel="5" />
+<event name="EXEAPP" loglevel="5" />
+<event name="FINDW" loglevel="5" />
+<event name="G02_MYPAGE" loglevel="5" />
+<event name="G03_ALLGMS" loglevel="5" />
+<event name="G04_VIEW" loglevel="5" />
+<event name="MVSSO" loglevel="5" />
+<event name="PLYTHMB" loglevel="5" />
+<event name="PLYTRL" loglevel="5" />
+<event name="POPCGUIDE" loglevel="5" />
+<event name="POPSSOGUIDE" loglevel="5" />
+<event name="RATE" loglevel="5" />
+<event name="RUNDTAPP" loglevel="5" />
+<event name="RUNMYAPP" loglevel="5" />
+<event name="VIEWALLGAMES" loglevel="5" />
+<event name="CLKBUY" loglevel="5" />
+<event name="POPIAPITEMS" loglevel="5" />
+</service>
+<service name="13_newson" url="https://lcprd1.samsungcloudsolution.net/openapi/log/13_newson" queue_max="30" expiration="60" loglevel="10" >
+<event name="A01_MORENEWS" loglevel="5" />
+<event name="SELECTITEM" loglevel="5" />
+</service>
+<service name="13_psidmenu" url="https://lcprd1.samsungcloudsolution.net/openapi/log/13_psidmenu" queue_max="30" expiration="60" loglevel="10" >
+<event name="INVALIDPSID" loglevel="5" />
+<event name="RESETPSID" loglevel="5" />
+</service>
+<service name="13_virtualchannel" url="https://lcprd1.samsungcloudsolution.net/openapi/log/13_virtualchannel" queue_max="30" expiration="60" loglevel="10" >
+<event name="PLAY_CONTROL" loglevel="5" />
+<event name="DEEPLINK" loglevel="5" />
+<event name="CATEGORY" loglevel="5" />
+<event name="SELECT_CONTENT" loglevel="5" />
+<event name="CONTENT_INFO" loglevel="5" />
+<event name="PLAY_CONTENT" loglevel="5" />
+<event name="DURATION" loglevel="5" />
+<event name="PAGE_VIEW" loglevel="5" />
+<event name="APP_LAUNCH" loglevel="5" />
+<event name="SELECT_CHANNEL" loglevel="5" />
+<event name="TUNE_ERR" loglevel="5" />
+<event name="NETWORK_ERR" loglevel="5" />
+<event name="PLAYER_ERR" loglevel="5" />
+<event name="BACKTOLEANIR" loglevel="5" />
+<event name="NEXT_INTILE" loglevel="5" />
+<event name="POPUP" loglevel="5" />
+</service>
+<service name="14_allsearch" url="https://lcprd1.samsungcloudsolution.net/openapi/log/14_allsearch" queue_max="30" expiration="60" loglevel="10" >
+<event name="AUTO" loglevel="5" />
+<event name="DICTATION" loglevel="5" />
+<event name="H01_HISTORY" loglevel="5" />
+<event name="HISTORY" loglevel="5" />
+<event name="INSTANT" loglevel="5" />
+<event name="NUHIDE" loglevel="5" />
+<event name="POPULAR" loglevel="5" />
+<event name="R01_RESULT" loglevel="5" />
+<event name="RESULT" loglevel="5" />
+<event name="SELECTITEM" loglevel="5" />
+<event name="SELECT_KEYWORD" loglevel="5" />
+<event name="VOICE" loglevel="5" />
+</service>
+<service name="14_appspanel" url="https://lcprd1.samsungcloudsolution.net/openapi/log/14_appspanel" queue_max="30" expiration="60" loglevel="10" >
+<event name="APPINFO" loglevel="5" />
+<event name="C01_CATEGORY" loglevel="5" />
+<event name="CANCEL" loglevel="5" />
+<event name="D01_DETAIL" loglevel="5" />
+<event name="DEL" loglevel="5" />
+<event name="DOWNLOAD" loglevel="5" />
+<event name="E01_EDU" loglevel="5" />
+<event name="FILTER" loglevel="5" />
+<event name="FILTEROPT" loglevel="5" />
+<event name="G01_GAME" loglevel="5" />
+<event name="H01_HOME" loglevel="5" />
+<event name="H01_HOMEMLS" loglevel="5" />
+<event name="I01_INFO" loglevel="5" />
+<event name="K01_KIDS" loglevel="5" />
+<event name="L01_LIFE" loglevel="5" />
+<event name="LONGPRESS" loglevel="5" />
+<event name="LPDEL" loglevel="5" />
+<event name="LPDETAIL" loglevel="5" />
+<event name="LPDOWNLOAD" loglevel="5" />
+<event name="LPLOCKUNLOCK" loglevel="5" />
+<event name="LPMDEL" loglevel="5" />
+<event name="LPMOVE" loglevel="5" />
+<event name="LPRUN" loglevel="5" />
+<event name="LPUPDATE" loglevel="5" />
+<event name="LPVMODE" loglevel="5" />
+<event name="M01_MOST" loglevel="5" />
+<event name="M02_MORE" loglevel="5" />
+<event name="MDEL" loglevel="5" />
+<event name="MYAPPS" loglevel="5" />
+<event name="MYAPPSMLS" loglevel="5" />
+<event name="N01_NEW" loglevel="5" />
+<event name="PIA" loglevel="5" />
+<event name="PIAMLS" loglevel="5" />
+<event name="PIG" loglevel="5" />
+<event name="PIGMLS" loglevel="5" />
+<event name="RATING" loglevel="5" />
+<event name="REC" loglevel="5" />
+<event name="RECMLS" loglevel="5" />
+<event name="RELATED" loglevel="5" />
+<event name="REPORT" loglevel="5" />
+<event name="RUN" loglevel="5" />
+<event name="S01_SPORT" loglevel="5" />
+<event name="SCREENSHOT" loglevel="5" />
+<event name="SELECTCATEGORY" loglevel="5" />
+<event name="SELECTITEM" loglevel="5" />
+<event name="SELECTMENU" loglevel="5" />
+<event name="SORT" loglevel="5" />
+<event name="SORTOPT" loglevel="5" />
+<event name="UPDATE" loglevel="5" />
+<event name="VMODE" loglevel="5" />
+</service>
+<service name="14_ci" url="https://lcprd1.samsungcloudsolution.net/openapi/log/14_ci" queue_max="30" expiration="60" loglevel="10" >
+<event name="STATUS" loglevel="5" />
+<event name="STATUS_CHANGE" loglevel="5" />
+</service>
+<service name="14_codec" url="https://lcprd1.samsungcloudsolution.net/openapi/log/14_codec" queue_max="30" expiration="60" loglevel="10" >
+<event name="PLAYBACK" loglevel="5" />
+<event name="ERRPLAY" loglevel="5" />
+</service>
+<service name="14_conversation" url="https://lcprd1.samsungcloudsolution.net/openapi/log/14_conversation" queue_max="30" expiration="60" loglevel="10" >
+<event name="FIN" loglevel="5" />
+<event name="NRECOG" loglevel="5" />
+<event name="RESCONV" loglevel="5" />
+<event name="RESEMB" loglevel="5" />
+<event name="STARTUP" loglevel="5" />
+<event name="VOICEON" loglevel="5" />
+</service>
+<service name="14_dmp" url="https://lcprd1.samsungcloudsolution.net/openapi/log/14_dmp" queue_max="30" expiration="60" loglevel="10" >
+<event name="STORE_TH" loglevel="5" />
+</service>
+<service name="14_facerecog" url="https://lcprd1.samsungcloudsolution.net/openapi/log/14_facerecog" queue_max="30" expiration="60" loglevel="10" >
+<event name="AUTOTR" loglevel="5" />
+<event name="FACEDEL" loglevel="5" />
+<event name="FACEREFAIL" loglevel="5" />
+<event name="FACERESUC" loglevel="5" />
+<event name="SFACEDEL" loglevel="5" />
+<event name="SFACEREFA" loglevel="5" />
+<event name="SFACERESUC" loglevel="5" />
+<event name="SKCAM" loglevel="5" />
+<event name="SLINFP" loglevel="5" />
+<event name="SLINFR" loglevel="5" />
+<event name="SLINPW" loglevel="5" />
+</service>
+<service name="14_firstscreen" url="https://lcprd1.samsungcloudsolution.net/openapi/log/14_firstscreen" queue_max="30" expiration="60" loglevel="10" >
+<event name="CLICK_AD" loglevel="5" />
+<event name="CLICK_CATEGORY" loglevel="5" />
+<event name="CLICK_CLEARALL" loglevel="5" />
+<event name="CLICK_CONTEXTUAL_MENU" loglevel="5" />
+<event name="CLICK_FEATURED_CONTENT" loglevel="5" />
+<event name="CLICK_MOSTUSED_CONTENT" loglevel="5" />
+<event name="CLOSE" loglevel="5" />
+<event name="EXEGAME" loglevel="5" />
+<event name="JUMPSSO" loglevel="5" />
+<event name="JUMPTERMS" loglevel="5" />
+<event name="PG_AD" loglevel="5" />
+<event name="PG_FEATURED" loglevel="5" />
+<event name="PG_MOSTUSED" loglevel="5" />
+<event name="PG_SMARTHUB" loglevel="5" />
+<event name="PLAYGAME" loglevel="5" />
+<event name="VIEWGAME" loglevel="5" />
+<event name="H01_HOME" loglevel="5" />
+<event name="CUEAREA" loglevel="5" />
+<event name="SELECTCONTENT" loglevel="5" />
+<event name="LPFAVORITE" loglevel="5" />
+<event name="CLEARALL" loglevel="5" />
+<event name="AUTOSTART" loglevel="5" />
+<event name="CLOSE_FIRSTSCREEN" loglevel="5" />
+</service>
+<service name="14_global" url="https://lcprd1.samsungcloudsolution.net/openapi/log/14_global" queue_max="30" expiration="60" loglevel="10" >
+<event name="MOVETOPANEL" loglevel="5" />
+<event name="TICK" loglevel="5" />
+</service>
+<service name="14_mls" url="https://lcprd1.samsungcloudsolution.net/openapi/log/14_mls" queue_max="30" expiration="60" loglevel="10" >
+<event name="BANNER" loglevel="5" />
+<event name="CONTENT" loglevel="5" />
+<event name="FULLOUTBYPLAYER" loglevel="5" />
+<event name="FULLOUTBYTV" loglevel="5" />
+<event name="INITIALAPP" loglevel="5" />
+<event name="KEYWORD" loglevel="5" />
+<event name="SCREENTYPE" loglevel="5" />
+<event name="SELECTMENU" loglevel="5" />
+</service>
+<service name="14_mmpanel" url="https://lcprd1.samsungcloudsolution.net/openapi/log/14_mmpanel" queue_max="30" expiration="60" loglevel="10" >
+<event name="FILTER" loglevel="5" />
+<event name="H01_HOME" loglevel="5" />
+<event name="H03_USBDRIVE" loglevel="5" />
+<event name="H04_CONTENTLIST" loglevel="5" />
+<event name="H05_RECORDEDTVCHLIST" loglevel="5" />
+<event name="H07_NETWORDEVICE" loglevel="5" />
+<event name="H09_CONTENTLIST" loglevel="5" />
+<event name="H10_CLOUD" loglevel="5" />
+<event name="H11_CONTENTLIST" loglevel="5" />
+<event name="H12_CONTENTLIST" loglevel="5" />
+<event name="H13_PHOTOPLAYER" loglevel="5" />
+<event name="H14_VIDEOPLAYER" loglevel="5" />
+<event name="H15_MUSICPLAYER" loglevel="5" />
+<event name="H16_CONTENTLIST" loglevel="5" />
+<event name="H17_CONTENTLIST" loglevel="5" />
+<event name="H18_CONTENTLIST" loglevel="5" />
+<event name="H19_CONTENTLIST" loglevel="5" />
+<event name="HELP" loglevel="5" />
+<event name="LONGPRESS" loglevel="5" />
+<event name="NEXTPAGE" loglevel="5" />
+<event name="OPTIONMP" loglevel="5" />
+<event name="OPTIONPVP" loglevel="5" />
+<event name="OPTIONS" loglevel="5" />
+<event name="PLAYEREXIT" loglevel="5" />
+<event name="PUSHPULL" loglevel="5" />
+<event name="SELECTCLOUD" loglevel="5" />
+<event name="SELECTCONTENT" loglevel="5" />
+<event name="SELECTDEVICE" loglevel="5" />
+<event name="SELECTDRIVE" loglevel="5" />
+<event name="SELECTITEM" loglevel="5" />
+<event name="SELECTLIST" loglevel="5" />
+<event name="SELECTMENU" loglevel="5" />
+<event name="SORT" loglevel="5" />
+</service>
+<service name="14_motion" url="https://lcprd1.samsungcloudsolution.net/openapi/log/14_motion" queue_max="30" expiration="60" loglevel="10" >
+<event name="CLCK" loglevel="5" />
+<event name="MOT" loglevel="5" />
+<event name="TURN" loglevel="5" />
+</service>
+<service name="14_mtv" url="https://lcprd1.samsungcloudsolution.net/openapi/log/14_mtv" queue_max="30" expiration="60" loglevel="10" >
+<event name="ADDFAVORITE" loglevel="5" />
+<event name="C01_CASTCREW" loglevel="5" />
+<event name="C02_CASTCREWDETAIL" loglevel="5" />
+<event name="CASTCREW" loglevel="5" />
+<event name="D01_MOVIEDETAIL" loglevel="5" />
+<event name="D02_MOVIEDETAIL" loglevel="5" />
+<event name="D03_TVDETAIL" loglevel="5" />
+<event name="D04_TVDETAIL" loglevel="5" />
+<event name="E01_FEATURED" loglevel="5" />
+<event name="E02_FEATUREDDETAIL" loglevel="5" />
+<event name="E03_EPISODELIST" loglevel="5" />
+<event name="F01_FAVORITES" loglevel="5" />
+<event name="FILTER" loglevel="5" />
+<event name="G01_GENRES" loglevel="5" />
+<event name="G02_GENREDETAIL" loglevel="5" />
+<event name="G03_GENRES" loglevel="5" />
+<event name="G04_GENREDETAIL" loglevel="5" />
+<event name="H01_HOME" loglevel="5" />
+<event name="H02_HOME" loglevel="5" />
+<event name="H03_HOME" loglevel="5" />
+<event name="H04_HOME" loglevel="5" />
+<event name="LONGPRESS" loglevel="5" />
+<event name="LPADDFAVORITE" loglevel="5" />
+<event name="LPMORE" loglevel="5" />
+<event name="LPREMOVEFAVORITE" loglevel="5" />
+<event name="LPSELECTCP" loglevel="5" />
+<event name="LPSELECTOTHERCP" loglevel="5" />
+<event name="LPWATCHNOW" loglevel="5" />
+<event name="M01_MOVIES" loglevel="5" />
+<event name="MORE" loglevel="5" />
+<event name="OPTIONACT" loglevel="5" />
+<event name="OPTIONS" loglevel="5" />
+<event name="OTHEREPISODES" loglevel="5" />
+<event name="R01_TRENDING" loglevel="5" />
+<event name="R02_ROTTENTOMATO" loglevel="5" />
+<event name="R03_ROTTENTOMATODETAIL" loglevel="5" />
+<event name="REELZ" loglevel="5" />
+<event name="RELATEDCONTENT" loglevel="5" />
+<event name="REMOVEFAVORITE" loglevel="5" />
+<event name="ROTTENTOMATO" loglevel="5" />
+<event name="S01_SOCIALBUZZ" loglevel="5" />
+<event name="S02_SOCIALBUZZDETAIL" loglevel="5" />
+<event name="SELECTBANNER" loglevel="5" />
+<event name="SELECTCASTCREW" loglevel="5" />
+<event name="SELECTCONTENT" loglevel="5" />
+<event name="SELECTCP" loglevel="5" />
+<event name="SELECTEPISODE" loglevel="5" />
+<event name="SELECTFEATURE" loglevel="5" />
+<event name="SELECTGENRE" loglevel="5" />
+<event name="SELECTMENU" loglevel="5" />
+<event name="SELECTOTHERCP" loglevel="5" />
+<event name="SELECTSEASON" loglevel="5" />
+<event name="SELECTTRAILER" loglevel="5" />
+<event name="SELECTTRENDING" loglevel="5" />
+<event name="SHARE" loglevel="5" />
+<event name="SHOWBANNER" loglevel="5" />
+<event name="SOCIALBUZZ" loglevel="5" />
+<event name="SORT" loglevel="5" />
+<event name="STARPOINT" loglevel="5" />
+<event name="T01_TVSHOWS" loglevel="5" />
+<event name="T02_TRAILERS" loglevel="5" />
+<event name="T03_CONTENTTAILERS" loglevel="5" />
+<event name="TRAILERS" loglevel="5" />
+<event name="TRSELECTMENU" loglevel="5" />
+<event name="W01_WHATSNEW" loglevel="5" />
+<event name="W02_WHATSNEW" loglevel="5" />
+<event name="WATCHNOW" loglevel="5" />
+<event name="REFRESH" loglevel="5" />
+<event name="SELECTCPMAIN" loglevel="5" />
+<event name="H05_HOME" loglevel="5" />
+</service>
+<service name="14_newson" url="https://lcprd1.samsungcloudsolution.net/openapi/log/14_newson" queue_max="30" expiration="60" loglevel="10" >
+<event name="CANCELCITY" loglevel="5" />
+<event name="CHECKCITY" loglevel="5" />
+<event name="D01_NEWSDTL" loglevel="5" />
+<event name="D02_VIDEODTL" loglevel="5" />
+<event name="H01_HOME" loglevel="5" />
+<event name="LOGININWTHR" loglevel="5" />
+<event name="M01_MORE" loglevel="5" />
+<event name="MANAGECITY" loglevel="5" />
+<event name="PAGEDOWN" loglevel="5" />
+<event name="PAGEUP" loglevel="5" />
+<event name="PLAYVIDEO" loglevel="5" />
+<event name="SAVECITY" loglevel="5" />
+<event name="SELECTCONTENT" loglevel="5" />
+<event name="SELECTMORE" loglevel="5" />
+<event name="SELECTNEXTPG" loglevel="5" />
+<event name="SELECTNEXTPROVINCE" loglevel="5" />
+<event name="SELECTPREVPG" loglevel="5" />
+<event name="SELECTPREVPROVINCE" loglevel="5" />
+<event name="SELECTWTHR" loglevel="5" />
+<event name="SETUPWTHR" loglevel="5" />
+<event name="W01_WTHR" loglevel="5" />
+<event name="W02_WTHRSETTINGS" loglevel="5" />
+</service>
+<service name="14_ontv" url="https://lcprd1.samsungcloudsolution.net/openapi/log/14_ontv" queue_max="30" expiration="60" loglevel="1" >
+<event name="AUTOSTART" loglevel="5" />
+<event name="CLOSE" loglevel="5" />
+<event name="H01_HOME" loglevel="5" />
+<event name="H02_GUIDE" loglevel="5" />
+<event name="H03_DETAILVIEWPOPUP" loglevel="5" />
+<event name="H04_TIMELINEVIEW" loglevel="5" />
+<event name="H05_TRENDING" loglevel="5" />
+<event name="H06_DETAILVIEW" loglevel="5" />
+<event name="H07_SOCIALBUZZ" loglevel="5" />
+<event name="H08_OTHEREPISODES" loglevel="5" />
+<event name="LONGPRESS" loglevel="5" />
+<event name="LPCHANNELFILTER" loglevel="5" />
+<event name="LPGLOBALSETTING" loglevel="5" />
+<event name="LPMOREDETAIL" loglevel="5" />
+<event name="LPPROGRAMVIEW" loglevel="5" />
+<event name="LPQUICKNAVIGATION" loglevel="5" />
+<event name="LPRECORD" loglevel="5" />
+<event name="LPSCHDULEMANAGER" loglevel="5" />
+<event name="LPSCHEDULE" loglevel="5" />
+<event name="LPVIEWDETAILS" loglevel="5" />
+<event name="LPWATCHNOW" loglevel="5" />
+<event name="MORE" loglevel="5" />
+<event name="OTHEREPISODE" loglevel="5" />
+<event name="PIG" loglevel="5" />
+<event name="PLAY" loglevel="5" />
+<event name="POST" loglevel="5" />
+<event name="RATING" loglevel="5" />
+<event name="RECORD" loglevel="5" />
+<event name="RELATEDTV" loglevel="5" />
+<event name="SCHEDULE" loglevel="5" />
+<event name="SCHEDULEOPTION" loglevel="5" />
+<event name="SCHEDULERECORD" loglevel="5" />
+<event name="SCHEDULEVIEW" loglevel="5" />
+<event name="SELECTCONTENT" loglevel="5" />
+<event name="SELECTCP" loglevel="5" />
+<event name="SELECTEPISODE" loglevel="5" />
+<event name="SELECTGUIDE" loglevel="5" />
+<event name="SELECTMENU" loglevel="5" />
+<event name="SELECTTIMELINE" loglevel="5" />
+<event name="SELECTTREND" loglevel="5" />
+<event name="SHARE" loglevel="5" />
+<event name="TUNETOCHANNEL" loglevel="5" />
+<event name="WATCH" loglevel="5" />
+<event name="WATCHNOW" loglevel="5" />
+</service>
+<service name="14_payment" url="https://lcprd1.samsungcloudsolution.net/openapi/log/14_payment" queue_max="30" expiration="60" loglevel="10" >
+<event name="PPDROPDOWN" loglevel="5" />
+<event name="PPSIGNIN" loglevel="5" />
+<event name="PPCANCEL" loglevel="5" />
+<event name="PPEMAILSLT" loglevel="5" />
+<event name="PPEMAILRMV" loglevel="5" />
+<event name="PPEMAILX" loglevel="5" />
+<event name="PPEMAILCLS" loglevel="5" />
+<event name="PPACNTDONE" loglevel="5" />
+<event name="PPACNTCNCL" loglevel="5" />
+<event name="PPPWDONE" loglevel="5" />
+<event name="PPPWDCNCL" loglevel="5" />
+<event name="PPTERMYES" loglevel="5" />
+<event name="PPTERMNO" loglevel="5" />
+<event name="PPTERMPASS" loglevel="5" />
+<event name="PPSIGNERR" loglevel="5" />
+<event name="PPSIGNPASS" loglevel="5" />
+<event name="MBNUM" loglevel="5" />
+<event name="MBREMEMBER" loglevel="5" />
+<event name="MBSEND" loglevel="5" />
+<event name="MBSENDPASS" loglevel="5" />
+<event name="MBREAUTH" loglevel="5" />
+<event name="MBAUTHOK" loglevel="5" />
+<event name="MBAUTHPASS" loglevel="5" />
+<event name="SCNREAUTH" loglevel="5" />
+<event name="SCNCNTN" loglevel="5" />
+<event name="SCNMAILPASS" loglevel="5" />
+<event name="SCNAUTHPASS" loglevel="5" />
+<event name="CDREGNUM" loglevel="5" />
+<event name="CDNUMDONE" loglevel="5" />
+<event name="CDNUMCNCL" loglevel="5" />
+<event name="CDREGMON" loglevel="5" />
+<event name="CDREGYEAR" loglevel="5" />
+<event name="CDREGCW" loglevel="5" />
+<event name="CDCWDONE" loglevel="5" />
+<event name="CDCWCNCL" loglevel="5" />
+<event name="CDREGNAME" loglevel="5" />
+<event name="CDNAMEDONE" loglevel="5" />
+<event name="CDNAMECNCL" loglevel="5" />
+<event name="CDREGCPF" loglevel="5" />
+<event name="CDCPFDONE" loglevel="5" />
+<event name="CDCPFCNCL" loglevel="5" />
+<event name="CDREDADD" loglevel="5" />
+<event name="CDREGERR" loglevel="5" />
+<event name="CDREGPASS" loglevel="5" />
+<event name="PAYADDCPN" loglevel="5" />
+<event name="PAYSLCTCPN" loglevel="5" />
+<event name="PAYNOW" loglevel="5" />
+<event name="PAYPASS" loglevel="5" />
+<event name="PAYERR" loglevel="5" />
+<event name="PAYMTHDCHNG" loglevel="5" />
+<event name="PAYINFO" loglevel="5" />
+<event name="ADDCPNDONE" loglevel="5" />
+<event name="ADDCPNCNCL" loglevel="5" />
+<event name="ADDCPNERR" loglevel="5" />
+<event name="ADDCPNPASS" loglevel="5" />
+<event name="ADDCPNOK" loglevel="5" />
+<event name="PINENTER" loglevel="5" />
+<event name="PINCONFIRM" loglevel="5" />
+<event name="PINSETCNCL" loglevel="5" />
+<event name="PINSETERR" loglevel="5" />
+<event name="PINSETPASS" loglevel="5" />
+<event name="PINCHKENTER" loglevel="5" />
+<event name="PINCHKCANCEL" loglevel="5" />
+<event name="CPLTDONE" loglevel="5" />
+<event name="CPLTCHANGE" loglevel="5" />
+<event name="CPLTPASS" loglevel="5" />
+<event name="RESETENTER" loglevel="5" />
+<event name="RESETYES" loglevel="5" />
+<event name="RESETNO" loglevel="5" />
+<event name="RESETPASS" loglevel="5" />
+<event name="IFRESETPIN" loglevel="5" />
+<event name="IFPPLOGOUT" loglevel="5" />
+<event name="IFCHANGECC" loglevel="5" />
+<event name="IFRMVCC" loglevel="5" />
+<event name="IFHISTORY" loglevel="5" />
+<event name="PPOUTYES" loglevel="5" />
+<event name="PPOUTNO" loglevel="5" />
+<event name="PPOUTPASS" loglevel="5" />
+<event name="PPOUTERR" loglevel="5" />
+<event name="RMVCCYES" loglevel="5" />
+<event name="RMVCCNO" loglevel="5" />
+<event name="RMVCCPASSOK" loglevel="5" />
+<event name="RMVCCPASS" loglevel="5" />
+<event name="HSTCNCL" loglevel="5" />
+<event name="HSTRFND" loglevel="5" />
+<event name="HSTOPEN" loglevel="5" />
+<event name="HSTDOWN" loglevel="5" />
+<event name="HSTCNCLPSS" loglevel="5" />
+<event name="HSTRFNDPSS" loglevel="5" />
+<event name="CHMAILDONE" loglevel="5" />
+<event name="CHMAILCNCL" loglevel="5" />
+<event name="SSPWDDONE" loglevel="5" />
+<event name="SSPWDCNCL" loglevel="5" />
+<event name="SSPWDPASS" loglevel="5" />
+<event name="SSPWDFAIL" loglevel="5" />
+<event name="SSAPWDERR" loglevel="5" />
+<event name="BCTEMRSYES" loglevel="5" />
+<event name="BCTEMRSNO" loglevel="5" />
+<event name="SELECTMETHOD" loglevel="5" />
+<event name="PPSIGN" loglevel="5" />
+<event name="PPTERM" loglevel="5" />
+<event name="MBPUTNUM" loglevel="5" />
+<event name="MBAUTH" loglevel="5" />
+<event name="SCNCARDREG" loglevel="5" />
+<event name="CARDREG" loglevel="5" />
+<event name="PPCDPAY" loglevel="5" />
+<event name="PINSETUP" loglevel="5" />
+<event name="PINCHK" loglevel="5" />
+<event name="CMPLTPAY" loglevel="5" />
+<event name="PINRESET" loglevel="5" />
+<event name="PAYMENTINFO" loglevel="5" />
+<event name="HISTORY" loglevel="5" />
+<event name="WRONGPWD" loglevel="5" />
+</service>
+<service name="14_psidmenu" url="https://lcprd1.samsungcloudsolution.net/openapi/log/14_psidmenu" queue_max="30" expiration="60" loglevel="10" >
+<event name="INVALIDPSID" loglevel="5" />
+<event name="RESETPSID" loglevel="5" />
+</service>
+<service name="14_remocon" url="https://lcprd1.samsungcloudsolution.net/openapi/log/14_remocon" queue_max="30" expiration="60" loglevel="10" >
+<event name="BTDISCONNECT" loglevel="5" />
+<event name="EDITDEVICE" loglevel="5" />
+<event name="MBR" loglevel="5" />
+<event name="MBRSETTING" loglevel="5" />
+<event name="REMOCON" loglevel="5" />
+<event name="TOUCHDURAION" loglevel="5" />
+</service>
+<service name="14_screenmirroring" url="https://lcprd1.samsungcloudsolution.net/openapi/log/14_screenmirroring" queue_max="30" expiration="60" loglevel="10" >
+<event name="ASKCONECT" loglevel="5" />
+<event name="DISCONNECT" loglevel="5" />
+<event name="ENTERSTANDBY" loglevel="5" />
+<event name="EXITSTANDBY" loglevel="5" />
+<event name="FAILCONECT" loglevel="5" />
+<event name="SUCCESSCONECT" loglevel="5" />
+<event name="TURNOFFTV" loglevel="5" />
+</service>
+<service name="14_sef" url="https://lcprd1.samsungcloudsolution.net/openapi/log/14_sef" queue_max="30" expiration="60" loglevel="10" >
+<event name="EMP_S11" loglevel="5" />
+</service>
+<service name="14_smarthome" url="https://lcprd1.samsungcloudsolution.net/openapi/log/14_smarthome" queue_max="30" expiration="60" loglevel="10" >
+<event name="AUTHFAIL" loglevel="5" />
+<event name="AUTHREQUESTOK" loglevel="5" />
+<event name="AUTHSUCCESS" loglevel="5" />
+<event name="DETECT" loglevel="5" />
+<event name="EXIT" loglevel="5" />
+<event name="H01_HOME" loglevel="5" />
+<event name="H02_MASTERSETTING" loglevel="5" />
+<event name="INIT" loglevel="5" />
+<event name="MOREALARM" loglevel="5" />
+<event name="PAIRING" loglevel="5" />
+<event name="SELECTDEVICE" loglevel="5" />
+<event name="SELECTMASTER" loglevel="5" />
+<event name="SETSAVE" loglevel="5" />
+<event name="SETUP" loglevel="5" />
+</service>
+<service name="14_soccer" url="https://lcprd1.samsungcloudsolution.net/openapi/log/14_soccer" queue_max="30" expiration="60" loglevel="10" >
+<event name="C01_COACHMARK" loglevel="5" />
+<event name="DELETE" loglevel="5" />
+<event name="DELETECANCEL" loglevel="5" />
+<event name="EDIT" loglevel="5" />
+<event name="ENTERTUTORIAL" loglevel="5" />
+<event name="EXITCOACHMARKHELP" loglevel="5" />
+<event name="F01_FAVORITETEAM" loglevel="5" />
+<event name="F01_FIXTURE" loglevel="5" />
+<event name="F02_FIXTUREDETAIL" loglevel="5" />
+<event name="F02_FTDELETE" loglevel="5" />
+<event name="F03_FIXTUREDETAILPOPUP" loglevel="5" />
+<event name="F03_FTDETAIL" loglevel="5" />
+<event name="F04_FIXTURELINEUPPOPUP" loglevel="5" />
+<event name="F04_FTDETAIL" loglevel="5" />
+<event name="FAVORITETEAMCHANGED" loglevel="5" />
+<event name="FILTER" loglevel="5" />
+<event name="H01_HOME" loglevel="5" />
+<event name="H02_HIGHLIGHT" loglevel="5" />
+<event name="H03_VIDEO_PLAY" loglevel="5" />
+<event name="LINEUP" loglevel="5" />
+<event name="MATCHDETAIL" loglevel="5" />
+<event name="N01_NEWS" loglevel="5" />
+<event name="N02_NEWSDETAIL" loglevel="5" />
+<event name="PLAYVIDEONEWS" loglevel="5" />
+<event name="PREVNEXTNEWS" loglevel="5" />
+<event name="R01_RANKING" loglevel="5" />
+<event name="R02_RANKINGDETAIL" loglevel="5" />
+<event name="REMOVE" loglevel="5" />
+<event name="REMOVECANCEL" loglevel="5" />
+<event name="SELECTBUTTONDESELECTALL" loglevel="5" />
+<event name="SELECTBUTTONSELECTALL" loglevel="5" />
+<event name="SELECTCOACHMARK" loglevel="5" />
+<event name="SELECTCOLDSTARTTEAM" loglevel="5" />
+<event name="SELECTCONTENT" loglevel="5" />
+<event name="SELECTFAVORITETEAM" loglevel="5" />
+<event name="SELECTFIXTURE" loglevel="5" />
+<event name="SELECTLEAGUE" loglevel="5" />
+<event name="SELECTMENU" loglevel="5" />
+<event name="SELECTMYTEAM" loglevel="5" />
+<event name="SELECTRANKING" loglevel="5" />
+<event name="SELECTREMOVEMENU" loglevel="5" />
+<event name="SELECTTEAM" loglevel="5" />
+<event name="VIDEOCHANGED" loglevel="5" />
+</service>
+<service name="14_soccermode2" url="https://lcprd1.samsungcloudsolution.net/openapi/log/14_soccermode2" queue_max="30" expiration="60" loglevel="10" >
+<event name="AUTOHON" loglevel="5" />
+<event name="HPPLAY" loglevel="5" />
+<event name="HPREC" loglevel="5" />
+<event name="MANUALHON" loglevel="5" />
+<event name="SMON" loglevel="5" />
+<event name="SMZOOM" loglevel="5" />
+</service>
+<service name="14_sso" url="https://lcprd1.samsungcloudsolution.net/openapi/log/14_sso" queue_max="30" expiration="60" loglevel="10" >
+<event name="LINAU" loglevel="5" />
+<event name="LINFR" loglevel="5" />
+<event name="LINNP" loglevel="5" />
+<event name="LINPW" loglevel="5" />
+<event name="LOUA" loglevel="5" />
+<event name="LOUB" loglevel="5" />
+<event name="REMAC" loglevel="5" />
+</service>
+<service name="14_tvmenu" url="https://lcprd1.samsungcloudsolution.net/openapi/log/14_tvmenu" queue_max="30" expiration="60" loglevel="10" >
+<event name="M_ROOM_SEL" loglevel="5" />
+<event name="ONTV_SEL" loglevel="5" />
+<event name="ONTV_SET1" loglevel="5" />
+<event name="ONTV_SET2" loglevel="5" />
+<event name="SELECT" loglevel="5" />
+<event name="SPK_SEL" loglevel="5" />
+</service>
+<service name="14_tvpnp" url="https://lcprd1.samsungcloudsolution.net/openapi/log/14_tvpnp" queue_max="30" expiration="60" loglevel="10" >
+<event name="ATNTYPE" loglevel="5" />
+<event name="BLASTER" loglevel="5" />
+<event name="C01_CONN" loglevel="5" />
+<event name="C02_CONF" loglevel="5" />
+<event name="C03_CONF" loglevel="5" />
+<event name="C04_CLOCK" loglevel="5" />
+<event name="COUNTRY" loglevel="5" />
+<event name="D01_DST" loglevel="5" />
+<event name="EXT_SIG" loglevel="5" />
+<event name="FAIL" loglevel="5" />
+<event name="L01_LANG" loglevel="5" />
+<event name="LANG" loglevel="5" />
+<event name="LATER" loglevel="5" />
+<event name="N01_NW" loglevel="5" />
+<event name="NOTMATCH" loglevel="5" />
+<event name="NOW" loglevel="5" />
+<event name="NWTYPE" loglevel="5" />
+<event name="P01_PRIVACY" loglevel="5" />
+<event name="P02_PROVIDER" loglevel="5" />
+<event name="PROVIDER" loglevel="5" />
+<event name="SIGNAL" loglevel="5" />
+<event name="SUCC" loglevel="5" />
+<event name="T01_TUNE" loglevel="5" />
+<event name="T02_TUNE" loglevel="5" />
+<event name="T03_TUNE" loglevel="5" />
+<event name="T04_TUNE" loglevel="5" />
+<event name="T05_TIMEZONE" loglevel="5" />
+<event name="U01_UPDATE" loglevel="5" />
+<event name="M01_GUIDE" loglevel="5" />
+<event name="M02_SOURCE" loglevel="5" />
+<event name="M03_TEST" loglevel="5" />
+<event name="M04_SEARCH" loglevel="5" />
+</service>
+<service name="14_url" url="https://lcprd1.samsungcloudsolution.net/openapi/log/14_url" queue_max="30" expiration="60" loglevel="10" >
+<event name="ADDBOOKMARK" loglevel="5" />
+<event name="ERROR" loglevel="5" />
+<event name="MOVEURL" loglevel="5" />
+</service>
+<service name="14_virtualchannel" url="https://lcprd1.samsungcloudsolution.net/openapi/log/14_virtualchannel" queue_max="30" expiration="60" loglevel="10" >
+<event name="PLAY_CONTROL" loglevel="5" />
+<event name="DEEPLINK" loglevel="5" />
+<event name="CATEGORY" loglevel="5" />
+<event name="APP_LAUNCH" loglevel="5" />
+<event name="SELECT_CONTENT" loglevel="5" />
+<event name="CONTENT_INFO" loglevel="5" />
+<event name="PAGE_VIEW" loglevel="5" />
+<event name="SELECT_CHANNEL" loglevel="5" />
+<event name="APPSTART" loglevel="5" />
+<event name="TUNE_ERR" loglevel="5" />
+<event name="NETWORK_ERR" loglevel="5" />
+<event name="PLAYER_ERR" loglevel="5" />
+<event name="PLAY_CONTENT" loglevel="5" />
+<event name="APPSTOP" loglevel="5" />
+<event name="BACKTOLEANIR" loglevel="5" />
+<event name="NEXT_INTILE" loglevel="5" />
+<event name="POPUP" loglevel="5" />
+<event name="DEEPLINK_BUTTON" loglevel="5" />
+<event name="INSTRUCTION" loglevel="5" />
+<event name="ALL_CH" loglevel="5" />
+<event name="ALL_CH_GENRE" loglevel="5" />
+<event name="RECOMM_CH" loglevel="5" />
+<event name="MORE_NOTICE" loglevel="5" />
+<event name="NOTICE_DETAIL" loglevel="5" />
+<event name="DURATION" loglevel="5" />
+</service>
+<service name="14_webbrowser" url="https://lcprd1.samsungcloudsolution.net/openapi/log/14_webbrowser" queue_max="30" expiration="60" loglevel="10" >
+<event name="ADDBOOKMARK" loglevel="5" />
+<event name="BOOKMARK" loglevel="5" />
+<event name="CONTROL" loglevel="5" />
+<event name="EXIT" loglevel="5" />
+<event name="FULLSCREEN" loglevel="5" />
+<event name="HOME" loglevel="5" />
+<event name="HOMESETTING" loglevel="5" />
+<event name="INIT" loglevel="5" />
+<event name="KEYWORK" loglevel="5" />
+<event name="MOVEURL" loglevel="5" />
+<event name="NEWTAB" loglevel="5" />
+<event name="PIP" loglevel="5" />
+<event name="SEARCH" loglevel="5" />
+<event name="SEARCHSETTING" loglevel="5" />
+<event name="ZOOM" loglevel="5" />
+<event name="application" loglevel="5" />
+</service>
+<service name="15_allsearch" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_allsearch" queue_max="30" expiration="60" loglevel="10" >
+<event name="AUTO" loglevel="5" />
+<event name="CANCEL" loglevel="5" />
+<event name="DICTATION" loglevel="5" />
+<event name="DONE_SEARCH" loglevel="5" />
+<event name="HISTORY" loglevel="5" />
+<event name="INPUT" loglevel="5" />
+<event name="INSTANT" loglevel="5" />
+<event name="POPULAR" loglevel="5" />
+<event name="R01_RESULT" loglevel="5" />
+<event name="RELEVANT" loglevel="5" />
+<event name="RESULTS" loglevel="5" />
+<event name="SELECTITEM" loglevel="5" />
+<event name="SELECTITEMDETAIL" loglevel="5" />
+<event name="VOICE" loglevel="5" />
+<event name="VOICE_SEARCH" loglevel="5" />
+<event name="TAB" loglevel="5" />
+</service>
+<service name="15_appdown" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_appdown" queue_max="30" expiration="60" loglevel="10" >
+<event name="INSTALL_FAILURE" loglevel="5" />
+<event name="INSTALL_SUCCESS" loglevel="5" />
+</service>
+<service name="15_apps" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_apps" queue_max="30" expiration="60" loglevel="10" >
+<event name="C02_EDU" loglevel="5" />
+<event name="C02_GAME" loglevel="5" />
+<event name="C02_INFO" loglevel="5" />
+<event name="C02_KIDS" loglevel="5" />
+<event name="C02_LIFE" loglevel="5" />
+<event name="C02_SPORT" loglevel="5" />
+<event name="C02_VIDEO" loglevel="5" />
+<event name="CANCEL" loglevel="5" />
+<event name="CHANGESORT" loglevel="5" />
+<event name="D03_DETAIL" loglevel="5" />
+<event name="DOWNLOAD" loglevel="5" />
+<event name="LONGPRESSMA" loglevel="5" />
+<event name="LONGPRESSMP" loglevel="5" />
+<event name="LONGPRESSSC" loglevel="5" />
+<event name="LONGPRESSWN" loglevel="5" />
+<event name="M01_MOST" loglevel="5" />
+<event name="M01_MYAPPS" loglevel="5" />
+<event name="MOVEAPPS" loglevel="5" />
+<event name="MOVECANCEL" loglevel="5" />
+<event name="N01_NEW" loglevel="5" />
+<event name="OPEN" loglevel="5" />
+<event name="RATINGAPP" loglevel="5" />
+<event name="RELATEDAPP" loglevel="5" />
+<event name="SCREENSHOT" loglevel="5" />
+<event name="SELECTDELETE" loglevel="5" />
+<event name="SELECTLOCKUNLOCK" loglevel="5" />
+<event name="SELECTLOGIN" loglevel="5" />
+<event name="SELECTLONGPRESSMA" loglevel="5" />
+<event name="SELECTLONGPRESSMP" loglevel="5" />
+<event name="SELECTLONGPRESSSC" loglevel="5" />
+<event name="SELECTLONGPRESSWN" loglevel="5" />
+<event name="SELECTMA" loglevel="5" />
+<event name="SELECTMENU" loglevel="5" />
+<event name="SELECTMOVE" loglevel="5" />
+<event name="SELECTMP" loglevel="5" />
+<event name="SELECTOPTION" loglevel="5" />
+<event name="SELECTSC" loglevel="5" />
+<event name="SELECTSEARCH" loglevel="5" />
+<event name="SELECTSIGNIN" loglevel="5" />
+<event name="SELECTSORT" loglevel="5" />
+<event name="SELECTUPDATE" loglevel="5" />
+<event name="SELECTWN" loglevel="5" />
+<event name="UPDATEAPPS" loglevel="5" />
+<event name="UPDATECANCEL" loglevel="5" />
+</service>
+<service name="15_boardinfo" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_boardinfo" queue_max="30" expiration="60" loglevel="10" >
+<event name="BOARD_INFO" loglevel="5" />
+</service>
+<service name="15_ci" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_ci" queue_max="30" expiration="60" loglevel="10" >
+<event name="STATUS" loglevel="5" />
+<event name="STATUS_CHANGE" loglevel="5" />
+</service>
+<service name="15_codec" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_codec" queue_max="30" expiration="60" loglevel="10" >
+<event name="PLAYBACK" loglevel="5" />
+<event name="ERRPLAY" loglevel="5" />
+</service>
+<service name="15_dmp" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_dmp" queue_max="30" expiration="60" loglevel="10" >
+<event name="STORE_TH" loglevel="5" />
+</service>
+<service name="15_efl" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_efl" queue_max="30" expiration="60" loglevel="10" >
+<event name="HIERARCHY" loglevel="5" />
+</service>
+<service name="15_extra" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_extra" queue_max="30" expiration="60" loglevel="10" >
+<event name="CATEGORYUP" loglevel="5" />
+<event name="CATEGORYDOWN" loglevel="5" />
+<event name="LEFT" loglevel="5" />
+<event name="RIGHT" loglevel="5" />
+<event name="SCROLLUP" loglevel="5" />
+<event name="SCROLLDOWN" loglevel="5" />
+<event name="ENTER_KBO" loglevel="5" />
+<event name="RETURN_KBO" loglevel="5" />
+<event name="ENTER_SOCIAL" loglevel="5" />
+<event name="RETURN_SOCIAL" loglevel="5" />
+<event name="ENTER_NEWS" loglevel="5" />
+<event name="RETURN_NEWS" loglevel="5" />
+<event name="ENTER_ENTERTAIN" loglevel="5" />
+<event name="RETURN_ENTERTAIN" loglevel="5" />
+<event name="EXTRA_ENTRY" loglevel="5" />
+<event name="EXTRA_HIDE" loglevel="5" />
+<event name="ENTER_SETTING" loglevel="5" />
+<event name="RETURN_SETTING" loglevel="5" />
+<event name="WATERMARK_OPT" loglevel="5" />
+<event name="APPRESUME" loglevel="5" />
+<event name="APPPAUSE" loglevel="5" />
+<event name="CHANGE_VIEW" loglevel="5" />
+<event name="H01_KBO" loglevel="5" />
+<event name="KBO_GAME_STAT" loglevel="5" />
+<event name="KBO_PITCH_VS_BATTER" loglevel="5" />
+<event name="KBO_PITCHER_H" loglevel="5" />
+<event name="KBO_PITCHER_A" loglevel="5" />
+<event name="KBO_PITCH_LOCATION" loglevel="5" />
+<event name="KBO_HOT_COLD" loglevel="5" />
+<event name="KBO_SPRAY_CHART" loglevel="5" />
+<event name="KBO_HIT_CHART" loglevel="5" />
+<event name="KBO_RUNNER_BASE" loglevel="5" />
+<event name="KBO_BATTING_ORDER" loglevel="5" />
+<event name="KBO_ROSTER_H" loglevel="5" />
+<event name="KBO_ROSTER_A" loglevel="5" />
+<event name="KBO_INNING_PITCHER" loglevel="5" />
+<event name="OFF_SEASON" loglevel="5" />
+<event name="LEAGUE_RANKING" loglevel="5" />
+<event name="H02_SOCIAL" loglevel="5" />
+<event name="H02_SOCIAL_MORE" loglevel="5" />
+<event name="H03_NEWS" loglevel="5" />
+<event name="H03_NEWS_DETAIL" loglevel="5" />
+<event name="H04_ENTERTAIN" loglevel="5" />
+<event name="ENTERTAIN_DETAIL" loglevel="5" />
+<event name="WATERMARK" loglevel="5" />
+<event name="HOME_SETTING" loglevel="5" />
+<event name="SETTING_DETAIL" loglevel="5" />
+</service>
+<service name="15_extratweet" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_extratweet" queue_max="30" expiration="60" loglevel="10" >
+<event name="CATEGORYUP" loglevel="5" />
+<event name="CATEGORYDOWN" loglevel="5" />
+<event name="LEFT" loglevel="5" />
+<event name="RIGHT" loglevel="5" />
+<event name="SCROLLUP" loglevel="5" />
+<event name="SCROLLDOWN" loglevel="5" />
+<event name="ENTER_SOCIAL" loglevel="5" />
+<event name="RETURN_SOCIAL" loglevel="5" />
+<event name="ENTER_SETTING" loglevel="5" />
+<event name="RETURN_SETTING" loglevel="5" />
+<event name="APPRESUME" loglevel="5" />
+<event name="APPPAUSE" loglevel="5" />
+<event name="CHANGE_VIEW" loglevel="5" />
+<event name="H01_HOME" loglevel="5" />
+<event name="H02_SOCIAL" loglevel="5" />
+<event name="SOCIAL_DETAIL" loglevel="5" />
+<event name="HOME_SETTING" loglevel="5" />
+<event name="SETTING_DETAIL" loglevel="5" />
+</service>
+<service name="15_extrausa" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_extrausa" queue_max="30" expiration="60" loglevel="10" >
+<event name="APPRESUME" loglevel="5" />
+<event name="APPPAUSE" loglevel="5" />
+</service>
+<service name="15_facerecog" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_facerecog" queue_max="30" expiration="60" loglevel="10" >
+<event name="FACELIN" loglevel="5" />
+<event name="FACERE" loglevel="5" />
+</service>
+<service name="15_game" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_game" queue_max="30" expiration="60" loglevel="10" >
+<event name="BUYCLICK" loglevel="5" />
+<event name="COUPONCLICK" loglevel="5" />
+<event name="COUPONERROR" loglevel="5" />
+<event name="COUPONRQST" loglevel="5" />
+<event name="DWCANCEL" loglevel="5" />
+<event name="DWCLICK" loglevel="5" />
+<event name="DWFIN" loglevel="5" />
+<event name="EXEGAME" loglevel="5" />
+<event name="G01_MYPAGE" loglevel="5" />
+<event name="G02_SLIGHT" loglevel="5" />
+<event name="G03_POPULAR" loglevel="5" />
+<event name="G04_WHATSNEW" loglevel="5" />
+<event name="G05_TOPGROSSING" loglevel="5" />
+<event name="G07_COUPON" loglevel="5" />
+<event name="G08_DETAIL" loglevel="5" />
+<event name="G09_GENRE01" loglevel="5" />
+<event name="G10_GENRE02" loglevel="5" />
+<event name="G11_GENRE03" loglevel="5" />
+<event name="G12_GENRE04" loglevel="5" />
+<event name="G13_GENRE05" loglevel="5" />
+<event name="G14_GENRE06" loglevel="5" />
+<event name="G15_ALLGAMES" loglevel="5" />
+<event name="GCGUIDECLICK" loglevel="5" />
+<event name="IAPITEMCLICK" loglevel="5" />
+<event name="IMAGES" loglevel="5" />
+<event name="JUMPSSO" loglevel="5" />
+<event name="JUMPTERMS" loglevel="5" />
+<event name="LPBUYCLICK" loglevel="5" />
+<event name="LPCANCEL" loglevel="5" />
+<event name="LPDELETE" loglevel="5" />
+<event name="LPDWCLICK" loglevel="5" />
+<event name="LPPLAYCLICK" loglevel="5" />
+<event name="LPUPDATE" loglevel="5" />
+<event name="LPVIEW" loglevel="5" />
+<event name="MOVECATEG" loglevel="5" />
+<event name="MOVECOUPONS" loglevel="5" />
+<event name="MYDELETE" loglevel="5" />
+<event name="MYUPDATE" loglevel="5" />
+<event name="NICKCLICK" loglevel="5" />
+<event name="NICKRQST" loglevel="5" />
+<event name="OPTIONCLICK" loglevel="5" />
+<event name="OPTIONDELETE" loglevel="5" />
+<event name="OPTIONGCGUIDE" loglevel="5" />
+<event name="OPTIONNICK" loglevel="5" />
+<event name="OPTIONNICKRQST" loglevel="5" />
+<event name="OPTIONUPDATE" loglevel="5" />
+<event name="PLAYCLICK" loglevel="5" />
+<event name="PLAYGAME" loglevel="5" />
+<event name="POPCGAMES" loglevel="5" />
+<event name="RATINGCLICK" loglevel="5" />
+<event name="RATINGRQST" loglevel="5" />
+<event name="UPDATEPOP" loglevel="5" />
+<event name="VIDEOS" loglevel="5" />
+<event name="VIEWGAME" loglevel="5" />
+<event name="OPTIONLOCKUNLOCK" loglevel="5" />
+</service>
+<service name="15_inputdevice" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_inputdevice" queue_max="30" expiration="60" loglevel="10" >
+<event name="AV_PORT" loglevel="5" />
+<event name="HDMI_PORT" loglevel="5" />
+</service>
+<service name="15_mls" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_mls" queue_max="30" expiration="60" loglevel="10" >
+<event name="HIGHLIGHT" loglevel="5" />
+<event name="LAUNCHAPP" loglevel="5" />
+<event name="RESIZE" loglevel="5" />
+<event name="STARTMLS" loglevel="5" />
+<event name="STOPMLS" loglevel="5" />
+</service>
+<service name="15_motion" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_motion" queue_max="30" expiration="60" loglevel="10" >
+<event name="CAMT" loglevel="5" />
+<event name="DIRC" loglevel="5" />
+<event name="MOST" loglevel="5" />
+<event name="MOT" loglevel="5" />
+<event name="NOIN" loglevel="5" />
+<event name="RECO" loglevel="5" />
+<event name="TURN" loglevel="5" />
+<event name="USER" loglevel="5" />
+</service>
+<service name="15_msf" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_msf" queue_max="30" expiration="60" loglevel="10" >
+<event name="CONNECT_INSTALLEDAPP" loglevel="5" />
+<event name="CONNECT_CLOUDAPP" loglevel="5" />
+<event name="DISCONNECT_INSTALLEDAPP" loglevel="5" />
+<event name="DISCONNECT_CLOUDAPP" loglevel="5" />
+<event name="INSTALL_APP" loglevel="5" />
+<event name="DIAL_CONNECT" loglevel="5" />
+<event name="ERROR_LOG" loglevel="5" />
+<event name="CONNECT_MEDIARECEIVE" loglevel="5" />
+<event name="DISCONNECT_MEDIARECE" loglevel="5" />
+</service>
+<service name="15_netflix" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_netflix" queue_max="30" expiration="60" loglevel="10" >
+<event name="ERROR" loglevel="5" />
+</service>
+<service name="15_newson" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_newson" queue_max="30" expiration="60" loglevel="10" >
+<event name="CANCEL" loglevel="5" />
+<event name="DOWNSCROLL" loglevel="5" />
+<event name="EXIT" loglevel="5" />
+<event name="H01_HOME" loglevel="5" />
+<event name="H02_DETAIL" loglevel="5" />
+<event name="H04_WEATHER" loglevel="5" />
+<event name="H05_WEATHER" loglevel="5" />
+<event name="MOVENEXT" loglevel="5" />
+<event name="MOVEPREVIOUS" loglevel="5" />
+<event name="RETURN" loglevel="5" />
+<event name="SAVE" loglevel="5" />
+<event name="SELECTNEWS" loglevel="5" />
+<event name="SELECTRELATEDNEWS" loglevel="5" />
+<event name="SELECTWEATHER" loglevel="5" />
+<event name="SETTING" loglevel="5" />
+<event name="UPSCROLL" loglevel="5" />
+<event name="WEATHERSETTING" loglevel="5" />
+</service>
+<service name="15_partymode" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_partymode" queue_max="30" expiration="60" loglevel="10" >
+<event name="PT_HOME" loglevel="5" />
+<event name="SELECT_GUIDE" loglevel="5" />
+<event name="SELECT_NEXT" loglevel="5" />
+<event name="SELECT_PP" loglevel="5" />
+<event name="SELECT_PATTERN" loglevel="5" />
+<event name="SELECT_PLAYLIST" loglevel="5" />
+<event name="SELECT_PREV" loglevel="5" />
+<event name="SELECT_REPEAT" loglevel="5" />
+<event name="SELECT_SHUFFLE" loglevel="5" />
+<event name="SELECT_SPEAKER" loglevel="5" />
+<event name="SELECT_VP" loglevel="5" />
+</service>
+<service name="15_payment" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_payment" queue_max="30" expiration="60" loglevel="10" >
+<event name="PPDROPDOWN" loglevel="5" />
+<event name="PPSIGNIN" loglevel="5" />
+<event name="PPCANCEL" loglevel="5" />
+<event name="PPEMAILSLT" loglevel="5" />
+<event name="PPEMAILRMV" loglevel="5" />
+<event name="PPEMAILX" loglevel="5" />
+<event name="PPEMAILCLS" loglevel="5" />
+<event name="PPACNTDONE" loglevel="5" />
+<event name="PPACNTCNCL" loglevel="5" />
+<event name="PPPWDONE" loglevel="5" />
+<event name="PPPWDCNCL" loglevel="5" />
+<event name="PPTERMYES" loglevel="5" />
+<event name="PPTERMNO" loglevel="5" />
+<event name="PPTERMPASS" loglevel="5" />
+<event name="PPSIGNERR" loglevel="5" />
+<event name="PPSIGNPASS" loglevel="5" />
+<event name="MBNUM" loglevel="5" />
+<event name="MBREMEMBER" loglevel="5" />
+<event name="MBSEND" loglevel="5" />
+<event name="MBSENDPASS" loglevel="5" />
+<event name="MBREAUTH" loglevel="5" />
+<event name="MBAUTHOK" loglevel="5" />
+<event name="MBAUTHPASS" loglevel="5" />
+<event name="SCNREAUTH" loglevel="5" />
+<event name="SCNCNTN" loglevel="5" />
+<event name="SCNMAILPASS" loglevel="5" />
+<event name="SCNAUTHPASS" loglevel="5" />
+<event name="CDREGNUM" loglevel="5" />
+<event name="CDNUMDONE" loglevel="5" />
+<event name="CDNUMCNCL" loglevel="5" />
+<event name="CDREGMON" loglevel="5" />
+<event name="CDREGYEAR" loglevel="5" />
+<event name="CDREGCW" loglevel="5" />
+<event name="CDCWDONE" loglevel="5" />
+<event name="CDCWCNCL" loglevel="5" />
+<event name="CDREGNAME" loglevel="5" />
+<event name="CDNAMEDONE" loglevel="5" />
+<event name="CDNAMECNCL" loglevel="5" />
+<event name="CDREGCPF" loglevel="5" />
+<event name="CDCPFDONE" loglevel="5" />
+<event name="CDCPFCNCL" loglevel="5" />
+<event name="CDREDADD" loglevel="5" />
+<event name="CDREGERR" loglevel="5" />
+<event name="CDREGPASS" loglevel="5" />
+<event name="PAYADDCPN" loglevel="5" />
+<event name="PAYSLCTCPN" loglevel="5" />
+<event name="PAYNOW" loglevel="5" />
+<event name="PAYPASS" loglevel="5" />
+<event name="PAYERR" loglevel="5" />
+<event name="PAYMTHDCHNG" loglevel="5" />
+<event name="PAYINFO" loglevel="5" />
+<event name="ADDCPNDONE" loglevel="5" />
+<event name="ADDCPNCNCL" loglevel="5" />
+<event name="ADDCPNERR" loglevel="5" />
+<event name="ADDCPNPASS" loglevel="5" />
+<event name="ADDCPNOK" loglevel="5" />
+<event name="PINENTER" loglevel="5" />
+<event name="PINCONFIRM" loglevel="5" />
+<event name="PINSETCNCL" loglevel="5" />
+<event name="PINSETERR" loglevel="5" />
+<event name="PINSETPASS" loglevel="5" />
+<event name="PINCHKENTER" loglevel="5" />
+<event name="PINCHKCANCEL" loglevel="5" />
+<event name="CPLTDONE" loglevel="5" />
+<event name="CPLTCHANGE" loglevel="5" />
+<event name="CPLTPASS" loglevel="5" />
+<event name="RESETENTER" loglevel="5" />
+<event name="RESETYES" loglevel="5" />
+<event name="RESETNO" loglevel="5" />
+<event name="RESETPASS" loglevel="5" />
+<event name="IFRESETPIN" loglevel="5" />
+<event name="IFPPLOGOUT" loglevel="5" />
+<event name="IFCHANGECC" loglevel="5" />
+<event name="IFRMVCC" loglevel="5" />
+<event name="IFHISTORY" loglevel="5" />
+<event name="PPOUTYES" loglevel="5" />
+<event name="PPOUTNO" loglevel="5" />
+<event name="PPOUTPASS" loglevel="5" />
+<event name="PPOUTERR" loglevel="5" />
+<event name="RMVCCYES" loglevel="5" />
+<event name="RMVCCNO" loglevel="5" />
+<event name="RMVCCPASSOK" loglevel="5" />
+<event name="RMVCCPASS" loglevel="5" />
+<event name="HSTCNCL" loglevel="5" />
+<event name="HSTRFND" loglevel="5" />
+<event name="HSTOPEN" loglevel="5" />
+<event name="HSTDOWN" loglevel="5" />
+<event name="HSTCNCLPSS" loglevel="5" />
+<event name="HSTRFNDPSS" loglevel="5" />
+<event name="CHMAILDONE" loglevel="5" />
+<event name="CHMAILCNCL" loglevel="5" />
+<event name="SSPWDDONE" loglevel="5" />
+<event name="SSPWDCNCL" loglevel="5" />
+<event name="SSPWDPASS" loglevel="5" />
+<event name="SSPWDFAIL" loglevel="5" />
+<event name="SSAPWDERR" loglevel="5" />
+<event name="BCTEMRSYES" loglevel="5" />
+<event name="BCTEMRSNO" loglevel="5" />
+<event name="KRADDNUM" loglevel="5" />
+<event name="KRADDRMMBR" loglevel="5" />
+<event name="KRADDSEND" loglevel="5" />
+<event name="KAADDSMSOK" loglevel="5" />
+<event name="KREDTNUM" loglevel="5" />
+<event name="KREDTRMMBR" loglevel="5" />
+<event name="KREDTSEND" loglevel="5" />
+<event name="KREDTSMSOK" loglevel="5" />
+<event name="SELECTMETHOD" loglevel="5" />
+<event name="PPSIGN" loglevel="5" />
+<event name="PPTERM" loglevel="5" />
+<event name="MBPUTNUM" loglevel="5" />
+<event name="MBAUTH" loglevel="5" />
+<event name="SCNCARDREG" loglevel="5" />
+<event name="CARDREG" loglevel="5" />
+<event name="PPCDPAY" loglevel="5" />
+<event name="PINSETUP" loglevel="5" />
+<event name="PINCHK" loglevel="5" />
+<event name="CMPLTPAY" loglevel="5" />
+<event name="PINRESET" loglevel="5" />
+<event name="PAYMENTINFO" loglevel="5" />
+<event name="HISTORY" loglevel="5" />
+<event name="WRONGPWD" loglevel="5" />
+<event name="KRADDCARD" loglevel="5" />
+<event name="KREDTCARD" loglevel="5" />
+</service>
+<service name="15_pms" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_pms" queue_max="30" expiration="60" loglevel="10" >
+<event name="MEMORYALARM" loglevel="5" />
+</service>
+<service name="15_psidmenu" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_psidmenu" queue_max="30" expiration="60" loglevel="10" >
+<event name="INVALIDPSID" loglevel="5" />
+<event name="RESETPSID" loglevel="5" />
+</service>
+<service name="15_pvr" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_pvr" queue_max="30" expiration="60" loglevel="10" >
+<event name="RCDE" loglevel="5" />
+<event name="RECERR" loglevel="5" />
+<event name="TS" loglevel="5" />
+</service>
+<service name="15_remocon" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_remocon" queue_max="30" expiration="60" loglevel="10" >
+<event name="BATTERY" loglevel="5" />
+<event name="BTRSSI" loglevel="5" />
+<event name="EDITDEVICE" loglevel="5" />
+<event name="IRSNIFF" loglevel="5" />
+<event name="MBR" loglevel="5" />
+<event name="MBRSETUP" loglevel="5" />
+<event name="REMOCON" loglevel="5" />
+<event name="TOUCHDURATION" loglevel="5" />
+<event name="HBATTERY" loglevel="5" />
+<event name="HBTRSSI" loglevel="5" />
+<event name="HEDITDEVICE" loglevel="5" />
+<event name="HMBR" loglevel="5" />
+<event name="HMBRSETUP" loglevel="5" />
+<event name="HREMOCON" loglevel="5" />
+<event name="HSIGNAL" loglevel="5" />
+<event name="HTOUCHDURATION" loglevel="5" />
+<event name="SIGNAL" loglevel="5" />
+</service>
+<service name="15_resource" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_resource" queue_max="30" expiration="60" loglevel="10" >
+<event name="RESOURCE" loglevel="5" />
+</service>
+<service name="15_rvu" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_rvu" queue_max="30" expiration="60" loglevel="10" >
+<event name="RVU_SESSION_TIME" loglevel="5" />
+</service>
+<service name="15_scenario" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_scenario" queue_max="30" expiration="60" loglevel="10" >
+<event name="EFL" loglevel="5" />
+<event name="FIRSTSCREEN" loglevel="5" />
+<event name="VOLTPANEL" loglevel="5" />
+</service>
+<service name="15_screenmirroring" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_screenmirroring" queue_max="30" expiration="60" loglevel="10" >
+<event name="ENTERSTANDBY" loglevel="5" />
+<event name="EXITSTANDBY" loglevel="5" />
+<event name="SUCCESSCONECT" loglevel="5" />
+<event name="FAILCONECT" loglevel="5" />
+<event name="DISCONNECT" loglevel="5" />
+<event name="TURNOFFTV" loglevel="5" />
+<event name="TVSTATUS" loglevel="5" />
+<event name="REMOTECONTROL" loglevel="5" />
+</service>
+<service name="15_sct" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_sct" queue_max="30" expiration="60" loglevel="10" >
+<event name="SCT" loglevel="5" />
+</service>
+<service name="15_security" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_security" queue_max="30" expiration="60" loglevel="10" >
+<event name="DRMBASE" loglevel="5" />
+<event name="FKP" loglevel="5" />
+</service>
+<service name="15_sef" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_sef" queue_max="30" expiration="60" loglevel="10" >
+<event name="SEFERR" loglevel="5" />
+</service>
+<service name="15_serif_app" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_serif_app" queue_max="30" expiration="60" loglevel="10" >
+<event name="IAPPSTAY" loglevel="5" />
+<event name="STSELECT" loglevel="5" />
+</service>
+<service name="15_serif_smarthub" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_serif_smarthub" queue_max="30" expiration="60" loglevel="10" >
+<event name="SERIF_HOME" loglevel="5" />
+<event name="SELECTCG" loglevel="5" />
+</service>
+<service name="15_smack" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_smack" queue_max="30" expiration="60" loglevel="10" >
+<event name="SMACK" loglevel="5" />
+</service>
+<service name="15_smarthome" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_smarthome" queue_max="30" expiration="60" loglevel="10" >
+<event name="AUTHFAIL" loglevel="5" />
+<event name="AUTHREQUESTOK" loglevel="5" />
+<event name="AUTHSUCCESS" loglevel="5" />
+<event name="COLDSTART" loglevel="5" />
+<event name="DETECT" loglevel="5" />
+<event name="H01_HOME" loglevel="5" />
+<event name="H02_MASTERSETTING" loglevel="5" />
+<event name="H03_SETTINGS" loglevel="5" />
+<event name="INIT" loglevel="5" />
+<event name="RUNMASTER" loglevel="5" />
+<event name="SELECTDEVICE" loglevel="5" />
+<event name="SELECTMASTER" loglevel="5" />
+<event name="SETSAVE" loglevel="5" />
+<event name="PAIRING" loglevel="5" />
+</service>
+<service name="15_smarthub" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_smarthub" queue_max="30" expiration="60" loglevel="10" >
+<event name="CLEARALL" loglevel="5" />
+<event name="EXEGAME" loglevel="5" />
+<event name="JUMPSSO" loglevel="5" />
+<event name="JUMPTERMS" loglevel="5" />
+<event name="PLAYGAME" loglevel="5" />
+<event name="SELECTCG" loglevel="5" />
+<event name="SELECTCLOSE" loglevel="5" />
+<event name="SELECTCONT_AD" loglevel="5" />
+<event name="SELECTCONT_FEATURED" loglevel="5" />
+<event name="SELECTCONT_RECENT" loglevel="5" />
+<event name="SELECTCTM" loglevel="5" />
+<event name="SMARTHUB_AD" loglevel="5" />
+<event name="SMARTHUB_FEATURED" loglevel="5" />
+<event name="SMARTHUB_HOME" loglevel="5" />
+<event name="SMARTHUB_RECENT" loglevel="5" />
+<event name="VIEWGAME" loglevel="5" />
+</service>
+<service name="15_soccer" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_soccer" queue_max="30" expiration="60" loglevel="10" >
+<event name="ADDTEAM" loglevel="5" />
+<event name="CHANGETEAM" loglevel="5" />
+<event name="DETAILPOPUP" loglevel="5" />
+<event name="H01_HOME" loglevel="5" />
+<event name="LINEUPPOPUP" loglevel="5" />
+<event name="LP04_LINEUPPOPUP" loglevel="5" />
+<event name="M02_MATCHUP" loglevel="5" />
+<event name="MATCHITEM" loglevel="5" />
+<event name="MD03_MATCHDETAIL" loglevel="5" />
+<event name="MDP04_DETAILPOPUP" loglevel="5" />
+<event name="MENUBTN" loglevel="5" />
+<event name="MOVEDONE" loglevel="5" />
+<event name="N02_NEWS" loglevel="5" />
+<event name="OTHERNEWS" loglevel="5" />
+<event name="OTHERVIDEO" loglevel="5" />
+<event name="PAGEDOWN" loglevel="5" />
+<event name="PAGERETURN" loglevel="5" />
+<event name="PAGEUP" loglevel="5" />
+<event name="POPUPCLOSE" loglevel="5" />
+<event name="R01_RANKING" loglevel="5" />
+<event name="RELATEDNEWS" loglevel="5" />
+<event name="REMOVEALL" loglevel="5" />
+<event name="REMOVEDONE" loglevel="5" />
+<event name="SELECTADD" loglevel="5" />
+<event name="SELECTMATCH" loglevel="5" />
+<event name="SELECTMOVE" loglevel="5" />
+<event name="SELECTNEWS" loglevel="5" />
+<event name="SELECTRANKING" loglevel="5" />
+<event name="SELECTREMOVE" loglevel="5" />
+<event name="SELECTREPLACE" loglevel="5" />
+<event name="SELECTTEAMCANCEL" loglevel="5" />
+<event name="SELECTTEAMDONE" loglevel="5" />
+<event name="SELECTVIDEO" loglevel="5" />
+<event name="ST03_TEAM" loglevel="5" />
+<event name="TEAMMOVEDONE" loglevel="5" />
+<event name="TEAMREPLACE" loglevel="5" />
+<event name="V02_VIDEO" loglevel="5" />
+<event name="VIDEONEXT" loglevel="5" />
+<event name="VIDEOREPLAY" loglevel="5" />
+</service>
+<service name="15_sportsmode" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_sportsmode" queue_max="30" expiration="60" loglevel="10" >
+<event name="AUTOHON" loglevel="5" />
+<event name="HPPLAY" loglevel="5" />
+<event name="HPREC" loglevel="5" />
+<event name="SMAHRD" loglevel="5" />
+<event name="SMGN" loglevel="5" />
+<event name="SMGNPIP" loglevel="5" />
+<event name="SMGRAD" loglevel="5" />
+<event name="SMON" loglevel="5" />
+<event name="SMST" loglevel="5" />
+<event name="SMZOOM" loglevel="5" />
+</service>
+<service name="15_sso" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_sso" queue_max="30" expiration="60" loglevel="10" >
+<event name="AC" loglevel="5" />
+<event name="CA" loglevel="5" />
+<event name="EDTPF" loglevel="5" />
+<event name="EP" loglevel="5" />
+<event name="FR" loglevel="5" />
+<event name="LA" loglevel="5" />
+<event name="LIKAC" loglevel="5" />
+<event name="LINAU" loglevel="5" />
+<event name="LINES" loglevel="5" />
+<event name="LINFR" loglevel="5" />
+<event name="LINNP" loglevel="5" />
+<event name="LINPW" loglevel="5" />
+<event name="LOUA" loglevel="5" />
+<event name="LOUB" loglevel="5" />
+<event name="PP" loglevel="5" />
+<event name="REMAC" loglevel="5" />
+<event name="RF" loglevel="5" />
+<event name="SA" loglevel="5" />
+</service>
+<service name="15_tv2mobile" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_tv2mobile" queue_max="30" expiration="60" loglevel="10" >
+<event name="CHCHG" loglevel="5" />
+<event name="CONNFAIL" loglevel="5" />
+<event name="CONNREQ" loglevel="5" />
+<event name="CONNSUCC" loglevel="5" />
+<event name="DISCONN" loglevel="5" />
+<event name="SRCCHG" loglevel="5" />
+</service>
+<service name="15_tvmenu" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_tvmenu" queue_max="30" expiration="60" loglevel="10" >
+<event name="M_ROOM_SEL" loglevel="5" />
+<event name="PIP" loglevel="5" />
+<event name="SELECT" loglevel="5" />
+<event name="SPK_SEL" loglevel="5" />
+<event name="SIM_SEL" loglevel="5" />
+</service>
+<service name="15_tvpnp" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_tvpnp" queue_max="30" expiration="60" loglevel="10" >
+<event name="AGREEMENT" loglevel="5" />
+<event name="ATNTYPE" loglevel="5" />
+<event name="C01_CONN" loglevel="5" />
+<event name="C02_CONF" loglevel="5" />
+<event name="C03_CONF" loglevel="5" />
+<event name="C04_CLOCK" loglevel="5" />
+<event name="COUNTRY" loglevel="5" />
+<event name="D01_DST" loglevel="5" />
+<event name="DST" loglevel="5" />
+<event name="EXT_SIG" loglevel="5" />
+<event name="FAIL" loglevel="5" />
+<event name="GMT" loglevel="5" />
+<event name="L01_LANG" loglevel="5" />
+<event name="LANG" loglevel="5" />
+<event name="M02_SOURCE" loglevel="5" />
+<event name="M03_TEST" loglevel="5" />
+<event name="M04_SEARCH" loglevel="5" />
+<event name="N01_NW" loglevel="5" />
+<event name="NOTMATCH" loglevel="5" />
+<event name="NWTYPE" loglevel="5" />
+<event name="P01_PRIVACY" loglevel="5" />
+<event name="P02_PROVIDER" loglevel="5" />
+<event name="PROVIDER" loglevel="5" />
+<event name="SIGNAL" loglevel="5" />
+<event name="SUCC" loglevel="5" />
+<event name="T01_TUNE" loglevel="5" />
+<event name="T02_TUNE" loglevel="5" />
+<event name="T03_TUNE" loglevel="5" />
+<event name="T04_TUNE" loglevel="5" />
+<event name="T05_TIMEZONE" loglevel="5" />
+<event name="TIMEZONE" loglevel="5" />
+<event name="TIMEZONEMODE" loglevel="5" />
+<event name="E01_ENDING" loglevel="5" />
+<event name="ENDING" loglevel="5" />
+<event name="AGREEMENT_02" loglevel="5" />
+</service>
+<service name="15_url" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_url" queue_max="30" expiration="60" loglevel="10" >
+<event name="ADDAPPROVEDPAGE" loglevel="5" />
+<event name="ADDBLOCKEDPAGE" loglevel="5" />
+<event name="ADDBOOKMARK" loglevel="5" />
+<event name="HOMEPAGEURLSETTING" loglevel="5" />
+<event name="MOVEURL" loglevel="5" />
+<event name="REMOVEAPPROVEDPAGE" loglevel="5" />
+<event name="REMOVEBLOCKEDPAGE" loglevel="5" />
+<event name="BLOCKEDPAGE" loglevel="5" />
+<event name="PLAYINGVIDEO" loglevel="5" />
+<event name="EVERYURL" loglevel="5" />
+</service>
+<service name="15_virtualchannel" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_virtualchannel" queue_max="30" expiration="60" loglevel="10" >
+<event name="PLAY_CONTROL" loglevel="5" />
+<event name="DEEPLINK" loglevel="5" />
+<event name="CATEGORY" loglevel="5" />
+<event name="APP_LAUNCH" loglevel="5" />
+<event name="SELECT_CONTENT" loglevel="5" />
+<event name="CONTENT_INFO" loglevel="5" />
+<event name="PAGE_VIEW" loglevel="5" />
+<event name="SELECT_PROGRAM" loglevel="5" />
+<event name="VIEW_NOW" loglevel="5" />
+<event name="SELECT_BUTTON" loglevel="5" />
+<event name="SELECT_FILTER" loglevel="5" />
+<event name="SELECT_CHANNEL" loglevel="5" />
+<event name="ADD_FAVORITE" loglevel="5" />
+<event name="SELECT_IPCHANNEL" loglevel="5" />
+<event name="DELETE" loglevel="5" />
+<event name="ADD" loglevel="5" />
+<event name="ENTRY_CLICK" loglevel="5" />
+<event name="ENTRY_CLOSE" loglevel="5" />
+<event name="ENTRYPOP_CLOSE" loglevel="5" />
+<event name="BANNER_ONOFF" loglevel="5" />
+<event name="TUNE_IN" loglevel="5" />
+<event name="TUNE_ERR" loglevel="5" />
+<event name="NETWORK_ERR" loglevel="5" />
+<event name="PLAYER_ERR" loglevel="5" />
+<event name="PLAY_CONTENT" loglevel="5" />
+<event name="DELETE_VC" loglevel="5" />
+<event name="ENTRY_POINT" loglevel="5" />
+<event name="APPRESUME" loglevel="5" />
+<event name="DEEPLINK_BUTTON" loglevel="5" />
+<event name="INSTRUCTION" loglevel="5" />
+<event name="ALL_CH" loglevel="5" />
+<event name="ALL_CH_GENRE" loglevel="5" />
+<event name="RECOMM_CH" loglevel="5" />
+<event name="MORE_NOTICE" loglevel="5" />
+<event name="NOTICE_DETAIL" loglevel="5" />
+<event name="DURATION" loglevel="5" />
+<event name="ENTRY_VIEW" loglevel="5" />
+</service>
+<service name="15_voice" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_voice" queue_max="30" expiration="60" loglevel="10" >
+<event name="FIN" loglevel="5" />
+<event name="KEYEVT" loglevel="5" />
+<event name="NRECOG" loglevel="5" />
+<event name="RESCONV" loglevel="5" />
+<event name="RESEMB" loglevel="5" />
+<event name="RESTRG" loglevel="5" />
+<event name="RUNCMD" loglevel="5" />
+<event name="STARTUP" loglevel="5" />
+<event name="VOICEON" loglevel="5" />
+</service>
+<service name="15_volterr" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_volterr" queue_max="30" expiration="60" loglevel="10" >
+<event name="JSEXCEPTION" loglevel="5" />
+</service>
+<service name="15_watchdog" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_watchdog" queue_max="30" expiration="60" loglevel="10" >
+<event name="FACTORYRESET" loglevel="5" />
+<event name="SETERR" loglevel="5" />
+</service>
+<service name="15_webbrowser" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_webbrowser" queue_max="30" expiration="60" loglevel="10" >
+<event name="ABOUT" loglevel="5" />
+<event name="ACCESSANYWAY" loglevel="5" />
+<event name="APPEXECUTE" loglevel="5" />
+<event name="APPROVEDPAGEPASSWORD" loglevel="5" />
+<event name="APPROVEDPAGES" loglevel="5" />
+<event name="APPROVEDPAGESETTING" loglevel="5" />
+<event name="BACKWARD" loglevel="5" />
+<event name="BLOCKEDPAGES" loglevel="5" />
+<event name="BLOCKEDPAGESETTING" loglevel="5" />
+<event name="BOOKMARK" loglevel="5" />
+<event name="CERTIFICATION" loglevel="5" />
+<event name="DELETEBROWSINGDATA" loglevel="5" />
+<event name="DONOTTRACK" loglevel="5" />
+<event name="ENCODING" loglevel="5" />
+<event name="ENCODINGMANUAL" loglevel="5" />
+<event name="ENCODINGSETTING" loglevel="5" />
+<event name="EXIT" loglevel="5" />
+<event name="FEATURED" loglevel="5" />
+<event name="FORWARD" loglevel="5" />
+<event name="GENERAL" loglevel="5" />
+<event name="GOBACK" loglevel="5" />
+<event name="HELP" loglevel="5" />
+<event name="HIDETAB" loglevel="5" />
+<event name="HISTORY" loglevel="5" />
+<event name="HOME" loglevel="5" />
+<event name="HOMEPAGE" loglevel="5" />
+<event name="HOMEPAGEOPTION" loglevel="5" />
+<event name="INIT" loglevel="5" />
+<event name="MENU" loglevel="5" />
+<event name="MOSTVISITED" loglevel="5" />
+<event name="NEWTAB" loglevel="5" />
+<event name="PIP" loglevel="5" />
+<event name="PIPPOSITION" loglevel="5" />
+<event name="PRIVACY" loglevel="5" />
+<event name="PRIVACYANDSECURITY" loglevel="5" />
+<event name="REFRESH" loglevel="5" />
+<event name="REMOVEALL" loglevel="5" />
+<event name="RESETBROWSERSETTING" loglevel="5" />
+<event name="SEARCHENGINE" loglevel="5" />
+<event name="SEARCHSETTING" loglevel="5" />
+<event name="SECURITY" loglevel="5" />
+<event name="SETTINGS" loglevel="5" />
+<event name="ZOOM" loglevel="5" />
+<event name="DOWNLOADER" loglevel="5" />
+<event name="PLAYVIDEOCAST" loglevel="5" />
+<event name="EXITVIDEOCAST" loglevel="5" />
+</service>
+<service name="15_wireless" url="https://lcprd1.samsungcloudsolution.net/openapi/log/15_wireless" queue_max="30" expiration="60" loglevel="10" >
+<event name="WIFI_ENV" loglevel="5" />
+</service>
+<service name="16_allsearch" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_allsearch" queue_max="30" expiration="60" loglevel="10" >
+<event name="HIDE" loglevel="5" />
+<event name="HISTORY" loglevel="5" />
+<event name="DONE" loglevel="5" />
+<event name="UP" loglevel="5" />
+<event name="AUTO" loglevel="5" />
+<event name="SELECTITEM" loglevel="5" />
+<event name="MVPD" loglevel="5" />
+<event name="OTTAPP" loglevel="5" />
+<event name="DETAILRESULT" loglevel="5" />
+<event name="GAME_POPUP" loglevel="5" />
+<event name="P_IME" loglevel="5" />
+<event name="P_RESULTS" loglevel="5" />
+<event name="P_OUT" loglevel="5" />
+</service>
+<service name="16_appdown" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_appdown" queue_max="30" expiration="60" loglevel="10" >
+<event name="INI_INSTALL_PASS" loglevel="5" />
+<event name="INI_INSTALL_FAIL" loglevel="5" />
+<event name="STR_INSTALL_PASS" loglevel="5" />
+<event name="STR_INSTALL_FAIL" loglevel="5" />
+<event name="UDT_INSTALL_PASS" loglevel="5" />
+<event name="UDT_INSTALL_FAIL" loglevel="5" />
+</service>
+<service name="16_appexec" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_appexec" queue_max="30" expiration="60" loglevel="10" >
+<event name="APPRESUME" loglevel="5" />
+<event name="APPPAUSE" loglevel="5" />
+</service>
+<service name="16_apps" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_apps" queue_max="30" expiration="60" loglevel="10" >
+<event name="ADDTOHOME" loglevel="5" />
+<event name="C02_ENTER" loglevel="5" />
+<event name="C02_LIFE" loglevel="5" />
+<event name="C02_VIDEO" loglevel="5" />
+<event name="CANCEL" loglevel="5" />
+<event name="D03_DETAIL" loglevel="5" />
+<event name="DOWNLOAD" loglevel="5" />
+<event name="LONGPRESSMA" loglevel="5" />
+<event name="M01_MOST" loglevel="5" />
+<event name="M01_MYAPPS" loglevel="5" />
+<event name="MOREINFO" loglevel="5" />
+<event name="MOVEAPPS" loglevel="5" />
+<event name="MOVECANCEL" loglevel="5" />
+<event name="N01_NEW" loglevel="5" />
+<event name="OPEN" loglevel="5" />
+<event name="RATINGAPP" loglevel="5" />
+<event name="RELATEDAPP" loglevel="5" />
+<event name="SCREENSHOT" loglevel="5" />
+<event name="SELECTADDTOHOME" loglevel="5" />
+<event name="SELECTDELETE" loglevel="5" />
+<event name="SELECTLOCKUNLOCK" loglevel="5" />
+<event name="SELECTLOGIN" loglevel="5" />
+<event name="SELECTLONGPRESSAH" loglevel="5" />
+<event name="SELECTLONGPRESSDEL" loglevel="5" />
+<event name="SELECTLONGPRESSMV" loglevel="5" />
+<event name="SELECTLONGPRESSRE" loglevel="5" />
+<event name="SELECTLONGPRESSVD" loglevel="5" />
+<event name="SELECTMA" loglevel="5" />
+<event name="SELECTMENU" loglevel="5" />
+<event name="SELECTMOVE" loglevel="5" />
+<event name="SELECTMP" loglevel="5" />
+<event name="SELECTOPTION" loglevel="5" />
+<event name="SELECTSC" loglevel="5" />
+<event name="SELECTSEARCH" loglevel="5" />
+<event name="SELECTUPDATE" loglevel="5" />
+<event name="SELECTWN" loglevel="5" />
+<event name="ADDTOHOMEAPPS" loglevel="5" />
+</service>
+<service name="16_arryn" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_arryn" queue_max="30" expiration="60" loglevel="10" >
+<event name="MEMORYALARM" loglevel="5" />
+<event name="DEFAULTARRYN" loglevel="5" />
+<event name="MEMLMFARRYN" loglevel="5" />
+<event name="TEMPERATUREALARM" loglevel="5" />
+<event name="HWERRORARRYN" loglevel="5" />
+</service>
+<service name="16_aul" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_aul" queue_max="30" expiration="60" loglevel="10" >
+<event name="APPSTART" loglevel="5" />
+<event name="APPSTOP" loglevel="5" />
+<event name="APPRESUME" loglevel="5" />
+<event name="APPPAUSE" loglevel="5" />
+</service>
+<service name="16_boardinfo" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_boardinfo" queue_max="30" expiration="60" loglevel="10" >
+<event name="BOARD_INFO" loglevel="5" />
+</service>
+<service name="16_briefontv" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_briefontv" queue_max="30" expiration="60" loglevel="10" >
+<event name="H01_HOME" loglevel="5" />
+<event name="MOBILEINFO" loglevel="5" />
+</service>
+<service name="16_channellist" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_channellist" queue_max="30" expiration="60" loglevel="10" >
+<event name="LAUNCH_CHLIST" loglevel="5" />
+<event name="SELECT_EDIT" loglevel="5" />
+<event name="SELECT_OPTION" loglevel="5" />
+<event name="HIDE_INPUTWIDGET" loglevel="5" />
+<event name="SELECT_GENRE" loglevel="5" />
+<event name="SELECT_FAVORITE" loglevel="5" />
+<event name="SELECT_CATEGORY" loglevel="5" />
+<event name="SELECT_SORT" loglevel="5" />
+<event name="SELECT_ANTENNA" loglevel="5" />
+</service>
+<service name="16_channelmanager" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_channelmanager" queue_max="30" expiration="60" loglevel="10" >
+<event name="ENABLE_EDIT_CHANNEL" loglevel="5" />
+<event name="SELECT_ALL_CHANNELS" loglevel="5" />
+<event name="EDIT_CHANNEL_BUTTONS" loglevel="5" />
+<event name="ENABLE_EDIT_FAV" loglevel="5" />
+<event name="EDIT_FAV_BUTTONS" loglevel="5" />
+<event name="DESELCT_ALL_CHANNELS" loglevel="5" />
+<event name="MOVE_TO_NUMBER" loglevel="5" />
+<event name="SELECT_ALL_FAVORITES" loglevel="5" />
+<event name="DESELECT_ALL_FAV" loglevel="5" />
+<event name="SHOW_DROPDOWN_LIST" loglevel="5" />
+</service>
+<service name="16_ci" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_ci" queue_max="30" expiration="60" loglevel="10" >
+<event name="STATUS" loglevel="5" />
+<event name="STATUS_CHANGE" loglevel="5" />
+</service>
+<service name="16_codec" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_codec" queue_max="30" expiration="60" loglevel="10" >
+<event name="PLAYBACK" loglevel="5" />
+<event name="ERRPLAY" loglevel="5" />
+</service>
+<service name="16_cvp2" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_cvp2" queue_max="30" expiration="60" loglevel="10" >
+<event name="CVP_SESSION_TIME" loglevel="5" />
+</service>
+<service name="16_devicedetector" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_devicedetector" queue_max="30" expiration="60" loglevel="10" >
+<event name="DDCKO" loglevel="5" />
+<event name="DDCKC" loglevel="5" />
+<event name="DDTU" loglevel="5" />
+<event name="DDHN" loglevel="5" />
+</service>
+<service name="16_easysetup" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_easysetup" queue_max="30" expiration="60" loglevel="10" >
+<event name="BLEADVERTISEMENTON" loglevel="5" />
+<event name="CLOSETVPOPUP" loglevel="5" />
+<event name="CANCELFROMMOBILE" loglevel="5" />
+<event name="SETUPFROMMOBILE" loglevel="5" />
+<event name="INFOSELECTION" loglevel="5" />
+<event name="HANDLERECEIVEDINFO" loglevel="5" />
+</service>
+<service name="16_extra" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_extra" queue_max="30" expiration="60" loglevel="10" >
+<event name="CATEGORYUP" loglevel="5" />
+<event name="CATEGORYDOWN" loglevel="5" />
+<event name="LEFT" loglevel="5" />
+<event name="RIGHT" loglevel="5" />
+<event name="SCROLLUP" loglevel="5" />
+<event name="SCROLLDOWN" loglevel="5" />
+<event name="ENTER_KBO" loglevel="5" />
+<event name="RETURN_KBO" loglevel="5" />
+<event name="ENTER_SOCIAL" loglevel="5" />
+<event name="RETURN_SOCIAL" loglevel="5" />
+<event name="ENTER_NEWS" loglevel="5" />
+<event name="RETURN_NEWS" loglevel="5" />
+<event name="ENTER_ENTERTAIN" loglevel="5" />
+<event name="RETURN_ENTERTAINMENT" loglevel="5" />
+<event name="EXTRA_ENTRY" loglevel="5" />
+<event name="EXTRA_HIDE" loglevel="5" />
+<event name="ENTER_SETTING" loglevel="5" />
+<event name="RETURN_SETTING" loglevel="5" />
+<event name="WATERMARK_OPT" loglevel="5" />
+<event name="APPRESUME" loglevel="5" />
+<event name="APPPAUSE" loglevel="5" />
+<event name="H01_KBO" loglevel="5" />
+<event name="KBO_GAME_STAT" loglevel="5" />
+<event name="KBO_PITCH_VS_BATTER" loglevel="5" />
+<event name="KBO_PITCHER_H" loglevel="5" />
+<event name="KBO_PITCHER_A" loglevel="5" />
+<event name="KBO_PITCH_LOCATION" loglevel="5" />
+<event name="KBO_HOT_COLD" loglevel="5" />
+<event name="KBO_SPRAY_CHART" loglevel="5" />
+<event name="KBO_HIT_CHART" loglevel="5" />
+<event name="KBO_RUNNER_BASE" loglevel="5" />
+<event name="KBO_BATTING_ORDER" loglevel="5" />
+<event name="KBO_ROSTER_H" loglevel="5" />
+<event name="KBO_ROSTER_A" loglevel="5" />
+<event name="KBO_INNING_PITCHER" loglevel="5" />
+<event name="H02_SOCIAL" loglevel="5" />
+<event name="SOCIAL_DETAIL" loglevel="5" />
+<event name="H03_NEWS" loglevel="5" />
+<event name="NEWS_DETAIL" loglevel="5" />
+<event name="H04_ENTERTAIN" loglevel="5" />
+<event name="ENTERTAIN_DETAIL" loglevel="5" />
+<event name="WATERMARK" loglevel="5" />
+<event name="HOME_SETTING" loglevel="5" />
+<event name="SETTING_DETAIL" loglevel="5" />
+</service>
+<service name="16_extratweet" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_extratweet" queue_max="30" expiration="60" loglevel="10" >
+<event name="APPPAUSE" loglevel="5" />
+<event name="APPRESUME" loglevel="5" />
+<event name="CATEGORYDOWN" loglevel="5" />
+<event name="CATEGORYUP" loglevel="5" />
+<event name="CHANGE_VIEW" loglevel="5" />
+<event name="ENTER_SETTING" loglevel="5" />
+<event name="ENTER_SOCIAL" loglevel="5" />
+<event name="H02_SOCIAL" loglevel="5" />
+<event name="HOME_SETTING" loglevel="5" />
+<event name="LEFT" loglevel="5" />
+<event name="RETURN_SETTING" loglevel="5" />
+<event name="RETURN_SOCIAL" loglevel="5" />
+<event name="RIGHT" loglevel="5" />
+<event name="SCROLLDOWN" loglevel="5" />
+<event name="SCROLLUP" loglevel="5" />
+<event name="SETTING_DETAIL" loglevel="5" />
+<event name="SOCIAL_DETAIL" loglevel="5" />
+</service>
+<service name="16_extrausa" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_extrausa" queue_max="30" expiration="60" loglevel="10" >
+<event name="APPRESUME" loglevel="5" />
+<event name="APPPAUSE" loglevel="5" />
+</service>
+<service name="16_familytv" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_familytv" queue_max="30" expiration="60" loglevel="10" >
+<event name="APPSTART" loglevel="5" />
+<event name="BIND" loglevel="5" />
+<event name="FILESAVE" loglevel="5" />
+<event name="MSGRECV" loglevel="5" />
+<event name="MSGREPLY" loglevel="5" />
+<event name="UNBOUND" loglevel="5" />
+</service>
+<service name="16_fh_home" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_fh_home" queue_max="30" expiration="60" loglevel="10" >
+<event name="LAUNCH_TIME" loglevel="5" />
+<event name="EXIT_TIME" loglevel="5" />
+</service>
+<service name="16_fh_recipe" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_fh_recipe" queue_max="30" expiration="60" loglevel="10" >
+<event name="START_APP" loglevel="5" />
+<event name="END_APP" loglevel="5" />
+<event name="SWIPE_WIDGET" loglevel="5" />
+<event name="VOICE_COMMAND" loglevel="5" />
+<event name="SEARCH" loglevel="5" />
+<event name="VIEW_RECIPE_CAT" loglevel="5" />
+<event name="VIEW_RECIPE_DETAIL" loglevel="5" />
+<event name="START_RECIPE_READOUT" loglevel="5" />
+<event name="COMPLETE_RECIPE_READOUT" loglevel="5" />
+<event name="FAVOR_RECIPE" loglevel="5" />
+<event name="UNFAVOR_RECIPE" loglevel="5" />
+<event name="INGREDS_ADDED_SHLS" loglevel="5" />
+</service>
+<service name="16_fh_watchdog" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_fh_watchdog" queue_max="30" expiration="60" loglevel="10" >
+<event name="SETERR" loglevel="5" />
+<event name="FACTORYRESET" loglevel="5" />
+</service>
+<service name="16_game" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_game" queue_max="30" expiration="60" loglevel="10" >
+<event name="CLOSE" loglevel="5" />
+<event name="DWCANCEL" loglevel="5" />
+<event name="DWCLICK" loglevel="5" />
+<event name="DWERROR" loglevel="5" />
+<event name="DWFIN" loglevel="5" />
+<event name="EXEGAME" loglevel="5" />
+<event name="G01_MYGAMES" loglevel="5" />
+<event name="G02_SPOTLIGHT" loglevel="5" />
+<event name="G03_GENRE" loglevel="5" />
+<event name="G04_CONTROLLER" loglevel="5" />
+<event name="G05_DETAIL" loglevel="5" />
+<event name="GOPROMO" loglevel="5" />
+<event name="GPCANCEL" loglevel="5" />
+<event name="GPGUIDE" loglevel="5" />
+<event name="GPPLAY" loglevel="5" />
+<event name="JUMPSSO" loglevel="5" />
+<event name="LOCKCANCEL" loglevel="5" />
+<event name="LOCKDONE" loglevel="5" />
+<event name="LPADDHOME" loglevel="5" />
+<event name="LPCANCEL" loglevel="5" />
+<event name="LPDELETE" loglevel="5" />
+<event name="LPVIEW" loglevel="5" />
+<event name="MORE" loglevel="5" />
+<event name="MOVECATEG" loglevel="5" />
+<event name="OPTIONADDHOME" loglevel="5" />
+<event name="OPTIONADDHOME1" loglevel="5" />
+<event name="OPTIONCLICK" loglevel="5" />
+<event name="OPTIONDELETE" loglevel="5" />
+<event name="OPTIONLOCK" loglevel="5" />
+<event name="OPTIONUPDATE" loglevel="5" />
+<event name="OPTIONUPDATEOFF" loglevel="5" />
+<event name="OPTIONUPDATEON" loglevel="5" />
+<event name="PLAYCLICK" loglevel="5" />
+<event name="PLAYCLICK1" loglevel="5" />
+<event name="POPCANCEL" loglevel="5" />
+<event name="POPLACKMEM" loglevel="5" />
+<event name="POPSIGNIN" loglevel="5" />
+<event name="RATINGCLICK" loglevel="5" />
+<event name="RATINGRQST" loglevel="5" />
+<event name="SCREENSHOT" loglevel="5" />
+<event name="UPDATE" loglevel="5" />
+<event name="UPDATEALL" loglevel="5" />
+<event name="UPDATECANCEL" loglevel="5" />
+<event name="UPDATECLOSE" loglevel="5" />
+<event name="UPDATECPLAY" loglevel="5" />
+<event name="UPDATEFIN" loglevel="5" />
+<event name="VIDEOS" loglevel="5" />
+<event name="VIEWGAME" loglevel="5" />
+<event name="VIEWGUIDE" loglevel="5" />
+<event name="DSGUIDE" loglevel="5" />
+<event name="DSPLAY" loglevel="5" />
+<event name="DSCANCEL" loglevel="5" />
+</service>
+<service name="16_guide" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_guide" queue_max="30" expiration="60" loglevel="10" >
+<event name="PAGE_VIEW_EPG" loglevel="5" />
+<event name="SELECT_FILTER" loglevel="5" />
+<event name="SELECT_GENRE" loglevel="5" />
+<event name="SELECT_CHANNEL_TYPE" loglevel="5" />
+<event name="SELECT_PIG" loglevel="5" />
+<event name="NAVIGATION" loglevel="5" />
+<event name="NUMBER_INPUT" loglevel="5" />
+<event name="PAGE_VIEW_POPUP" loglevel="5" />
+<event name="SELECT_BUTTON" loglevel="5" />
+<event name="EDIT_REC_SCHEDULE" loglevel="5" />
+<event name="EDIT_VIEW_SCHEDULE" loglevel="5" />
+</service>
+<service name="16_hdmicec" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_hdmicec" queue_max="30" expiration="60" loglevel="10" >
+<event name="HDMICEC_MULTIDEPTH" loglevel="5" />
+</service>
+<service name="16_infobanner" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_infobanner" queue_max="30" expiration="60" loglevel="10" >
+<event name="SIMPLEINFOOPEN" loglevel="5" />
+<event name="MOREINFOOPEN" loglevel="5" />
+<event name="MOREINFOCLOSE" loglevel="5" />
+<event name="NAVIGATIONINFO" loglevel="5" />
+<event name="SELECTBUTTON" loglevel="5" />
+</service>
+<service name="16_inputdevice" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_inputdevice" queue_max="30" expiration="60" loglevel="10" >
+<event name="HDMI_PORT" loglevel="5" />
+<event name="AV_PORT" loglevel="5" />
+</service>
+<service name="16_msf" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_msf" queue_max="30" expiration="60" loglevel="10" >
+<event name="CONNECT_CLOUDAPP" loglevel="5" />
+<event name="CONNECT_INSTALLEDAPP" loglevel="5" />
+<event name="CONNECT_MEDIARECEIVE" loglevel="5" />
+<event name="DIAL_CONNECT" loglevel="5" />
+<event name="DISCONNECT_CLOUDAPP" loglevel="5" />
+<event name="DISCONNECT_INSTALLED" loglevel="5" />
+<event name="DISCONNECT_MEDIARECE" loglevel="5" />
+<event name="ERROR_LOG" loglevel="5" />
+<event name="INSTALL_APP" loglevel="5" />
+<event name="DIAL_DEVICE_ALLOW" loglevel="5" />
+<event name="DIAL_DEVICE_DENY" loglevel="5" />
+</service>
+<service name="16_mycontent" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_mycontent" queue_max="30" expiration="60" loglevel="10" >
+<event name="AUDIOLANGUAGEVP" loglevel="5" />
+<event name="B_CONTENT" loglevel="5" />
+<event name="B_HOME" loglevel="5" />
+<event name="EDEN_DLNA" loglevel="5" />
+<event name="EDEN_MOB_SV" loglevel="5" />
+<event name="EDEN_PC_SV" loglevel="5" />
+<event name="EDEN_USB" loglevel="5" />
+<event name="EXISTONEFILEPLAYUSBP" loglevel="5" />
+<event name="INFOBARVP" loglevel="5" />
+<event name="INFOBROWSERUSBP" loglevel="5" />
+<event name="INFOCANCELUSBP" loglevel="5" />
+<event name="INFOFUNCTIONPP" loglevel="5" />
+<event name="INFOPOPUPCANCELUSBP" loglevel="5" />
+<event name="INFOREPEATVP" loglevel="5" />
+<event name="INFOSELECTUSBP" loglevel="5" />
+<event name="INFOTIMEOUTUSBP" loglevel="5" />
+<event name="LAUNCHER_USB" loglevel="5" />
+<event name="MENUPICTURESIZEVP" loglevel="5" />
+<event name="MP_HOME" loglevel="5" />
+<event name="MP_NEXT" loglevel="5" />
+<event name="MP_PP" loglevel="5" />
+<event name="MP_PREV" loglevel="5" />
+<event name="MP_REPEAT" loglevel="5" />
+<event name="MP_SHUFFLE" loglevel="5" />
+<event name="ONEFILECANCELUSBP" loglevel="5" />
+<event name="OPTIONBGMPP" loglevel="5" />
+<event name="OPTIONDOLBYVP" loglevel="5" />
+<event name="OPTIONEFFECTSPP" loglevel="5" />
+<event name="OPTIONINFOPP" loglevel="5" />
+<event name="OPTIONINFOVP" loglevel="5" />
+<event name="OPTIONPP" loglevel="5" />
+<event name="OPTIONROTATEVP" loglevel="5" />
+<event name="OPTIONSPEEDPP" loglevel="5" />
+<event name="OPTIONSUBTITLEVP" loglevel="5" />
+<event name="OPTIONVP" loglevel="5" />
+<event name="OPTIONZOOMPP" loglevel="5" />
+<event name="PHOTOPLAYER" loglevel="5" />
+<event name="PHOTOPLAYEREXIT" loglevel="5" />
+<event name="PICSIZEDETATILEDVP" loglevel="5" />
+<event name="PICTURESIZEPP" loglevel="5" />
+<event name="PLAYBACKPP" loglevel="5" />
+<event name="PLAYBACKVP" loglevel="5" />
+<event name="PLAYFINISHVP" loglevel="5" />
+<event name="PLAYSTARTVP" loglevel="5" />
+<event name="SCREEN_MUTE" loglevel="5" />
+<event name="SELECT_CANCEL" loglevel="5" />
+<event name="SELECT_DELETE" loglevel="5" />
+<event name="SELECT_FILTER" loglevel="5" />
+<event name="SELECT_INFO" loglevel="5" />
+<event name="SELECT_OK" loglevel="5" />
+<event name="SELECT_OPTION" loglevel="5" />
+<event name="SELECT_SORT" loglevel="5" />
+<event name="SEND_TO_USB" loglevel="5" />
+<event name="TERM_COND" loglevel="5" />
+<event name="THUMBNAILCHECKVP" loglevel="5" />
+<event name="THUMBNAILNUMPP" loglevel="5" />
+<event name="UHD_RATING" loglevel="5" />
+<event name="USBDEVICESELECTPOPUP" loglevel="5" />
+<event name="USBPLAYER" loglevel="5" />
+<event name="VIDEOPLAYER" loglevel="5" />
+<event name="VIDEOPLAYEREXIT" loglevel="5" />
+</service>
+<service name="16_netflix" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_netflix" queue_max="30" expiration="60" loglevel="10" >
+<event name="ERROR" loglevel="5" />
+<event name="INFO" loglevel="5" />
+</service>
+<service name="16_networkspeaker" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_networkspeaker" queue_max="30" expiration="60" loglevel="10" >
+<event name="SURROUNDINFO" loglevel="5" />
+<event name="MULTIROOMINFO" loglevel="5" />
+<event name="PHONEINFO" loglevel="5" />
+<event name="TVINFO" loglevel="5" />
+<event name="ALARMSETTING" loglevel="5" />
+<event name="COLDSTARTINFO" loglevel="5" />
+<event name="SPKINFO" loglevel="5" />
+<event name="CPINFO" loglevel="5" />
+<event name="NETWORKINFO" loglevel="5" />
+<event name="CONNECT_CLOUDAPP" loglevel="5" />
+<event name="DISCONNECT_CLOUDAPP" loglevel="5" />
+<event name="CONNECT_MEDIARECEIVE" loglevel="5" />
+<event name="DISCONNECT_MEDIARECEIVE" loglevel="5" />
+<event name="SOURCETIME" loglevel="5" />
+</service>
+<service name="16_notification" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_notification" queue_max="30" expiration="60" loglevel="10" >
+<event name="CALL" loglevel="5" />
+<event name="TERMINATE" loglevel="5" />
+</service>
+<service name="16_partymode" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_partymode" queue_max="30" expiration="60" loglevel="10" >
+<event name="DEVICE_CONNECTED" loglevel="5" />
+<event name="LIST_SENT" loglevel="5" />
+<event name="PT_HOME" loglevel="5" />
+<event name="SELECT_GUIDE" loglevel="5" />
+<event name="SELECT_HTJ" loglevel="5" />
+<event name="SELECT_NEXT" loglevel="5" />
+<event name="SELECT_PATTERN" loglevel="5" />
+<event name="SELECT_PLAYLIST" loglevel="5" />
+<event name="SELECT_PP" loglevel="5" />
+<event name="SELECT_PREV" loglevel="5" />
+<event name="SELECT_REPEAT" loglevel="5" />
+<event name="SELECT_SHUFFLE" loglevel="5" />
+<event name="SELECT_VP" loglevel="5" />
+</service>
+<service name="16_payment" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_payment" queue_max="30" expiration="60" loglevel="10" >
+<event name="PPDROPDOWN" loglevel="5" />
+<event name="PPSIGNIN" loglevel="5" />
+<event name="PPCANCEL" loglevel="5" />
+<event name="PPEMAILSLT" loglevel="5" />
+<event name="PPEMAILRMV" loglevel="5" />
+<event name="PPEMAILX" loglevel="5" />
+<event name="PPEMAILCLS" loglevel="5" />
+<event name="PPACNTDONE" loglevel="5" />
+<event name="PPACNTCNCL" loglevel="5" />
+<event name="PPPWDONE" loglevel="5" />
+<event name="PPPWDCNCL" loglevel="5" />
+<event name="PPTERMYES" loglevel="5" />
+<event name="PPTERMNO" loglevel="5" />
+<event name="PPTERMPASS" loglevel="5" />
+<event name="PPSIGNERR" loglevel="5" />
+<event name="PPSIGNPASS" loglevel="5" />
+<event name="MBNUM" loglevel="5" />
+<event name="MBREMEMBER" loglevel="5" />
+<event name="MBSEND" loglevel="5" />
+<event name="MBSENDPASS" loglevel="5" />
+<event name="MBREAUTH" loglevel="5" />
+<event name="MBAUTHOK" loglevel="5" />
+<event name="MBAUTHPASS" loglevel="5" />
+<event name="SCNREAUTH" loglevel="5" />
+<event name="SCNCNTN" loglevel="5" />
+<event name="SCNMAILPASS" loglevel="5" />
+<event name="SCNAUTHPASS" loglevel="5" />
+<event name="CDREGNUM" loglevel="5" />
+<event name="CDNUMDONE" loglevel="5" />
+<event name="CDNUMCNCL" loglevel="5" />
+<event name="CDREGMON" loglevel="5" />
+<event name="CDREGYEAR" loglevel="5" />
+<event name="CDREGCW" loglevel="5" />
+<event name="CDCWDONE" loglevel="5" />
+<event name="CDCWCNCL" loglevel="5" />
+<event name="CDREGNAME" loglevel="5" />
+<event name="CDNAMEDONE" loglevel="5" />
+<event name="CDNAMECNCL" loglevel="5" />
+<event name="CDREGCPF" loglevel="5" />
+<event name="CDCPFDONE" loglevel="5" />
+<event name="CDCPFCNCL" loglevel="5" />
+<event name="CDREDADD" loglevel="5" />
+<event name="CDREGERR" loglevel="5" />
+<event name="CDREGPASS" loglevel="5" />
+<event name="PAYADDCPN" loglevel="5" />
+<event name="PAYSLCTCPN" loglevel="5" />
+<event name="PAYNOW" loglevel="5" />
+<event name="PAYPASS" loglevel="5" />
+<event name="PAYERR" loglevel="5" />
+<event name="PAYMTHDCHNG" loglevel="5" />
+<event name="PAYINFO" loglevel="5" />
+<event name="ADDCPNDONE" loglevel="5" />
+<event name="ADDCPNCNCL" loglevel="5" />
+<event name="ADDCPNERR" loglevel="5" />
+<event name="ADDCPNPASS" loglevel="5" />
+<event name="ADDCPNOK" loglevel="5" />
+<event name="PINENTER" loglevel="5" />
+<event name="PINCONFIRM" loglevel="5" />
+<event name="PINSETCNCL" loglevel="5" />
+<event name="PINSETERR" loglevel="5" />
+<event name="PINSETPASS" loglevel="5" />
+<event name="PINCHKENTER" loglevel="5" />
+<event name="PINCHKCANCEL" loglevel="5" />
+<event name="CPLTDONE" loglevel="5" />
+<event name="CPLTCHANGE" loglevel="5" />
+<event name="CPLTPASS" loglevel="5" />
+<event name="RESETENTER" loglevel="5" />
+<event name="RESETYES" loglevel="5" />
+<event name="RESETNO" loglevel="5" />
+<event name="RESETPASS" loglevel="5" />
+<event name="IFRESETPIN" loglevel="5" />
+<event name="IFPPLOGOUT" loglevel="5" />
+<event name="IFCHANGECC" loglevel="5" />
+<event name="IFRMVCC" loglevel="5" />
+<event name="IFHISTORY" loglevel="5" />
+<event name="PPOUTYES" loglevel="5" />
+<event name="PPOUTNO" loglevel="5" />
+<event name="PPOUTPASS" loglevel="5" />
+<event name="PPOUTERR" loglevel="5" />
+<event name="RMVCCYES" loglevel="5" />
+<event name="RMVCCNO" loglevel="5" />
+<event name="RMVCCPASSOK" loglevel="5" />
+<event name="RMVCCPASS" loglevel="5" />
+<event name="HSTCNCL" loglevel="5" />
+<event name="HSTRFND" loglevel="5" />
+<event name="HSTOPEN" loglevel="5" />
+<event name="HSTDOWN" loglevel="5" />
+<event name="HSTCNCLPSS" loglevel="5" />
+<event name="HSTRFNDPSS" loglevel="5" />
+<event name="CHMAILDONE" loglevel="5" />
+<event name="CHMAILCNCL" loglevel="5" />
+<event name="SSPWDDONE" loglevel="5" />
+<event name="SSPWDCNCL" loglevel="5" />
+<event name="SSPWDPASS" loglevel="5" />
+<event name="SSPWDFAIL" loglevel="5" />
+<event name="SSAPWDERR" loglevel="5" />
+<event name="KRADDNUM" loglevel="5" />
+<event name="KRADDRMMBR" loglevel="5" />
+<event name="KRADDSEND" loglevel="5" />
+<event name="KAADDSMSOK" loglevel="5" />
+<event name="KREDTNUM" loglevel="5" />
+<event name="KREDTRMMBR" loglevel="5" />
+<event name="KREDTSEND" loglevel="5" />
+<event name="KREDTSMSOK" loglevel="5" />
+<event name="SELECTMETHOD" loglevel="5" />
+<event name="PPSIGN" loglevel="5" />
+<event name="PPTERM" loglevel="5" />
+<event name="MBPUTNUM" loglevel="5" />
+<event name="MBAUTH" loglevel="5" />
+<event name="SCNCARDREG" loglevel="5" />
+<event name="CARDREG" loglevel="5" />
+<event name="PPCDPAY" loglevel="5" />
+<event name="PINSETUP" loglevel="5" />
+<event name="PINCHK" loglevel="5" />
+<event name="CMPLTPAY" loglevel="5" />
+<event name="PINRESET" loglevel="5" />
+<event name="PAYMENTINFO" loglevel="5" />
+<event name="HISTORY" loglevel="5" />
+<event name="WRONGPWD" loglevel="5" />
+<event name="KRADDCARD" loglevel="5" />
+<event name="KREDTCARD" loglevel="5" />
+</service>
+<service name="16_picture_menu" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_picture_menu" queue_max="30" expiration="60" loglevel="10" >
+<event name="BOOTING" loglevel="5" />
+<event name="SOURCE" loglevel="5" />
+<event name="MENU" loglevel="5" />
+</service>
+<service name="16_psidmenu" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_psidmenu" queue_max="30" expiration="60" loglevel="10" >
+<event name="INVALIDPSID" loglevel="5" />
+<event name="RESETPSID" loglevel="5" />
+</service>
+<service name="16_pvr" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_pvr" queue_max="30" expiration="60" loglevel="10" >
+<event name="RCDE" loglevel="5" />
+<event name="TS" loglevel="5" />
+<event name="RECERR" loglevel="5" />
+</service>
+<service name="16_registertv" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_registertv" queue_max="30" expiration="60" loglevel="10" >
+<event name="REQUESTREGISTERTV" loglevel="5" />
+</service>
+<service name="16_remocon" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_remocon" queue_max="30" expiration="60" loglevel="10" >
+<event name="BATTERY" loglevel="5" />
+<event name="BTCONNECT" loglevel="5" />
+<event name="EDITDEVICE" loglevel="5" />
+<event name="IRSNIFF" loglevel="5" />
+<event name="MBR" loglevel="5" />
+<event name="MBRSETUP" loglevel="5" />
+<event name="REMOCON" loglevel="5" />
+<event name="SIGNAL" loglevel="5" />
+<event name="INFOFRAME" loglevel="5" />
+</service>
+<service name="16_remote" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_remote" queue_max="30" expiration="60" loglevel="10" >
+<event name="REMOTECONTROL_READY" loglevel="5" />
+<event name="REMOTECONTROL_CANCLE" loglevel="5" />
+</service>
+<service name="16_resource" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_resource" queue_max="30" expiration="60" loglevel="10" >
+<event name="RESOURCE" loglevel="5" />
+</service>
+<service name="16_rvu" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_rvu" queue_max="30" expiration="60" loglevel="10" >
+<event name="RVU_SESSION_TIME" loglevel="5" />
+</service>
+<service name="16_schedulemanager" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_schedulemanager" queue_max="30" expiration="60" loglevel="10" >
+<event name="SM_ENTRY" loglevel="5" />
+<event name="CATEGORY" loglevel="5" />
+<event name="RECORDED_SORTBY" loglevel="5" />
+<event name="RECORDED_BUTTON" loglevel="5" />
+<event name="RECORDED_LIST" loglevel="5" />
+<event name="SCHEDULED_SORTBY" loglevel="5" />
+<event name="SCHEDULED_BUTTON" loglevel="5" />
+<event name="SCHEDULED_LIST" loglevel="5" />
+<event name="ADD_ITEM" loglevel="5" />
+<event name="SELECT_SETTINGS" loglevel="5" />
+</service>
+<service name="16_screenmirroring" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_screenmirroring" queue_max="30" expiration="60" loglevel="10" >
+<event name="DISCONNECT" loglevel="5" />
+<event name="ENTERSTANDBY" loglevel="5" />
+<event name="EXITSTANDBY" loglevel="5" />
+<event name="FAILCONECT" loglevel="5" />
+<event name="REMOTECONTROL" loglevel="5" />
+<event name="SUCCESSCONECT" loglevel="5" />
+<event name="TVSTATUS" loglevel="5" />
+</service>
+<service name="16_sct" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_sct" queue_max="30" expiration="60" loglevel="10" >
+<event name="SCT" loglevel="5" />
+</service>
+<service name="16_security" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_security" queue_max="30" expiration="60" loglevel="10" >
+<event name="DRMBASE" loglevel="5" />
+<event name="FKP" loglevel="5" />
+</service>
+<service name="16_signage" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_signage" queue_max="30" expiration="60" loglevel="10" >
+<event name="MI_PLAYING01" loglevel="5" />
+<event name="MI_PLAYING02" loglevel="5" />
+<event name="MI_PLAYING03" loglevel="5" />
+<event name="MI_PLAYING04" loglevel="5" />
+<event name="MI_PLAYING05" loglevel="5" />
+<event name="MI_PLAYING06" loglevel="5" />
+<event name="MI_GENERAL01" loglevel="5" />
+<event name="MI_GENERAL02" loglevel="5" />
+<event name="MI_GENERAL03" loglevel="5" />
+<event name="MI_GENERAL04" loglevel="5" />
+<event name="MI_GENERAL05" loglevel="5" />
+<event name="MI_SRCLIST00" loglevel="5" />
+<event name="MI_UI00" loglevel="5" />
+<event name="MI_SSSP00" loglevel="5" />
+<event name="MI_SSSP01" loglevel="5" />
+</service>
+<service name="16_smack" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_smack" queue_max="30" expiration="60" loglevel="10" >
+<event name="SMACK" loglevel="5" />
+</service>
+<service name="16_smartdiagnosis" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_smartdiagnosis" queue_max="30" expiration="60" loglevel="10" >
+<event name="SD_DIAGNOSIS" loglevel="5" />
+</service>
+<service name="16_smarthub" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_smarthub" queue_max="30" expiration="60" loglevel="10" >
+<event name="SELECT_LAUNCHER" loglevel="5" />
+<event name="SELECT_ACCEL" loglevel="5" />
+<event name="SELECT_MOVE" loglevel="5" />
+<event name="DEL_LAUNCHER" loglevel="5" />
+<event name="SELECT_ADDTOHOME" loglevel="5" />
+<event name="DEL_ACCEL" loglevel="5" />
+<event name="EDIT_ACCEL" loglevel="5" />
+<event name="SELECT_MAXPOP" loglevel="5" />
+<event name="CLEARALL_ACCEL" loglevel="5" />
+<event name="SELECT_SAVE" loglevel="5" />
+<event name="SELECT_VIEWINFO" loglevel="5" />
+<event name="GAME_POPUP" loglevel="5" />
+<event name="SMARTHUB_LAUNCHER" loglevel="5" />
+<event name="SMARTHUB_ACCEL" loglevel="5" />
+<event name="LIVETV_ACCEL" loglevel="5" />
+</service>
+<service name="16_smartview_msf" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_smartview_msf" queue_max="30" expiration="60" loglevel="10" >
+<event name="REMOTECONTROL_READY" loglevel="5" />
+<event name="REMOTECONTROL_CANCLE" loglevel="5" />
+</service>
+<service name="16_soundmirroring" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_soundmirroring" queue_max="30" expiration="60" loglevel="10" >
+<event name="SMCTRY" loglevel="5" />
+<event name="SMCSUCCESS" loglevel="5" />
+<event name="SMCFAIL" loglevel="5" />
+<event name="DURATION_APP" loglevel="5" />
+<event name="COUNT_PICTUR_OFF" loglevel="5" />
+<event name="DURATION_PICTUR_OFF" loglevel="5" />
+<event name="COUNT_PLAY_PAUSE" loglevel="5" />
+<event name="COUNT_PREVIOUS" loglevel="5" />
+<event name="COUNT_NEXT" loglevel="5" />
+</service>
+<service name="16_speakerselect" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_speakerselect" queue_max="30" expiration="60" loglevel="10" >
+<event name="SPEAKER_SELECT" loglevel="5" />
+</service>
+<service name="16_sportsmode" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_sportsmode" queue_max="30" expiration="60" loglevel="10" >
+<event name="SMON" loglevel="5" />
+<event name="SMZOOM" loglevel="5" />
+<event name="SMST" loglevel="5" />
+<event name="SMGN" loglevel="5" />
+<event name="SMGNPIP" loglevel="5" />
+<event name="AUTOHON" loglevel="5" />
+<event name="HPREC" loglevel="5" />
+<event name="HPPLAY" loglevel="5" />
+<event name="SMAHRD" loglevel="5" />
+<event name="SMGRAD" loglevel="5" />
+</service>
+<service name="16_sso" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_sso" queue_max="30" expiration="60" loglevel="10" >
+<event name="EV_CANCEL_SIGN_IN" loglevel="5" />
+<event name="EV_CREATE_AC" loglevel="5" />
+<event name="EV_EDIT_PROFILE_DONE" loglevel="5" />
+<event name="EV_REMOVE_AC" loglevel="5" />
+<event name="EV_RESET_PW" loglevel="5" />
+<event name="EV_SIGN_IN" loglevel="5" />
+<event name="EV_SIGN_OUT" loglevel="5" />
+<event name="EV_TRY_EDIT_PROFILE" loglevel="5" />
+<event name="EV_TRY_REMOVE_AC" loglevel="5" />
+<event name="EV_VIEW_PAYINFO" loglevel="5" />
+<event name="EV_VIEW_TNC" loglevel="5" />
+<event name="PG_CREATE_AC_DONE" loglevel="5" />
+<event name="PG_CREATE_AC_INPUT1" loglevel="5" />
+<event name="PG_CREATE_AC_INPUT2" loglevel="5" />
+<event name="PG_CREATE_AC_SET_PIC" loglevel="5" />
+<event name="PG_CREATE_AC_TNC" loglevel="5" />
+<event name="PG_EDIT_PROFILE" loglevel="5" />
+<event name="PG_SA_NO_ACCOUNT" loglevel="5" />
+<event name="PG_SA_SIGNEDIN" loglevel="5" />
+<event name="PG_SA_SIGNEDOUT" loglevel="5" />
+<event name="PG_SIGN_IN_IDPW" loglevel="5" />
+<event name="EV_CANCEL_EDIT_PF" loglevel="5" />
+</service>
+<service name="16_togetherplay" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_togetherplay" queue_max="30" expiration="60" loglevel="10" >
+<event name="DEVICECOUNT" loglevel="5" />
+<event name="DEVICENAME" loglevel="5" />
+<event name="EXITTYPE" loglevel="5" />
+<event name="MEMORYFULL" loglevel="5" />
+<event name="MENU" loglevel="5" />
+<event name="NAVIGATION" loglevel="5" />
+<event name="OPTION" loglevel="5" />
+<event name="PHOTOCAPA" loglevel="5" />
+<event name="PHOTONUMBER" loglevel="5" />
+<event name="PLAY" loglevel="5" />
+<event name="RUNTIME" loglevel="5" />
+<event name="SAVE" loglevel="5" />
+<event name="SAVEDPHOTO" loglevel="5" />
+<event name="SCREENFIT" loglevel="5" />
+<event name="SHOWTIME" loglevel="5" />
+<event name="STOPSAVE" loglevel="5" />
+<event name="STOPSLIDE" loglevel="5" />
+<event name="USBNUMBER" loglevel="5" />
+<event name="USBSELECT" loglevel="5" />
+</service>
+<service name="16_tv2mobile" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_tv2mobile" queue_max="30" expiration="60" loglevel="10" >
+<event name="CHCHG" loglevel="5" />
+<event name="CONNFAIL" loglevel="5" />
+<event name="CONNREQ" loglevel="5" />
+<event name="CONNSUCC" loglevel="5" />
+<event name="DISCONN" loglevel="5" />
+<event name="SRCCHG" loglevel="5" />
+</service>
+<service name="16_tvmenu" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_tvmenu" queue_max="30" expiration="60" loglevel="10" >
+<event name="SELECT" loglevel="5" />
+<event name="M_ROOM_SEL" loglevel="5" />
+<event name="SELECT_VALUE" loglevel="5" />
+</service>
+<service name="16_tvon" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_tvon" queue_max="30" expiration="60" loglevel="10" >
+<event name="TVON" loglevel="5" />
+</service>
+<service name="16_tvplus" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_tvplus" queue_max="30" expiration="60" loglevel="10" >
+<event name="PLAY_CONTROL" loglevel="5" />
+<event name="DEEPLINK" loglevel="5" />
+<event name="CATEGORY" loglevel="5" />
+<event name="APP_LAUNCH" loglevel="5" />
+<event name="SELECT_CONTENT" loglevel="5" />
+<event name="CONTENT_INFO" loglevel="5" />
+<event name="PAGE_VIEW_EPG" loglevel="5" />
+<event name="SELECT_PROGRAM" loglevel="5" />
+<event name="PAGE_VIEW_DETAILS" loglevel="5" />
+<event name="PAGE_VIEW_POPUP" loglevel="5" />
+<event name="SELECT_BUTTON" loglevel="5" />
+<event name="SELECT_FILTER" loglevel="5" />
+<event name="PAGE_VIEW_CHLIST" loglevel="5" />
+<event name="SELECT_CHANNEL" loglevel="5" />
+<event name="ADD_FAVORITE" loglevel="5" />
+<event name="SELECT_IPCHANNEL" loglevel="5" />
+<event name="ADD" loglevel="5" />
+<event name="DELETE" loglevel="5" />
+<event name="TUNE_IN" loglevel="5" />
+<event name="TUNE_ERR" loglevel="5" />
+<event name="NETWORK_ERR" loglevel="5" />
+<event name="PLAYER_ERR" loglevel="5" />
+<event name="PLAY_CONTENT" loglevel="5" />
+<event name="DELETE_VC" loglevel="5" />
+<event name="ENTRY_POINT" loglevel="5" />
+<event name="APPRESUME" loglevel="5" />
+<event name="DEEPLINK_BUTTON" loglevel="5" />
+<event name="INSTRUCTION" loglevel="5" />
+<event name="ALL_CH" loglevel="5" />
+<event name="ALL_CH_GENRE" loglevel="5" />
+<event name="RECOMM_CH" loglevel="5" />
+<event name="MORE_NOTICE" loglevel="5" />
+<event name="NOTICE_DETAIL" loglevel="5" />
+<event name="DURATION" loglevel="5" />
+</service>
+<service name="16_tvpnp" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_tvpnp" queue_max="30" expiration="60" loglevel="10" >
+<event name="LANG" loglevel="5" />
+<event name="NWTYPE" loglevel="5" />
+<event name="COUNTRY" loglevel="5" />
+<event name="SIGNAL" loglevel="5" />
+<event name="ATNTYPE" loglevel="5" />
+<event name="PROVIDER" loglevel="5" />
+<event name="EXT_SIG" loglevel="5" />
+<event name="SUCC" loglevel="5" />
+<event name="FAIL" loglevel="5" />
+<event name="HOME" loglevel="5" />
+<event name="AGREEMENT" loglevel="5" />
+<event name="FINALZIP" loglevel="5" />
+<event name="MBRSTOP" loglevel="5" />
+<event name="TIMEZONEMODE" loglevel="5" />
+<event name="TIMEZONE" loglevel="5" />
+<event name="DST" loglevel="5" />
+<event name="GMT" loglevel="5" />
+<event name="SPTYPE" loglevel="5" />
+<event name="USEMODE" loglevel="5" />
+<event name="CHANGE_TO_WIRED" loglevel="5" />
+<event name="TNCTYPE" loglevel="5" />
+<event name="AUTH_TWC" loglevel="5" />
+<event name="AUTH_DISH" loglevel="5" />
+<event name="REGISTRATION" loglevel="5" />
+<event name="REG_SKIP" loglevel="5" />
+<event name="REG_SKIPBTN" loglevel="5" />
+<event name="REG_EMAIL" loglevel="5" />
+<event name="REG_IME" loglevel="5" />
+<event name="PHONESEL" loglevel="5" />
+<event name="SATTYPE" loglevel="5" />
+<event name="NOTMATCH" loglevel="5" />
+<event name="CHTYPE" loglevel="5" />
+<event name="OVERALLOOBE" loglevel="5" />
+<event name="ACC_TWC_SKIP" loglevel="5" />
+<event name="DEV_TWC_SKIP" loglevel="5" />
+<event name="DEV_DISH_SKIP" loglevel="5" />
+<event name="MBRSKIP" loglevel="5" />
+<event name="SKIPSPSEARCH" loglevel="5" />
+<event name="TRYAGAIN" loglevel="5" />
+<event name="AUTH_DISH_SKIP" loglevel="5" />
+<event name="GETAUTOMATE" loglevel="5" />
+<event name="POSTINPUT" loglevel="5" />
+<event name="EV_OOBE_ACC_SKIP" loglevel="5" />
+<event name="EV_OOBE_ACC_SIGN" loglevel="5" />
+<event name="EV_OOBE_ACC_CREATE" loglevel="5" />
+<event name="EV_OOBE_ACC_CREATE_FB" loglevel="5" />
+<event name="EV_OOBE_ACC_CREATE_PP" loglevel="5" />
+<event name="L01_LANG" loglevel="5" />
+<event name="N01_NW" loglevel="5" />
+<event name="C01_CONN" loglevel="5" />
+<event name="P01_PRIVACY" loglevel="5" />
+<event name="C02_CONF" loglevel="5" />
+<event name="C03_CONF" loglevel="5" />
+<event name="T01_TUNE" loglevel="5" />
+<event name="T02_TUNE" loglevel="5" />
+<event name="T03_TUNE" loglevel="5" />
+<event name="T04_TUNE" loglevel="5" />
+<event name="C04_CLOCK" loglevel="5" />
+<event name="T05_TIMEZONE" loglevel="5" />
+<event name="D01_DST" loglevel="5" />
+<event name="P02_PROVIDER" loglevel="5" />
+<event name="M02_SOURCE" loglevel="5" />
+<event name="M03_TEST" loglevel="5" />
+<event name="M04_SEARCH" loglevel="5" />
+<event name="H01_HOME" loglevel="5" />
+<event name="G01_GMT" loglevel="5" />
+<event name="H02_HOME" loglevel="5" />
+<event name="E01_ENDING" loglevel="5" />
+<event name="LOCATION" loglevel="5" />
+<event name="M05_SUCCESS" loglevel="5" />
+<event name="M06_SUCCESS" loglevel="5" />
+<event name="A01_TWC" loglevel="5" />
+<event name="A03_DISH" loglevel="5" />
+<event name="E01_EASYSETUP" loglevel="5" />
+<event name="A03_ACC" loglevel="5" />
+<event name="REG_PHONE" loglevel="5" />
+<event name="R01_RCINTRO" loglevel="5" />
+<event name="M07_IDENTIFYING" loglevel="5" />
+<event name="A02_TWC" loglevel="5" />
+<event name="A04_DISH" loglevel="5" />
+<event name="PG_OOBE_ACC" loglevel="5" />
+</service>
+<service name="16_url" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_url" queue_max="30" expiration="60" loglevel="10" >
+<event name="MOVEURL" loglevel="5" />
+<event name="ADDBOOKMARK" loglevel="5" />
+<event name="HOMEPAGEURLSETTING" loglevel="5" />
+<event name="ADDBLOCKEDPAGE" loglevel="5" />
+<event name="REMOVEBLOCKEDPAGE" loglevel="5" />
+<event name="ADDAPPROVEDPAGE" loglevel="5" />
+<event name="REMOVEAPPROVEDPAGE" loglevel="5" />
+<event name="BLOCKEDPAGE" loglevel="5" />
+<event name="PLAYINGVIDEO" loglevel="5" />
+<event name="EVERYURL" loglevel="5" />
+</service>
+<service name="16_voice" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_voice" queue_max="30" expiration="60" loglevel="10" >
+<event name="FIN" loglevel="5" />
+<event name="KEYEVT" loglevel="5" />
+<event name="NRECOG" loglevel="5" />
+<event name="RESCONV" loglevel="5" />
+<event name="RESEMB" loglevel="5" />
+<event name="RESTRG" loglevel="5" />
+<event name="RUNCMD" loglevel="5" />
+<event name="STARTUP" loglevel="5" />
+<event name="VOICEON" loglevel="5" />
+</service>
+<service name="16_volterr" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_volterr" queue_max="30" expiration="60" loglevel="10" >
+<event name="JSEXCEPTION" loglevel="5" />
+</service>
+<service name="16_watchdog" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_watchdog" queue_max="30" expiration="60" loglevel="10" >
+<event name="SETERR" loglevel="5" />
+<event name="FACTORYRESET" loglevel="5" />
+</service>
+<service name="16_webbrowser" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_webbrowser" queue_max="30" expiration="60" loglevel="10" >
+<event name="ABOUT" loglevel="5" />
+<event name="ACCESSANYWAY" loglevel="5" />
+<event name="APPEXECUTE" loglevel="5" />
+<event name="APPROVEDPAGEPASSWORD" loglevel="5" />
+<event name="APPROVEDPAGES" loglevel="5" />
+<event name="APPROVEDPAGESETTING" loglevel="5" />
+<event name="BACKWARD" loglevel="5" />
+<event name="BLOCKEDPAGES" loglevel="5" />
+<event name="BLOCKEDPAGESETTING" loglevel="5" />
+<event name="BOOKMARK" loglevel="5" />
+<event name="CERTIFICATION" loglevel="5" />
+<event name="DELETEBROWSINGDATA" loglevel="5" />
+<event name="DONOTTRACK" loglevel="5" />
+<event name="DOWNLOADER" loglevel="5" />
+<event name="ENCODING" loglevel="5" />
+<event name="ENCODINGMANUAL" loglevel="5" />
+<event name="ENCODINGSETTING" loglevel="5" />
+<event name="ENLARGE" loglevel="5" />
+<event name="EXIT" loglevel="5" />
+<event name="EXITVIDEOCAST" loglevel="5" />
+<event name="FEATURED" loglevel="5" />
+<event name="FORWARD" loglevel="5" />
+<event name="GENERAL" loglevel="5" />
+<event name="GOBACK" loglevel="5" />
+<event name="HIDETAB" loglevel="5" />
+<event name="HISTORY" loglevel="5" />
+<event name="HOME" loglevel="5" />
+<event name="HOMEPAGE" loglevel="5" />
+<event name="HOMEPAGEOPTION" loglevel="5" />
+<event name="INIT" loglevel="5" />
+<event name="JAVASCRIPT" loglevel="5" />
+<event name="MENU" loglevel="5" />
+<event name="MOSTVISITED" loglevel="5" />
+<event name="NEWTAB" loglevel="5" />
+<event name="NONEXIT" loglevel="5" />
+<event name="PIP" loglevel="5" />
+<event name="PIPPOSITION" loglevel="5" />
+<event name="PLAYVIDEOCAST" loglevel="5" />
+<event name="POPUPBLOCKER" loglevel="5" />
+<event name="PRIVACY" loglevel="5" />
+<event name="PRIVACYANDSECURITY" loglevel="5" />
+<event name="REDUCE" loglevel="5" />
+<event name="REFRESH" loglevel="5" />
+<event name="REMOVEALL" loglevel="5" />
+<event name="REMOVEITEM" loglevel="5" />
+<event name="RESETBROWSERSETTING" loglevel="5" />
+<event name="SEARCHENGINE" loglevel="5" />
+<event name="SEARCHSETTING" loglevel="5" />
+<event name="SECURITY" loglevel="5" />
+<event name="SETTINGS" loglevel="5" />
+<event name="SCROLLMODE" loglevel="5" />
+</service>
+<service name="16_wireless" url="https://lcprd1.samsungcloudsolution.net/openapi/log/16_wireless" queue_max="30" expiration="60" loglevel="10" >
+<event name="WIFI_ENV" loglevel="5" />
+<event name="WIFI_RSSI" loglevel="5" />
+<event name="BT_DEV" loglevel="5" />
+</service>
+<service name="17_allsearch" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_allsearch" queue_max="30" expiration="60" loglevel="10" >
+<event name="HIDE" loglevel="5" />
+<event name="HISTORY" loglevel="5" />
+<event name="DONE" loglevel="5" />
+<event name="UP" loglevel="5" />
+<event name="AUTO" loglevel="5" />
+<event name="SELECTITEM" loglevel="5" />
+<event name="MVPD" loglevel="5" />
+<event name="OTTAPP" loglevel="5" />
+<event name="DETAILRESULT" loglevel="5" />
+<event name="GAME_POPUP" loglevel="5" />
+<event name="SELECTITEM_APPS" loglevel="5" />
+<event name="P_IME" loglevel="5" />
+<event name="P_RESULTS" loglevel="5" />
+<event name="P_OUT" loglevel="5" />
+<event name="P_IME_APPS" loglevel="5" />
+<event name="P_RESULTS_APPS" loglevel="5" />
+</service>
+<service name="17_appdown" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_appdown" queue_max="30" expiration="60" loglevel="10" >
+<event name="INI_INSTALL_PASS" loglevel="5" />
+<event name="INI_INSTALL_FAIL" loglevel="5" />
+<event name="STR_INSTALL_PASS" loglevel="5" />
+<event name="STR_INSTALL_FAIL" loglevel="5" />
+<event name="UDT_INSTALL_PASS" loglevel="5" />
+<event name="UDT_INSTALL_FAIL" loglevel="5" />
+<event name="TTL_APPSYNC_TIME" loglevel="5" />
+<event name="APP_NOTI" loglevel="5" />
+</service>
+<service name="17_appexec" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_appexec" queue_max="30" expiration="60" loglevel="10" >
+<event name="APPSTART" loglevel="5" />
+<event name="APPSTOP" loglevel="5" />
+</service>
+<service name="17_apps" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_apps" queue_max="30" expiration="60" loglevel="10" >
+<event name="BIGBANNERCLICK" loglevel="5" />
+<event name="APPLISTAPPCLICK" loglevel="5" />
+<event name="DOWNLOADEDAPPSAPPCLICK" loglevel="5" />
+<event name="GROUPCONTENTTILECLICK" loglevel="5" />
+<event name="CLOUDGAMECONTENTCLICK" loglevel="5" />
+<event name="GENRETILECLICK" loglevel="5" />
+<event name="SSOCLICK" loglevel="5" />
+<event name="SERACHCLICK" loglevel="5" />
+<event name="SETTINGSCLICK" loglevel="5" />
+<event name="LONGPRESS" loglevel="5" />
+<event name="LPADDTOHOME" loglevel="5" />
+<event name="LPDELETEAPP" loglevel="5" />
+<event name="LPREINSTALL" loglevel="5" />
+<event name="LPVIEWDETAILS" loglevel="5" />
+<event name="LPCANCEL" loglevel="5" />
+<event name="SETTINGSAUTOUPDATE" loglevel="5" />
+<event name="SETTINGSAPPCLICK" loglevel="5" />
+<event name="SETTINGSADDTOHOME" loglevel="5" />
+<event name="SETTINGSDELETE" loglevel="5" />
+<event name="SETTINGSLOCK" loglevel="5" />
+<event name="SETTINGSMOVE" loglevel="5" />
+<event name="SETTINGSREINSTALL" loglevel="5" />
+<event name="SETTINGSVIEWDETAILS" loglevel="5" />
+<event name="DETAILPAGEINSTALL" loglevel="5" />
+<event name="DETAILPAGEINSTALLCANCEL" loglevel="5" />
+<event name="DETAILPAGEAPPOPEN" loglevel="5" />
+<event name="DETAILPAGEADDTOHOME" loglevel="5" />
+<event name="DETAILPAGERATING" loglevel="5" />
+<event name="DETAILPAGEMORE" loglevel="5" />
+<event name="DETAILPAGESCREENSHOT" loglevel="5" />
+<event name="DETAILPAGERELATEDAPPS" loglevel="5" />
+<event name="GROUPCONTENTSAPPCLICK" loglevel="5" />
+<event name="GENREAPPCLICK" loglevel="5" />
+<event name="UPDATEDELETEAPPS" loglevel="5" />
+<event name="UPDATECANCEL" loglevel="5" />
+<event name="UPDATEDELETECANCEL" loglevel="5" />
+<event name="INSTALLCHOOSEDEVICE" loglevel="5" />
+<event name="INSTALLCHOOSEDEVICECANCEL" loglevel="5" />
+<event name="DELETESELECTALL" loglevel="5" />
+<event name="DELETEDELETE" loglevel="5" />
+<event name="DELETECANCEL" loglevel="5" />
+<event name="GENREFOCUSED" loglevel="5" />
+<event name="MOREINFOOK" loglevel="5" />
+<event name="LOCKUNLOCKNUMBER" loglevel="5" />
+<event name="LOCKUNLOCKCANCEL" loglevel="5" />
+<event name="SSOSIGNIN" loglevel="5" />
+<event name="SSOCANCEL" loglevel="5" />
+<event name="P01_MAIN" loglevel="5" />
+<event name="P02_SETTINGS" loglevel="5" />
+<event name="P03_DETAIL" loglevel="5" />
+<event name="P04_GROUPCONTENTS" loglevel="5" />
+<event name="P05_GENRE" loglevel="5" />
+<event name="P06_AUTOUPDATEFAIL" loglevel="5" />
+<event name="P07_EXTERNALDEVICEINSTALL" loglevel="5" />
+<event name="P08_DELETEAPPS" loglevel="5" />
+<event name="P09_LOCKUNLOCK" loglevel="5" />
+<event name="P10_SSO" loglevel="5" />
+</service>
+<service name="17_arryn" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_arryn" queue_max="30" expiration="60" loglevel="10" >
+<event name="MEMORYALARM" loglevel="5" />
+<event name="DEFAULTARRYN" loglevel="5" />
+<event name="MEMLMFARRYN" loglevel="5" />
+<event name="TEMPERATUREALARM" loglevel="5" />
+<event name="HWERRORARRYN" loglevel="5" />
+</service>
+<service name="17_aul" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_aul" queue_max="30" expiration="60" loglevel="10" >
+<event name="APPSTART" loglevel="5" />
+<event name="APPSTOP" loglevel="5" />
+<event name="APPRESUME" loglevel="5" />
+<event name="APPPAUSE" loglevel="5" />
+</service>
+<service name="17_boardinfo" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_boardinfo" queue_max="30" expiration="60" loglevel="10" >
+<event name="BOARD_INFO" loglevel="5" />
+</service>
+<service name="17_channellist" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_channellist" queue_max="30" expiration="60" loglevel="10" >
+<event name="LAUNCHLIST" loglevel="5" />
+<event name="SELECT_EDIT" loglevel="5" />
+<event name="SELECT_OPTION" loglevel="5" />
+<event name="SELECT_GENRE" loglevel="5" />
+<event name="SELECT_FAVORITE" loglevel="5" />
+<event name="SELECT_CATEGORY" loglevel="5" />
+<event name="SELECT_SORT" loglevel="5" />
+<event name="SELECT_ANTENNA" loglevel="5" />
+<event name="HIDE_INPUTWIDGET" loglevel="5" />
+<event name="SELECTCH" loglevel="5" />
+<event name="TERMINATE" loglevel="5" />
+</service>
+<service name="17_channelmanager" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_channelmanager" queue_max="30" expiration="60" loglevel="10" >
+<event name="CM01_LAUNCH" loglevel="5" />
+<event name="SELECT_ALL_CHANNELS" loglevel="5" />
+<event name="EDIT_CHANNEL_BUTTONS" loglevel="5" />
+<event name="CM02_LAUNCH" loglevel="5" />
+<event name="EDIT_FAV_BUTTONS" loglevel="5" />
+<event name="DESELCT_ALL_CHANNELS" loglevel="5" />
+<event name="MOVE_TO_NUMBER" loglevel="5" />
+<event name="SELECT_ALL_FAVORITES" loglevel="5" />
+<event name="DESELECT_ALL_FAV" loglevel="5" />
+<event name="SELECT_ALL_CHFILTER" loglevel="5" />
+<event name="SELECT_FAVFILTER" loglevel="5" />
+<event name="SELECT_CHFILTER" loglevel="5" />
+<event name="ADDDELCH" loglevel="5" />
+<event name="CM01_TERMINATE" loglevel="5" />
+<event name="CH02_TERMINATE" loglevel="5" />
+</service>
+<service name="17_channelscroll" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_channelscroll" queue_max="30" expiration="60" loglevel="10" >
+<event name="LAUNCHBANNER" loglevel="5" />
+<event name="LAUNCHFINETUNE" loglevel="5" />
+<event name="FINETUNEMODE" loglevel="5" />
+<event name="CHECKMW" loglevel="5" />
+</service>
+<service name="17_clogger" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_clogger" queue_max="1" expiration="60" loglevel="10" >
+<event name="START" loglevel="5" />
+</service>
+<service name="17_connguide" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_connguide" queue_max="30" expiration="60" loglevel="10" >
+<event name="LAUNCH" loglevel="5" />
+<event name="TERMINATE" loglevel="5" />
+<event name="SELECT" loglevel="5" />
+<event name="POPUPBT" loglevel="5" />
+</service>
+<service name="17_contentsrecg" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_contentsrecg" queue_max="30" expiration="60" loglevel="10" >
+<event name="RECGSTBSUCCESS" loglevel="5" />
+<event name="RECGCTSSUCCESS" loglevel="5" />
+<event name="RECGFAIL" loglevel="5" />
+<event name="TIMEUSAGE" loglevel="5" />
+<event name="TEMPLATECREATIONINFO" loglevel="5" />
+<event name="TEMPLATEMATCHERFAIL" loglevel="5" />
+</service>
+<service name="17_context_aware" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_context_aware" queue_max="30" expiration="60" loglevel="10" >
+<event name="CHANNEL" loglevel="5" />
+<event name="CHANNEL_LIST" loglevel="5" />
+<event name="POWER" loglevel="5" />
+<event name="CHANNELCOUNT" loglevel="5" />
+</service>
+<service name="17_deepdefine" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_deepdefine" queue_max="30" expiration="60" loglevel="10" >
+<event name="DEEP_HDMI" loglevel="5" />
+<event name="DEEP_WIFI" loglevel="5" />
+<event name="DEEP_BT" loglevel="5" />
+<event name="DEEP_BT_SOUND" loglevel="5" />
+<event name="DEEP_POWER" loglevel="5" />
+<event name="DEEP_PICTURE" loglevel="5" />
+<event name="DEEP_SERDES" loglevel="5" />
+</service>
+<service name="17_device_connection" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_device_connection" queue_max="30" expiration="60" loglevel="10" >
+<event name="IDENTIFYING" loglevel="5" />
+<event name="MBRKEY" loglevel="5" />
+<event name="HOME" loglevel="5" />
+</service>
+<service name="17_devicedetector" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_devicedetector" queue_max="30" expiration="60" loglevel="10" >
+<event name="DDCKO" loglevel="5" />
+<event name="DDCKC" loglevel="5" />
+</service>
+<service name="17_earlywarning" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_earlywarning" queue_max="1" expiration="60" loglevel="10" >
+<event name="EW_COMMON" loglevel="5" />
+<event name="MARGIN_MONITORING" loglevel="5" />
+<event name="MARGIN_EMMC" loglevel="5" />
+<event name="MARGIN_LPDDR" loglevel="5" />
+<event name="MARGIN_DDR3" loglevel="5" />
+<event name="MARGIN_FRCDDR" loglevel="5" />
+<event name="MARGIN_I2C" loglevel="5" />
+<event name="MARGIN_USB" loglevel="5" />
+<event name="MARGIN_PLL" loglevel="5" />
+<event name="MARGIN_HDMI" loglevel="5" />
+<event name="MARGIN_VX1" loglevel="5" />
+<event name="MARGIN_USIT" loglevel="5" />
+<event name="MARGIN_SERDES" loglevel="5" />
+<event name="SELF_PLATFORM" loglevel="5" />
+<event name="SELF_PHERIPERAL" loglevel="5" />
+<event name="SELF_CONNECTIVITY" loglevel="5" />
+<event name="MARGIN_PLL_ERROR" loglevel="5" />
+</service>
+<service name="17_fh_recipe" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_fh_recipe" queue_max="30" expiration="60" loglevel="10" >
+<event name="START_APP" loglevel="5" />
+<event name="END_APP" loglevel="5" />
+<event name="SWIPE_WIDGET" loglevel="5" />
+<event name="VOICE_COMMAND" loglevel="5" />
+<event name="SEARCH" loglevel="5" />
+<event name="VIEW_RECIPE_CAT" loglevel="5" />
+<event name="VIEW_RECIPE_DETAIL" loglevel="5" />
+<event name="START_RECIPE_READOUT" loglevel="5" />
+<event name="COMPLETE_RECIPE_READOUT" loglevel="5" />
+<event name="FAVOR_RECIPE" loglevel="5" />
+<event name="UNFAVOR_RECIPE" loglevel="5" />
+<event name="INGREDS_ADDED_SHLS" loglevel="5" />
+</service>
+<service name="17_fh_watchdog" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_fh_watchdog" queue_max="30" expiration="60" loglevel="10" >
+<event name="SETERR" loglevel="5" />
+<event name="FACTORYRESET" loglevel="5" />
+</service>
+<service name="17_guide" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_guide" queue_max="30" expiration="60" loglevel="10" >
+<event name="LAUNCHEPG" loglevel="5" />
+<event name="SELECT_CHFILTER" loglevel="5" />
+<event name="NAVIGATION" loglevel="5" />
+<event name="NUMBER_INPUT" loglevel="5" />
+<event name="PAGE_VIEW_POPUP" loglevel="5" />
+<event name="SELECT_BUTTON" loglevel="5" />
+<event name="EDIT_REC_SCHEDULE" loglevel="5" />
+<event name="EDIT_VIEW_SCHEDULE" loglevel="5" />
+<event name="SELECTCURRENT" loglevel="5" />
+<event name="SELECTCH" loglevel="5" />
+<event name="TERMINATEEPG" loglevel="5" />
+<event name="CONFLICT" loglevel="5" />
+<event name="SL_FILTER" loglevel="5" />
+<event name="SL_ANTFILTER" loglevel="5" />
+</service>
+<service name="17_hdmicec" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_hdmicec" queue_max="30" expiration="60" loglevel="10" >
+<event name="HOME" loglevel="5" />
+</service>
+<service name="17_infobanner" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_infobanner" queue_max="30" expiration="60" loglevel="10" >
+<event name="SIMPLEINFOOPEN" loglevel="5" />
+<event name="MOREINFOOPEN" loglevel="5" />
+<event name="MOREINFOCLOSE" loglevel="5" />
+<event name="NAVIGATIONINFO" loglevel="5" />
+<event name="SELECTBUTTON" loglevel="5" />
+<event name="CHANGECH" loglevel="5" />
+<event name="TERMINATEINFO" loglevel="5" />
+</service>
+<service name="17_inputdevice" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_inputdevice" queue_max="30" expiration="60" loglevel="10" >
+<event name="HDMI_PORT" loglevel="5" />
+<event name="AV_PORT" loglevel="5" />
+</service>
+<service name="17_msf" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_msf" queue_max="30" expiration="60" loglevel="10" >
+<event name="CONNECT_INSTALLEDAPP" loglevel="5" />
+<event name="CONNECT_CLOUDAPP" loglevel="5" />
+<event name="DISCONNECT_INSTALLEDAPP" loglevel="5" />
+<event name="DISCONNECT_CLOUDAPP" loglevel="5" />
+<event name="INSTALL_APP" loglevel="5" />
+<event name="DIAL_CONNECT" loglevel="5" />
+<event name="ERROR_LOG" loglevel="5" />
+<event name="CONNECT_MEDIARECEIVE" loglevel="5" />
+<event name="DISCONNECT_MEDIARECE" loglevel="5" />
+<event name="DIAL_DEVICE_ALLOW" loglevel="5" />
+<event name="DIAL_DEVICE_DENY" loglevel="5" />
+</service>
+<service name="17_mycontents" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_mycontents" queue_max="30" expiration="60" loglevel="10" >
+<event name="FIRST_SELECT_ITEM" loglevel="5" />
+<event name="CONTENT_CLICK" loglevel="5" />
+<event name="OPEN_FILTER_OPTION" loglevel="5" />
+<event name="SELECT_FILTER" loglevel="5" />
+<event name="OPEN_SORT_OPTION" loglevel="5" />
+<event name="SELECT_SORT" loglevel="5" />
+<event name="OPEN_OPTION" loglevel="5" />
+<event name="SELECT_OPTION" loglevel="5" />
+<event name="SELECT_INFO" loglevel="5" />
+<event name="SELECT_DELETE" loglevel="5" />
+<event name="SEND_TO_USB" loglevel="5" />
+<event name="PHOTOPLAYER" loglevel="5" />
+<event name="PHOTOPLAYEREXIT" loglevel="5" />
+<event name="INFOFUNCTIONPP" loglevel="5" />
+<event name="OPTIONSPEEDPP" loglevel="5" />
+<event name="OPTIONEFFECTSPP" loglevel="5" />
+<event name="OPTIONBGMPP" loglevel="5" />
+<event name="OPTIONINFOPP" loglevel="5" />
+<event name="OPTIONZOOMPP" loglevel="5" />
+<event name="PLAYBACKPP" loglevel="5" />
+<event name="THUMBNAILNUMPP" loglevel="5" />
+<event name="OPTIONPP" loglevel="5" />
+<event name="PICTURESIZEPP" loglevel="5" />
+<event name="OPTIONONLYPP" loglevel="5" />
+<event name="PHOTO360" loglevel="5" />
+<event name="VIDEOPLAYER" loglevel="5" />
+<event name="VIDEOPLAYEREXIT" loglevel="5" />
+<event name="THUMBNAILCHECKVP" loglevel="5" />
+<event name="OPTIONVP" loglevel="5" />
+<event name="OPTIONSUBTITLEVP" loglevel="5" />
+<event name="OPTIONROTATEVP" loglevel="5" />
+<event name="AUDIOLANGUAGEVP" loglevel="5" />
+<event name="OPTIONDOLBYVP" loglevel="5" />
+<event name="OPTIONINFOVP" loglevel="5" />
+<event name="INFOBARVP" loglevel="5" />
+<event name="PLAYBACKVP" loglevel="5" />
+<event name="INFOREPEATVP" loglevel="5" />
+<event name="PLAYSTARTVP" loglevel="5" />
+<event name="PLAYFINISHVP" loglevel="5" />
+<event name="MENUPICTURESIZEVP" loglevel="5" />
+<event name="PICSIZEDETATILEDVP" loglevel="5" />
+<event name="OPTIONONLYVP" loglevel="5" />
+<event name="VIDEO360" loglevel="5" />
+<event name="VIDEODIVXONDEMAND" loglevel="5" />
+<event name="VIDEODIVXDRM" loglevel="5" />
+<event name="SCREEN_MUTE" loglevel="5" />
+<event name="MP_PREV" loglevel="5" />
+<event name="MP_PP" loglevel="5" />
+<event name="MP_NEXT" loglevel="5" />
+<event name="MP_SHUFFLE" loglevel="5" />
+<event name="MP_REPEAT" loglevel="5" />
+<event name="MP_SELECT_MUSIC" loglevel="5" />
+<event name="USBPLAYER" loglevel="5" />
+<event name="INFOBROWSERUSBP" loglevel="5" />
+<event name="INFOCANCELUSBP" loglevel="5" />
+<event name="INFOTIMEOUTUSBP" loglevel="5" />
+<event name="INFOSELECTUSBP" loglevel="5" />
+<event name="INFOPOPUPCANCELUSBP" loglevel="5" />
+<event name="USBDEVICESELECTPOPUP" loglevel="5" />
+<event name="EXISTONEFILEPLAYUSBP" loglevel="5" />
+<event name="ONEFILECANCELUSBP" loglevel="5" />
+<event name="ONTIMERSTART" loglevel="5" />
+<event name="B_HOME" loglevel="5" />
+<event name="B_COTNENT" loglevel="5" />
+<event name="MP_HOME" loglevel="5" />
+</service>
+<service name="17_netflix" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_netflix" queue_max="30" expiration="60" loglevel="10" >
+<event name="ERROR" loglevel="5" />
+<event name="INFO" loglevel="5" />
+</service>
+<service name="17_notification" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_notification" queue_max="30" expiration="60" loglevel="10" >
+<event name="CALL" loglevel="5" />
+<event name="TERMINATE" loglevel="5" />
+<event name="NOTIDURATION" loglevel="5" />
+</service>
+<service name="17_notiservice" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_notiservice" queue_max="30" expiration="60" loglevel="10" >
+<event name="SET_REMINDER_SELECT" loglevel="5" />
+<event name="SET_REMINDER_CLOSE" loglevel="5" />
+<event name="REMINDER_NOTI_ACTION" loglevel="5" />
+<event name="REMINDER_NOTI_CLOSE" loglevel="5" />
+<event name="REMINDER_NOTI_OK" loglevel="5" />
+<event name="VIEW_ALL" loglevel="5" />
+<event name="SERVICE_NOTI_SELECT_1" loglevel="5" />
+<event name="SERVICE_NOTI_SELECT_2" loglevel="5" />
+<event name="NOTI_PAGE" loglevel="5" />
+<event name="NOTI_LIST" loglevel="5" />
+</service>
+<service name="17_payment" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_payment" queue_max="30" expiration="60" loglevel="10" >
+<event name="PPDROPDOWN" loglevel="5" />
+<event name="PPSIGNIN" loglevel="5" />
+<event name="PPCANCEL" loglevel="5" />
+<event name="PPEMAILSLT" loglevel="5" />
+<event name="PPEMAILRMV" loglevel="5" />
+<event name="PPEMAILX" loglevel="5" />
+<event name="PPEMAILCLS" loglevel="5" />
+<event name="PPACNTDONE" loglevel="5" />
+<event name="PPACNTCNCL" loglevel="5" />
+<event name="PPPWDONE" loglevel="5" />
+<event name="PPPWDCNCL" loglevel="5" />
+<event name="PPTERMYES" loglevel="5" />
+<event name="PPTERMNO" loglevel="5" />
+<event name="PPTERMPASS" loglevel="5" />
+<event name="PPSIGNERR" loglevel="5" />
+<event name="PPSIGNPASS" loglevel="5" />
+<event name="MBNUM" loglevel="5" />
+<event name="MBSEND" loglevel="5" />
+<event name="MBSENDPASS" loglevel="5" />
+<event name="MBREAUTH" loglevel="5" />
+<event name="MBAUTHOK" loglevel="5" />
+<event name="MBAUTHPASS" loglevel="5" />
+<event name="SCNREAUTH" loglevel="5" />
+<event name="SCNCNTN" loglevel="5" />
+<event name="SCNMAILPASS" loglevel="5" />
+<event name="SCNAUTHPASS" loglevel="5" />
+<event name="CDREGNUM" loglevel="5" />
+<event name="CDNUMDONE" loglevel="5" />
+<event name="CDNUMCNCL" loglevel="5" />
+<event name="CDREGMON" loglevel="5" />
+<event name="CDREGYEAR" loglevel="5" />
+<event name="CDREGCW" loglevel="5" />
+<event name="CDCWDONE" loglevel="5" />
+<event name="CDCWCNCL" loglevel="5" />
+<event name="CDREGNAME" loglevel="5" />
+<event name="CDNAMEDONE" loglevel="5" />
+<event name="CDNAMECNCL" loglevel="5" />
+<event name="CDREGCPF" loglevel="5" />
+<event name="CDCPFDONE" loglevel="5" />
+<event name="CDCPFCNCL" loglevel="5" />
+<event name="CDREDADD" loglevel="5" />
+<event name="CDREGERR" loglevel="5" />
+<event name="CDREGPASS" loglevel="5" />
+<event name="PAYADDCPN" loglevel="5" />
+<event name="PAYSLCTCPN" loglevel="5" />
+<event name="PAYNOW" loglevel="5" />
+<event name="PAYPASS" loglevel="5" />
+<event name="PAYERR" loglevel="5" />
+<event name="PAYMTHDCHNG" loglevel="5" />
+<event name="PAYINFO" loglevel="5" />
+<event name="ADDCPNDONE" loglevel="5" />
+<event name="ADDCPNCNCL" loglevel="5" />
+<event name="ADDCPNERR" loglevel="5" />
+<event name="ADDCPNPASS" loglevel="5" />
+<event name="ADDCPNOK" loglevel="5" />
+<event name="PINENTER" loglevel="5" />
+<event name="PINCONFIRM" loglevel="5" />
+<event name="PINSETCNCL" loglevel="5" />
+<event name="PINSETERR" loglevel="5" />
+<event name="PINSETPASS" loglevel="5" />
+<event name="PINCHKENTER" loglevel="5" />
+<event name="PINCHKCANCEL" loglevel="5" />
+<event name="CPLTDONE" loglevel="5" />
+<event name="CPLTCHANGE" loglevel="5" />
+<event name="CPLTPASS" loglevel="5" />
+<event name="RESETENTER" loglevel="5" />
+<event name="RESETYES" loglevel="5" />
+<event name="RESETNO" loglevel="5" />
+<event name="RESETPASS" loglevel="5" />
+<event name="IFRESETPIN" loglevel="5" />
+<event name="IFPPLOGOUT" loglevel="5" />
+<event name="IFCHANGECC" loglevel="5" />
+<event name="IFRMVCC" loglevel="5" />
+<event name="IFHISTORY" loglevel="5" />
+<event name="PPOUTYES" loglevel="5" />
+<event name="PPOUTNO" loglevel="5" />
+<event name="PPOUTPASS" loglevel="5" />
+<event name="PPOUTERR" loglevel="5" />
+<event name="RMVCCYES" loglevel="5" />
+<event name="RMVCCNO" loglevel="5" />
+<event name="RMVCCPASSOK" loglevel="5" />
+<event name="RMVCCPASS" loglevel="5" />
+<event name="HSTCNCL" loglevel="5" />
+<event name="HSTRFND" loglevel="5" />
+<event name="HSTOPEN" loglevel="5" />
+<event name="HSTDOWN" loglevel="5" />
+<event name="HSTCNCLPSS" loglevel="5" />
+<event name="HSTRFNDPSS" loglevel="5" />
+<event name="CHMAILDONE" loglevel="5" />
+<event name="CHMAILCNCL" loglevel="5" />
+<event name="SSPWDDONE" loglevel="5" />
+<event name="SSPWDCNCL" loglevel="5" />
+<event name="SSPWDPASS" loglevel="5" />
+<event name="SSPWDFAIL" loglevel="5" />
+<event name="SSAPWDERR" loglevel="5" />
+<event name="KRADDNUM" loglevel="5" />
+<event name="KRADDSEND" loglevel="5" />
+<event name="KAADDSMSOK" loglevel="5" />
+<event name="KREDTNUM" loglevel="5" />
+<event name="KREDTSEND" loglevel="5" />
+<event name="KREDTSMSOK" loglevel="5" />
+<event name="TERMINFO" loglevel="5" />
+<event name="CDZIP" loglevel="5" />
+<event name="CDZIPDONE" loglevel="5" />
+<event name="CDZIPCNCL" loglevel="5" />
+<event name="PINCHKRRT" loglevel="5" />
+<event name="BCEXITYES" loglevel="5" />
+<event name="BCEXITNO" loglevel="5" />
+<event name="SELECTMETHOD" loglevel="5" />
+<event name="PPSIGN" loglevel="5" />
+<event name="PPTERM" loglevel="5" />
+<event name="MBPUTNUM" loglevel="5" />
+<event name="MBAUTH" loglevel="5" />
+<event name="SCNCARDREG" loglevel="5" />
+<event name="CARDREG" loglevel="5" />
+<event name="PPCDPAY" loglevel="5" />
+<event name="PINSETUP" loglevel="5" />
+<event name="PINCHK" loglevel="5" />
+<event name="CMPLTPAY" loglevel="5" />
+<event name="PINRESET" loglevel="5" />
+<event name="PAYMENTINFO" loglevel="5" />
+<event name="HISTORY" loglevel="5" />
+<event name="WRONGPWD" loglevel="5" />
+<event name="KRADDCARD" loglevel="5" />
+<event name="KREDTCARD" loglevel="5" />
+<event name="BCEXIT" loglevel="5" />
+</service>
+<service name="17_picture_menu" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_picture_menu" queue_max="30" expiration="60" loglevel="10" >
+<event name="BOOTING" loglevel="5" />
+<event name="SOURCE" loglevel="5" />
+<event name="MENU" loglevel="5" />
+</service>
+<service name="17_psidmenu" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_psidmenu" queue_max="30" expiration="60" loglevel="10" >
+<event name="INVALIDPSID" loglevel="5" />
+<event name="RESETPSID" loglevel="5" />
+</service>
+<service name="17_pvr" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_pvr" queue_max="30" expiration="60" loglevel="10" >
+<event name="RCDE" loglevel="5" />
+<event name="TS" loglevel="5" />
+<event name="RECERR" loglevel="5" />
+<event name="LAUNCHPU" loglevel="5" />
+<event name="SLPUBTN" loglevel="5" />
+<event name="SLBAR" loglevel="5" />
+<event name="FNERT" loglevel="5" />
+<event name="POPUPCC" loglevel="5" />
+<event name="POPUPCR" loglevel="5" />
+<event name="POPUPC" loglevel="5" />
+<event name="POPUPSR" loglevel="5" />
+</service>
+<service name="17_remocon" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_remocon" queue_max="30" expiration="60" loglevel="10" >
+<event name="REMOCON" loglevel="5" />
+<event name="MBR" loglevel="5" />
+<event name="MBRSETUP" loglevel="5" />
+<event name="BATTERY" loglevel="5" />
+<event name="BTCONNECT" loglevel="5" />
+<event name="EDITDEVICE" loglevel="5" />
+<event name="IRSNIFF" loglevel="5" />
+<event name="SIGNAL" loglevel="5" />
+</service>
+<service name="17_rvu" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_rvu" queue_max="30" expiration="60" loglevel="10" >
+<event name="RVU_SESSION_TIME" loglevel="5" />
+</service>
+<service name="17_schedulemanager" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_schedulemanager" queue_max="30" expiration="60" loglevel="10" >
+<event name="LAUNCHSM" loglevel="5" />
+<event name="CATEGORY" loglevel="5" />
+<event name="RECORDED_SORTBY" loglevel="5" />
+<event name="RECORDED_BUTTON" loglevel="5" />
+<event name="RECORDED_LIST" loglevel="5" />
+<event name="SCHEDULED_SORTBY" loglevel="5" />
+<event name="SCHEDULED_BUTTON" loglevel="5" />
+<event name="SCHEDULED_LIST" loglevel="5" />
+<event name="ADD_ITEM" loglevel="5" />
+<event name="SELECT_SETTINGS" loglevel="5" />
+<event name="TERMINATESM" loglevel="5" />
+<event name="POPUPVIEWING" loglevel="5" />
+<event name="POPUPRECORDING" loglevel="5" />
+</service>
+<service name="17_screenmirroring" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_screenmirroring" queue_max="30" expiration="60" loglevel="10" >
+<event name="CONNREQ" loglevel="5" />
+<event name="CONNECTED" loglevel="5" />
+<event name="DISCONNECT" loglevel="5" />
+</service>
+<service name="17_sct" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_sct" queue_max="30" expiration="60" loglevel="10" >
+<event name="SCT" loglevel="5" />
+</service>
+<service name="17_security" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_security" queue_max="30" expiration="60" loglevel="10" >
+<event name="DRMBASE" loglevel="5" />
+<event name="FKP" loglevel="5" />
+</service>
+<service name="17_smarthub" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_smarthub" queue_max="30" expiration="60" loglevel="10" >
+<event name="SELECT_LAUNCHER" loglevel="5" />
+<event name="SELECT_ACCEL" loglevel="5" />
+<event name="SELECT_MOVE" loglevel="5" />
+<event name="DEL_LAUNCHER" loglevel="5" />
+<event name="SELECT_ADDTOHOME" loglevel="5" />
+<event name="DEL_ACCEL" loglevel="5" />
+<event name="EDIT_ACCEL" loglevel="5" />
+<event name="SELECT_MAXPOP" loglevel="5" />
+<event name="CLEARALL_ACCEL" loglevel="5" />
+<event name="SELECT_SAVE" loglevel="5" />
+<event name="SELECT_VIEWINFO" loglevel="5" />
+<event name="SMARTHUB_LAUNCHER" loglevel="5" />
+<event name="SMARTHUB_ACCEL" loglevel="5" />
+<event name="LIVETV_ACCEL" loglevel="5" />
+</service>
+<service name="17_smartview_msf" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_smartview_msf" queue_max="30" expiration="60" loglevel="10" >
+<event name="REMOTECONTROL_READY" loglevel="5" />
+<event name="REMOTECONTROL_CANCLE" loglevel="5" />
+</service>
+<service name="17_sound_menu" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_sound_menu" queue_max="30" expiration="60" loglevel="10" >
+<event name="BOOTING" loglevel="5" />
+<event name="SOURCE" loglevel="5" />
+<event name="MENU" loglevel="5" />
+</service>
+<service name="17_sports" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_sports" queue_max="30" expiration="60" loglevel="10" >
+<event name="BANNER_SHOW_L1" loglevel="5" />
+<event name="BANNER_CLICK_L2" loglevel="5" />
+<event name="SETTINGS_BUTTON_CLICK_S02" loglevel="5" />
+<event name="SEARCH_BUTTON_CLICK_S01" loglevel="5" />
+<event name="SETTINGS_PROMPT_DISPLAY_N01" loglevel="5" />
+<event name="SETTINGS_PROMPT_SETTINGS_N02" loglevel="5" />
+<event name="SETTINGS_PROMPT_CANCEL_N03" loglevel="5" />
+<event name="CONTENT_TILE_SELECT_C01" loglevel="5" />
+<event name="LANDING_TILE_SELECT_L03" loglevel="5" />
+<event name="LANDING_SELECT_ALL_L04" loglevel="5" />
+<event name="LANDING_PAGE" loglevel="5" />
+<event name="CONTENT_SEE_ALL" loglevel="5" />
+</service>
+<service name="17_sso" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_sso" queue_max="30" expiration="60" loglevel="10" >
+<event name="EV_SIGN_IN" loglevel="5" />
+<event name="EV_CANCEL_SIGN_IN" loglevel="5" />
+<event name="EV_RESET_PW" loglevel="5" />
+<event name="EV_OOBE_AC_SIGNIN_SKIP" loglevel="5" />
+<event name="EV_SIGN_OUT" loglevel="5" />
+<event name="EV_TRY_EDIT_PROFILE" loglevel="5" />
+<event name="EV_VIEW_PAYINFO" loglevel="5" />
+<event name="EV_CLOUD_SERVICE" loglevel="5" />
+<event name="EV_TRY_REMOVE_AC" loglevel="5" />
+<event name="EV_REMOVE_AC" loglevel="5" />
+<event name="EV_VIEW_TNC" loglevel="5" />
+<event name="EV_EDIT_PROFILE_DONE" loglevel="5" />
+<event name="EV_CANCEL_EDIT_PF" loglevel="5" />
+<event name="EV_OOBE_AC_TNC_SKIP" loglevel="5" />
+<event name="EV_OOBE_AC_CA_BASIC_SKIP" loglevel="5" />
+<event name="EV_ADDITIONAL_COMPLETE" loglevel="5" />
+<event name="EV_ADDITIONAL_SKIP" loglevel="5" />
+<event name="EV_OOBE_AC_FB_SKIP" loglevel="5" />
+<event name="EV_OOBE_AC_PP_SKIP" loglevel="5" />
+<event name="EV_OOBE_AC_SIGNIN" loglevel="5" />
+<event name="EV_OOBE_AC_EXIT" loglevel="5" />
+<event name="EV_OOBE_AC_MAIN_SKIP" loglevel="5" />
+<event name="PG_SA_NO_ACCOUNT" loglevel="5" />
+<event name="PG_SIGN_IN_IDPW" loglevel="5" />
+<event name="PG_SA_SIGNEDOUT" loglevel="5" />
+<event name="PG_SA_SIGNEDIN" loglevel="5" />
+<event name="PG_MYACCOUNT" loglevel="5" />
+<event name="PG_EDIT_PROFILE" loglevel="5" />
+<event name="PG_CREATE_AC_TNC" loglevel="5" />
+<event name="PG_CREATE_AC_BASIC" loglevel="5" />
+<event name="PG_CREATE_AC_ADDITIONAL" loglevel="5" />
+<event name="PG_CREATE_AC_DONE" loglevel="5" />
+<event name="PG_CREATE_AC_FACEBOOK" loglevel="5" />
+<event name="PG_CREATE_AC_PAYPAL" loglevel="5" />
+<event name="PG_SA_OOBE_ACCOUNT" loglevel="5" />
+</service>
+<service name="17_swuinfo" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_swuinfo" queue_max="30" expiration="60" loglevel="10" >
+<event name="INFO" loglevel="5" />
+<event name="SEARCH" loglevel="5" />
+<event name="DOWNLOAD" loglevel="5" />
+<event name="UPDATE" loglevel="5" />
+<event name="OSDSHOW" loglevel="5" />
+<event name="OSDINPUT" loglevel="5" />
+</service>
+<service name="17_tv2mobile" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_tv2mobile" queue_max="30" expiration="60" loglevel="10" >
+<event name="CONNECTED" loglevel="5" />
+<event name="DISCONN" loglevel="5" />
+<event name="CHCHG" loglevel="5" />
+<event name="SRCCHG" loglevel="5" />
+</service>
+<service name="17_tvmenu" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_tvmenu" queue_max="30" expiration="60" loglevel="10" >
+<event name="SELECT" loglevel="5" />
+<event name="M_ROOM_SEL" loglevel="5" />
+<event name="SELECT_VALUE" loglevel="5" />
+<event name="LAUNCHMENU" loglevel="5" />
+<event name="TERMINATEMENU" loglevel="5" />
+</service>
+<service name="17_tvplus" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_tvplus" queue_max="30" expiration="60" loglevel="10" >
+<event name="PLAY_CONTROL" loglevel="5" />
+<event name="DEEPLINK" loglevel="5" />
+<event name="CATEGORY" loglevel="5" />
+<event name="APP_LAUNCH" loglevel="5" />
+<event name="SELECT_CONTENT" loglevel="5" />
+<event name="CONTENT_INFO" loglevel="5" />
+<event name="PAGE_VIEW_EPG" loglevel="5" />
+<event name="SELECT_PROGRAM" loglevel="5" />
+<event name="PAGE_VIEW_DETAILS" loglevel="5" />
+<event name="PAGE_VIEW_POPUP" loglevel="5" />
+<event name="SELECT_BUTTON" loglevel="5" />
+<event name="SELECT_FILTER" loglevel="5" />
+<event name="PAGE_VIEW_CHLIST" loglevel="5" />
+<event name="SELECT_CHANNEL" loglevel="5" />
+<event name="ADD_FAVORITE" loglevel="5" />
+<event name="SELECT_IPCHANNEL" loglevel="5" />
+<event name="ADD" loglevel="5" />
+<event name="DELETE" loglevel="5" />
+<event name="TUNE_IN" loglevel="5" />
+<event name="TUNE_ERR" loglevel="5" />
+<event name="NETWORK_ERR" loglevel="5" />
+<event name="PLAYER_ERR" loglevel="5" />
+<event name="PLAY_CONTENT" loglevel="5" />
+<event name="DELETE_VC" loglevel="5" />
+<event name="ENTRY_POINT" loglevel="5" />
+<event name="APPRESUME" loglevel="5" />
+<event name="DEEPLINK_BUTTON" loglevel="5" />
+<event name="INSTRUCTION" loglevel="5" />
+<event name="ALL_CH" loglevel="5" />
+<event name="ALL_CH_GENRE" loglevel="5" />
+<event name="RECOMM_CH" loglevel="5" />
+<event name="MORE_NOTICE" loglevel="5" />
+<event name="NOTICE_DETAIL" loglevel="5" />
+<event name="DURATION" loglevel="5" />
+</service>
+<service name="17_tvpnp" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_tvpnp" queue_max="30" expiration="60" loglevel="10" >
+<event name="LANG" loglevel="5" />
+<event name="NWTYPE" loglevel="5" />
+<event name="COUNTRY" loglevel="5" />
+<event name="SIGNAL" loglevel="5" />
+<event name="ATNTYPE" loglevel="5" />
+<event name="PROVIDER" loglevel="5" />
+<event name="EXT_SIG" loglevel="5" />
+<event name="SUCC" loglevel="5" />
+<event name="FAIL" loglevel="5" />
+<event name="HOME" loglevel="5" />
+<event name="AGREEMENT" loglevel="5" />
+<event name="FINALZIP" loglevel="5" />
+<event name="MBRSTOP" loglevel="5" />
+<event name="TIMEZONEMODE" loglevel="5" />
+<event name="TIMEZONE" loglevel="5" />
+<event name="DST" loglevel="5" />
+<event name="GMT" loglevel="5" />
+<event name="SPTYPE" loglevel="5" />
+<event name="USEMODE" loglevel="5" />
+<event name="CHANGE_TO_WIRED" loglevel="5" />
+<event name="TNCTYPE" loglevel="5" />
+<event name="AUTH_TWC" loglevel="5" />
+<event name="AUTH_DISH" loglevel="5" />
+<event name="SATTYPE" loglevel="5" />
+<event name="NOTMATCH" loglevel="5" />
+<event name="OVERALLOOBE" loglevel="5" />
+<event name="ACC_TWC_SKIP" loglevel="5" />
+<event name="DEV_TWC_SKIP" loglevel="5" />
+<event name="DEV_DISH_SKIP" loglevel="5" />
+<event name="MBRSKIP" loglevel="5" />
+<event name="TRYAGAIN" loglevel="5" />
+<event name="AUTH_DISH_SKIP" loglevel="5" />
+<event name="GETAUTOMATE" loglevel="5" />
+<event name="POSTINPUT" loglevel="5" />
+<event name="SEARCHDEV" loglevel="5" />
+<event name="SENIOR" loglevel="5" />
+<event name="POPUPRETAIL" loglevel="5" />
+<event name="NWSTATUS" loglevel="5" />
+<event name="DSETUPBTN" loglevel="5" />
+<event name="CHOOSEONE" loglevel="5" />
+<event name="BGSCANINFO" loglevel="5" />
+<event name="BGSCAN" loglevel="5" />
+<event name="STOPBGSCAN" loglevel="5" />
+<event name="SOURCE" loglevel="5" />
+<event name="ERRORGUIDE" loglevel="5" />
+<event name="MYSH_DONE" loglevel="5" />
+<event name="MYSH_PREV" loglevel="5" />
+<event name="MYSH_SKIP" loglevel="5" />
+<event name="YVOSH_YES" loglevel="5" />
+<event name="YVOSH_NO" loglevel="5" />
+<event name="YVOSH_PREV" loglevel="5" />
+<event name="YVOSH_NEXT" loglevel="5" />
+<event name="AUTOPAIRING" loglevel="5" />
+<event name="ENTRYMANUAL" loglevel="5" />
+<event name="L01_LANG" loglevel="5" />
+<event name="N01_NW" loglevel="5" />
+<event name="C01_CONN" loglevel="5" />
+<event name="P01_PRIVACY" loglevel="5" />
+<event name="C02_CONF" loglevel="5" />
+<event name="C03_CONF" loglevel="5" />
+<event name="T01_TUNE" loglevel="5" />
+<event name="T02_TUNE" loglevel="5" />
+<event name="T03_TUNE" loglevel="5" />
+<event name="C04_CLOCK" loglevel="5" />
+<event name="T05_TIMEZONE" loglevel="5" />
+<event name="D01_DST" loglevel="5" />
+<event name="P02_PROVIDER" loglevel="5" />
+<event name="M02_SOURCE" loglevel="5" />
+<event name="M03_TEST" loglevel="5" />
+<event name="M04_SEARCH" loglevel="5" />
+<event name="H01_HOME" loglevel="5" />
+<event name="G01_GMT" loglevel="5" />
+<event name="H02_HOME" loglevel="5" />
+<event name="E01_ENDING" loglevel="5" />
+<event name="L01_LOCATION" loglevel="5" />
+<event name="M05_SUCCESS" loglevel="5" />
+<event name="A01_TWC" loglevel="5" />
+<event name="A03_DISH" loglevel="5" />
+<event name="E01_EASYSETUP" loglevel="5" />
+<event name="R01_RCINTRO" loglevel="5" />
+<event name="M07_IDENTIFYING" loglevel="5" />
+<event name="A02_TWC" loglevel="5" />
+<event name="A04_DISH" loglevel="5" />
+<event name="A05_DIRECTV" loglevel="5" />
+<event name="T06_TESTREMOTE" loglevel="5" />
+<event name="MAKE_SMARTHUB" loglevel="5" />
+<event name="YOUR_SMARTHUB" loglevel="5" />
+<event name="S01_SENIOR" loglevel="5" />
+</service>
+<service name="17_url" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_url" queue_max="30" expiration="60" loglevel="10" >
+<event name="MOVEURL" loglevel="5" />
+<event name="ADDBOOKMARK" loglevel="5" />
+<event name="HOMEPAGEURLSETTING" loglevel="5" />
+<event name="REMOVEITEM" loglevel="5" />
+<event name="ADDAPPROVEDPAGE" loglevel="5" />
+<event name="REMOVEAPPROVEDPAGE" loglevel="5" />
+<event name="PLAYINGVIDEO" loglevel="5" />
+<event name="EVERYURL" loglevel="5" />
+<event name="FLOATINGVIDEO" loglevel="5" />
+</service>
+<service name="17_vdnetconfig" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_vdnetconfig" queue_max="30" expiration="60" loglevel="10" >
+<event name="BOOT" loglevel="5" />
+</service>
+<service name="17_voice" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_voice" queue_max="30" expiration="60" loglevel="10" >
+<event name="STARTUP" loglevel="5" />
+<event name="RESCONV" loglevel="5" />
+<event name="NRECOG" loglevel="5" />
+<event name="RUNCMD" loglevel="5" />
+<event name="INAPP" loglevel="5" />
+<event name="OPENGUIDE" loglevel="5" />
+<event name="GUIDEKEY" loglevel="5" />
+<event name="OOBEPOPUP" loglevel="5" />
+<event name="OPENCUI" loglevel="5" />
+<event name="SELECTCUI" loglevel="5" />
+</service>
+<service name="17_watchdog" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_watchdog" queue_max="30" expiration="60" loglevel="10" >
+<event name="SETERR" loglevel="5" />
+<event name="FACTORYRESET" loglevel="5" />
+</service>
+<service name="17_webbrowser" url="https://lcprd1.samsungcloudsolution.net/openapi/log/17_webbrowser" queue_max="30" expiration="60" loglevel="10" >
+<event name="INIT" loglevel="5" />
+<event name="EXIT" loglevel="5" />
+<event name="BACKWARD" loglevel="5" />
+<event name="FORWARD" loglevel="5" />
+<event name="HOME" loglevel="5" />
+<event name="NEWTAB" loglevel="5" />
+<event name="REFRESH" loglevel="5" />
+<event name="MENU" loglevel="5" />
+<event name="HISTORY" loglevel="5" />
+<event name="ENLARGE" loglevel="5" />
+<event name="REDUCE" loglevel="5" />
+<event name="CERTIFICATION" loglevel="5" />
+<event name="SETTINGS" loglevel="5" />
+<event name="ADDBOOKMARK" loglevel="5" />
+<event name="REMOVEALL" loglevel="5" />
+<event name="GENERAL" loglevel="5" />
+<event name="HOMEPAGE" loglevel="5" />
+<event name="SEARCHENGINE" loglevel="5" />
+<event name="PRIVACYANDSECURITY" loglevel="5" />
+<event name="APPROVEDPAGE" loglevel="5" />
+<event name="PARENTALLOCK" loglevel="5" />
+<event name="ENCODINGS" loglevel="5" />
+<event name="ABOUT" loglevel="5" />
+<event name="HIDETAB" loglevel="5" />
+<event name="ACCOUNT" loglevel="5" />
+<event name="RESETBROWSERSETTING" loglevel="5" />
+<event name="HOMEPAGEOPTION" loglevel="5" />
+<event name="SEARCHSETTING" loglevel="5" />
+<event name="CLOSETAB" loglevel="5" />
+<event name="DIRECTORY" loglevel="5" />
+<event name="DONOTTRACK" loglevel="5" />
+<event name="DELETEBROWSINGDATA" loglevel="5" />
+<event name="NONEXIT" loglevel="5" />
+<event name="BOOKMARKS" loglevel="5" />
+<event name="NEWSECRET" loglevel="5" />
+<event name="ENCODINGSETTING" loglevel="5" />
+<event name="ENCODINGMANUAL" loglevel="5" />
+<event name="GOBACK" loglevel="5" />
+<event name="ACCESSANYWAY" loglevel="5" />
+<event name="FEATURED" loglevel="5" />
+<event name="MOSTVISITED" loglevel="5" />
+<event name="CLOSE" loglevel="5" />
+<event name="DOWNLOADER" loglevel="5" />
+<event name="PLAYVIDEOCAST" loglevel="5" />
+<event name="EXITVIDEOCAST" loglevel="5" />
+<event name="DESKTOPREQUEST" loglevel="5" />
+<event name="PINSETTING" loglevel="5" />
+<event name="REMOVEITEM" loglevel="5" />
+<event name="GOTOSYNC" loglevel="5" />
+<event name="SYNCDETAIL" loglevel="5" />
+<event name="INTERNETSYNC" loglevel="5" />
+<event name="POPUPCLOSE" loglevel="5" />
+<event name="ALLOWONCE" loglevel="5" />
+<event name="GOTOSETTINGS" loglevel="5" />
+<event name="EDIT_BOOKMARKS" loglevel="5" />
+<event name="JAVASCRIPT" loglevel="5" />
+<event name="NONADDBOOKMARK" loglevel="5" />
+<event name="SCROLLMODE" loglevel="5" />
+<event name="POPUPBLOCKER" loglevel="5" />
+<event name="DONOTSHOW" loglevel="5" />
+<event name="PLAY_PAUSE" loglevel="5" />
+<event name="LOCATION_CHANGE" loglevel="5" />
+<event name="LOCATION_ENTER" loglevel="5" />
+<event name="FLOATING_VIDEO_EXIT" loglevel="5" />
+<event name="FEATURED_PV" loglevel="5" />
+<event name="MOSTVISITED_PV" loglevel="5" />
+<event name="OPENTABS_PV" loglevel="5" />
+<event name="BOOKMAKRS_PV" loglevel="5" />
+</service>
+<service name="allsearch" url="https://lcprd1.samsungcloudsolution.net/openapi/log/allsearch" queue_max="30" expiration="60" loglevel="10" >
+<event name="A01_SEARCHRESULT" loglevel="5" />
+<event name="SELECTITEM" loglevel="5" />
+<event name="SELECTRECTYPE" loglevel="5" />
+<event name="SELECT_KEYWORD" loglevel="5" />
+</service>
+<service name="appdown" url="https://lcprd1.samsungcloudsolution.net/openapi/log/appdown" queue_max="30" expiration="60" loglevel="10" >
+<event name="PRE" loglevel="5" />
+<event name="UPDATE" loglevel="5" />
+<event name="USER" loglevel="5" />
+</service>
+<service name="appexec" url="https://lcprd1.samsungcloudsolution.net/openapi/log/appexec" queue_max="30" expiration="60" loglevel="10" >
+<event name="APPSTART" loglevel="5" />
+<event name="APPSTOP" loglevel="5" />
+</service>
+<service name="appspanel" url="https://lcprd1.samsungcloudsolution.net/openapi/log/appspanel" queue_max="30" expiration="60" loglevel="10" >
+<event name="COUNT" loglevel="5" />
+<event name="D01_DOWNLOADED" loglevel="5" />
+<event name="DELETE" loglevel="5" />
+<event name="EDIT" loglevel="5" />
+<event name="MYAPPS" loglevel="5" />
+<event name="MYAPPSEDIT" loglevel="5" />
+<event name="P01_HOME" loglevel="5" />
+<event name="P02_APPSMAIN" loglevel="5" />
+<event name="PIA" loglevel="5" />
+<event name="REC" loglevel="5" />
+<event name="REMOVEFROMMYAPPS" loglevel="5" />
+<event name="UPDATE" loglevel="5" />
+<event name="VIEWOPTION" loglevel="5" />
+</service>
+<service name="aul" url="https://lcprd1.samsungcloudsolution.net/openapi/log/aul" queue_max="30" expiration="60" loglevel="10" >
+<event name="APPPAUSE" loglevel="5" />
+<event name="APPRESUME" loglevel="5" />
+<event name="APPSTART" loglevel="5" />
+<event name="APPSTOP" loglevel="5" />
+</service>
+<service name="billingclient" url="https://lcprd1.samsungcloudsolution.net/openapi/log/billingclient" queue_max="30" expiration="60" loglevel="10" >
+<event name="AGRMTBTN" loglevel="5" />
+<event name="BC01_SIGN" loglevel="5" />
+<event name="BC02_PUR" loglevel="5" />
+<event name="BC03_DONE" loglevel="5" />
+<event name="DISAGRMTBTN" loglevel="5" />
+<event name="EMAILCANCELBTN" loglevel="5" />
+<event name="EMAILDONEBTN" loglevel="5" />
+<event name="EMAILDROPDW" loglevel="5" />
+<event name="EMAILLISTCANCELBTN" loglevel="5" />
+<event name="EMAILLISTDROPBTN" loglevel="5" />
+<event name="EMAILLISTREMOVEBTN" loglevel="5" />
+<event name="EMAILLISTRETURNBTN" loglevel="5" />
+<event name="EMAILLISTSELECT" loglevel="5" />
+<event name="ENTERPIN" loglevel="5" />
+<event name="PINERR" loglevel="5" />
+<event name="PURCANCELBTN" loglevel="5" />
+<event name="PURCHGIDBTN" loglevel="5" />
+<event name="PURDONEBTN" loglevel="5" />
+<event name="PURERR" loglevel="5" />
+<event name="PUROKBTN" loglevel="5" />
+<event name="PURPINCANCELBTN" loglevel="5" />
+<event name="PWCANCELBTN" loglevel="5" />
+<event name="PWDONEBTN" loglevel="5" />
+<event name="SETPINCLOSEBTN" loglevel="5" />
+<event name="SETPINERR" loglevel="5" />
+<event name="SETPINFIRST" loglevel="5" />
+<event name="SETPINSECOND" loglevel="5" />
+<event name="SIGNCANCELBTN" loglevel="5" />
+<event name="SIGNERR" loglevel="5" />
+<event name="SIGNINBTN" loglevel="5" />
+</service>
+<service name="briefontv" url="https://lcprd1.samsungcloudsolution.net/openapi/log/briefontv" queue_max="30" expiration="60" loglevel="10" >
+<event name="H01_HOME" loglevel="5" />
+<event name="MOBILEINFO" loglevel="5" />
+</service>
+<service name="camera" url="https://lcprd1.samsungcloudsolution.net/openapi/log/camera" queue_max="30" expiration="60" loglevel="10" >
+<event name="CAMERACHECK" loglevel="5" />
+<event name="CAMERATRIGGER" loglevel="5" />
+<event name="EXTCAMERAMODEL" loglevel="5" />
+<event name="FACEBOOKSHARE" loglevel="5" />
+<event name="PHOTO" loglevel="5" />
+<event name="SELECTMENU" loglevel="5" />
+<event name="TWITTERSHARE" loglevel="5" />
+<event name="VIDEO" loglevel="5" />
+</service>
+<service name="conversation" url="https://lcprd1.samsungcloudsolution.net/openapi/log/conversation" queue_max="30" expiration="60" loglevel="10" >
+<event name="ACT" loglevel="5" />
+<event name="DESC" loglevel="5" />
+<event name="ENG" loglevel="5" />
+<event name="FIN" loglevel="5" />
+<event name="HCL" loglevel="5" />
+<event name="INIT" loglevel="5" />
+<event name="INT" loglevel="5" />
+<event name="RES" loglevel="5" />
+<event name="RESCONV" loglevel="5" />
+<event name="RESEMB" loglevel="5" />
+<event name="STARTUP" loglevel="5" />
+<event name="TVON" loglevel="5" />
+<event name="VOICEON" loglevel="5" />
+</service>
+<service name="easysetup" url="https://lcprd1.samsungcloudsolution.net/openapi/log/easysetup" queue_max="30" expiration="60" loglevel="10" >
+<event name="BLEADVERTISEMENTON" loglevel="5" />
+<event name="CLOSETVPOPUP" loglevel="5" />
+<event name="CANCELFROMMOBILE" loglevel="5" />
+<event name="SETUPFROMMOBILE" loglevel="5" />
+<event name="INFOSELECTION" loglevel="5" />
+<event name="HANDLERECEIVEDINFO" loglevel="5" />
+</service>
+<service name="edenmobile" url="https://lcprd1.samsungcloudsolution.net/openapi/log/edenmobile" queue_max="30" expiration="60" loglevel="10" >
+<event name="APP_IN_FOCUS" loglevel="5" />
+<event name="APP_LOST_FOCUS" loglevel="5" />
+<event name="DISCOVERED_TV" loglevel="5" />
+<event name="TV_CONNECTION" loglevel="5" />
+<event name="TV_APP_LAUNCH" loglevel="5" />
+<event name="TV_CONTENT_LAUNCH" loglevel="5" />
+<event name="REMOTE_USAGE" loglevel="5" />
+<event name="SEARCH_TERM" loglevel="5" />
+<event name="NOTIFICATION_LAUNCH" loglevel="5" />
+<event name="CASTING" loglevel="5" />
+</service>
+<service name="explore3d" url="https://lcprd1.samsungcloudsolution.net/openapi/log/explore3d" queue_max="30" expiration="60" loglevel="10" >
+<event name="CPJUMP" loglevel="5" />
+<event name="FAVORITE" loglevel="5" />
+<event name="FAVORITEHOME" loglevel="5" />
+<event name="FOLDER" loglevel="5" />
+<event name="LIKE" loglevel="5" />
+<event name="P01_HOME" loglevel="5" />
+<event name="P02_FAVORITE" loglevel="5" />
+<event name="P03_SEARCH" loglevel="5" />
+<event name="P04_DETAILVIEW" loglevel="5" />
+<event name="P07_CONTFOLDER" loglevel="5" />
+<event name="PLAY" loglevel="5" />
+<event name="RELATED" loglevel="5" />
+<event name="SEARCH" loglevel="5" />
+<event name="SEARCHITEM" loglevel="5" />
+<event name="SELECTITEM" loglevel="5" />
+<event name="STOP" loglevel="5" />
+</service>
+<service name="fitness" url="https://lcprd1.samsungcloudsolution.net/openapi/log/fitness" queue_max="30" expiration="60" loglevel="10" >
+<event name="ACHIEVEMENTS" loglevel="5" />
+<event name="B02_TUTORIAL" loglevel="5" />
+<event name="BODYPROFILE" loglevel="5" />
+<event name="C01_EXERCISE" loglevel="5" />
+<event name="C02_PROFILE" loglevel="5" />
+<event name="C03_GOAL" loglevel="5" />
+<event name="COMPLETE" loglevel="5" />
+<event name="CREATEPROFILE" loglevel="5" />
+<event name="D01_PROGRESS" loglevel="5" />
+<event name="D02_BODYPROFILE" loglevel="5" />
+<event name="D03_PROGRESS" loglevel="5" />
+<event name="D04_EXERCISEPROGRESS" loglevel="5" />
+<event name="D05_ACHIEVEMENTS" loglevel="5" />
+<event name="DONE" loglevel="5" />
+<event name="E01_BROWSEALL" loglevel="5" />
+<event name="E02_CATEGORYDETAIL" loglevel="5" />
+<event name="E07_DETAILPAGE" loglevel="5" />
+<event name="EDIT" loglevel="5" />
+<event name="EXERCISEPROGRESS" loglevel="5" />
+<event name="F01_PROGRAM" loglevel="5" />
+<event name="F02_JOIN" loglevel="5" />
+<event name="F03_PROGRESS" loglevel="5" />
+<event name="F08_MYRECORD" loglevel="5" />
+<event name="FACEBOOKSHARE" loglevel="5" />
+<event name="INDICATOR" loglevel="5" />
+<event name="JOIN" loglevel="5" />
+<event name="LOGINOUT" loglevel="5" />
+<event name="MOVEWEEK" loglevel="5" />
+<event name="MYPAGE" loglevel="5" />
+<event name="NEW" loglevel="5" />
+<event name="NOOM" loglevel="5" />
+<event name="PLAY" loglevel="5" />
+<event name="RATING" loglevel="5" />
+<event name="RECORD" loglevel="5" />
+<event name="RETRY" loglevel="5" />
+<event name="RETURN" loglevel="5" />
+<event name="SEARCH" loglevel="5" />
+<event name="SELECTCATEGORY" loglevel="5" />
+<event name="SELECTITEM" loglevel="5" />
+<event name="SELECTPACEMAKER" loglevel="5" />
+<event name="SELECTSTEP" loglevel="5" />
+<event name="SHARE" loglevel="5" />
+<event name="TOOLS" loglevel="5" />
+<event name="TUTABOUT" loglevel="5" />
+<event name="TUTCREATEPROFILE" loglevel="5" />
+<event name="TUTEXERCISE" loglevel="5" />
+<event name="TUTNOOM" loglevel="5" />
+<event name="TUTORIAL" loglevel="5" />
+<event name="TUTPROGRAM" loglevel="5" />
+<event name="TWITTERSHARE" loglevel="5" />
+<event name="WIRELESSDUID" loglevel="5" />
+<event name="WITHINGS" loglevel="5" />
+<event name="WITHINGSUPDATE" loglevel="5" />
+</service>
+<service name="game" url="https://lcprd1.samsungcloudsolution.net/openapi/log/game" queue_max="30" expiration="60" loglevel="10" >
+<event name="BUY" loglevel="5" />
+<event name="DNLDDTL" loglevel="5" />
+<event name="DOFB" loglevel="5" />
+<event name="DOTWT" loglevel="5" />
+<event name="EXEDTL" loglevel="5" />
+<event name="EXEHMAPP" loglevel="5" />
+<event name="EXEMYAPP" loglevel="5" />
+<event name="G01_HOME" loglevel="5" />
+<event name="G02_MyAPP" loglevel="5" />
+<event name="G03_ALLGMS" loglevel="5" />
+<event name="G04_VIEW" loglevel="5" />
+<event name="GOALLGAMES" loglevel="5" />
+<event name="GOGCGUIDE" loglevel="5" />
+<event name="GOGMTV" loglevel="5" />
+<event name="GOMyPAGE" loglevel="5" />
+<event name="IAPITEMS" loglevel="5" />
+<event name="LOGIN" loglevel="5" />
+<event name="LPBUY" loglevel="5" />
+<event name="LPDEL" loglevel="5" />
+<event name="LPDNLD" loglevel="5" />
+<event name="LPVIEW" loglevel="5" />
+<event name="PLYTRL" loglevel="5" />
+<event name="RATE" loglevel="5" />
+<event name="THMB" loglevel="5" />
+<event name="VIEWALLGAMES" loglevel="5" />
+<event name="VIEWHM" loglevel="5" />
+<event name="EXELOCKEDHM" loglevel="5" />
+<event name="EXELOCKEDMY" loglevel="5" />
+<event name="EXELOCKEDDT" loglevel="5" />
+</service>
+<service name="gameapps" url="https://lcprd1.samsungcloudsolution.net/openapi/log/gameapps" queue_max="30" expiration="60" loglevel="10" >
+<event name="GAMESTART" loglevel="5" />
+<event name="GAMEEND" loglevel="5" />
+<event name="PLAYSTART" loglevel="5" />
+<event name="PLAYEND" loglevel="5" />
+</service>
+<service name="globalpanel" url="https://lcprd1.samsungcloudsolution.net/openapi/log/globalpanel" queue_max="30" expiration="60" loglevel="10" >
+<event name="ACTIVATEFUNCTION" loglevel="5" />
+<event name="AUTOSTART" loglevel="5" />
+<event name="BDSELECTITEM" loglevel="5" />
+<event name="BDSELECTMENU" loglevel="5" />
+<event name="BDSETTINGS" loglevel="5" />
+<event name="BDWEBBROWSER" loglevel="5" />
+<event name="CLKHMAPP" loglevel="5" />
+<event name="EXEAPP" loglevel="5" />
+<event name="GOALLGAMES" loglevel="5" />
+<event name="GOMYPAGE" loglevel="5" />
+<event name="HISTORY" loglevel="5" />
+<event name="LOGIN" loglevel="5" />
+<event name="LOGININSTALL" loglevel="5" />
+<event name="LOGOUT" loglevel="5" />
+<event name="MOVETOPANEL" loglevel="5" />
+<event name="MVSSO" loglevel="5" />
+<event name="MYAPPS" loglevel="5" />
+<event name="P01_ONTVMAIN" loglevel="5" />
+<event name="P02_APPSMAIN" loglevel="5" />
+<event name="P03_PHOTOMAIN" loglevel="5" />
+<event name="P04_MOVIESMAIN" loglevel="5" />
+<event name="P05_SOCIALMAIN" loglevel="5" />
+<event name="P06_BDMAIN" loglevel="5" />
+<event name="PIA" loglevel="5" />
+<event name="PIG" loglevel="5" />
+<event name="POPSSOGUIDE" loglevel="5" />
+<event name="REC" loglevel="5" />
+<event name="RECOMMENDED" loglevel="5" />
+<event name="RUNHMAPP" loglevel="5" />
+<event name="SELECTFIXTURE" loglevel="5" />
+<event name="SELECTFRIEND" loglevel="5" />
+<event name="SELECTFUNCTION" loglevel="5" />
+<event name="SELECTITEM" loglevel="5" />
+<event name="SELECTMENU" loglevel="5" />
+<event name="SELECTMENU" loglevel="5" />
+<event name="SELECTSKYPE" loglevel="5" />
+<event name="SIG" loglevel="5" />
+<event name="SIGNUP" loglevel="5" />
+<event name="TICK" loglevel="5" />
+<event name="VIEWHM" loglevel="5" />
+</service>
+<service name="infopanel" url="https://lcprd1.samsungcloudsolution.net/openapi/log/infopanel" queue_max="30" expiration="60" loglevel="10" >
+<event name="A01_MORENEWS" loglevel="5" />
+<event name="SELECTITEM" loglevel="5" />
+</service>
+<service name="kids" url="https://lcprd1.samsungcloudsolution.net/openapi/log/kids" queue_max="30" expiration="60" loglevel="10" >
+<event name="ADDCHOICE" loglevel="5" />
+<event name="B01_COLDSTART" loglevel="5" />
+<event name="C01_PLAYGROUND" loglevel="5" />
+<event name="CHANGECHARACTER" loglevel="5" />
+<event name="CREATESTICKERBOOK" loglevel="5" />
+<event name="D01_STICKERBOOK" loglevel="5" />
+<event name="D02_STICKERBOOKSUB" loglevel="5" />
+<event name="DELETE" loglevel="5" />
+<event name="E01_BROWSEALL" loglevel="5" />
+<event name="E02_BROWSEALLSUB" loglevel="5" />
+<event name="E03_BROWSEDETAIL" loglevel="5" />
+<event name="F01_PARENTS" loglevel="5" />
+<event name="F02_BANNER" loglevel="5" />
+<event name="F03_MYCHOICE" loglevel="5" />
+<event name="F04_PRESENTSTICKERS" loglevel="5" />
+<event name="F05_HISTORY" loglevel="5" />
+<event name="F06_SETALARM" loglevel="5" />
+<event name="GETNEWSTICKER" loglevel="5" />
+<event name="PLAY" loglevel="5" />
+<event name="PRESENTSTICKER" loglevel="5" />
+<event name="RATE" loglevel="5" />
+<event name="RETURN" loglevel="5" />
+<event name="SAMSUNGLOGIN" loglevel="5" />
+<event name="SAMSUNGLOGOUT" loglevel="5" />
+<event name="SELECTBANNER" loglevel="5" />
+<event name="SELECTCHARACTER" loglevel="5" />
+<event name="SELECTDATE" loglevel="5" />
+<event name="SELECTITEM" loglevel="5" />
+<event name="SELECTPANEL" loglevel="5" />
+<event name="SELECTSTICKERBOOK" loglevel="5" />
+<event name="SETTIMER" loglevel="5" />
+<event name="SHOWBANNER" loglevel="5" />
+<event name="TOOLS" loglevel="5" />
+<event name="WATCHTUTORIALVIDEO" loglevel="5" />
+<event name="WIRELESSDUID" loglevel="5" />
+</service>
+<service name="mediahubapp" url="https://lcprd1.samsungcloudsolution.net/openapi/log/mediahubapp" queue_max="30" expiration="60" loglevel="1" >
+<event name="A01_MOVIEDETAIL" loglevel="5" />
+<event name="A01_TVSHOWDETAIL" loglevel="5" />
+<event name="BUY" loglevel="5" />
+<event name="BUYCONTENT" loglevel="5" />
+<event name="CASTCREW" loglevel="5" />
+<event name="FAVORITE" loglevel="5" />
+<event name="H01_MOVIESSUBPAGE" loglevel="5" />
+<event name="H02_TVSHOWSSUBPAGE" loglevel="5" />
+<event name="H03_3DSUBPAGE" loglevel="5" />
+<event name="H04_MYMEDIASUBPAGE" loglevel="5" />
+<event name="MORE" loglevel="5" />
+<event name="OTHEREPISODES" loglevel="5" />
+<event name="PHOTO" loglevel="5" />
+<event name="PLAY" loglevel="5" />
+<event name="PURCHASECOMPLETE" loglevel="5" />
+<event name="RELATEDCONTENTS" loglevel="5" />
+<event name="RENT" loglevel="5" />
+<event name="SEARCH" loglevel="5" />
+<event name="SEASONPASS" loglevel="5" />
+<event name="SELECTBANNER" loglevel="5" />
+<event name="SELECTITEM" loglevel="5" />
+<event name="SELECTMENU" loglevel="5" />
+<event name="SELECTNETWORK" loglevel="5" />
+<event name="SELECTSUBMENU" loglevel="5" />
+<event name="SETTING" loglevel="5" />
+<event name="SORT" loglevel="5" />
+<event name="TRAILER" loglevel="5" />
+<event name="WIRELESSDUID" loglevel="5" />
+</service>
+<service name="movietvshowspanel" url="https://lcprd1.samsungcloudsolution.net/openapi/log/movietvshowspanel" queue_max="30" expiration="60" loglevel="10" >
+<event name="B01_FAVORITES" loglevel="5" />
+<event name="B02_PURCHASED" loglevel="5" />
+<event name="B03_MOVIES" loglevel="5" />
+<event name="B04_TVSHOWS" loglevel="5" />
+<event name="B05_FEATURED" loglevel="5" />
+<event name="BILLING" loglevel="99" />
+<event name="BOOKMARK" loglevel="5" />
+<event name="C01_MOSTPOPULAR" loglevel="5" />
+<event name="C02_WHATSNEW" loglevel="5" />
+<event name="C03_GENRE" loglevel="5" />
+<event name="C04_MOSTPOPULAR" loglevel="5" />
+<event name="C05_WHATSNEW" loglevel="5" />
+<event name="C06_GENRE" loglevel="5" />
+<event name="CASTCREW" loglevel="5" />
+<event name="D01_GENREDETAIL" loglevel="5" />
+<event name="D02_GENREDETAIL" loglevel="5" />
+<event name="DISLIKE" loglevel="5" />
+<event name="E01_FEATUREDDETAIL" loglevel="5" />
+<event name="EPISODEMOVE" loglevel="5" />
+<event name="H01_MAIN" loglevel="5" />
+<event name="L01_LOGIN" loglevel="5" />
+<event name="LIKE" loglevel="5" />
+<event name="MORECP" loglevel="5" />
+<event name="OTHEREPISODE" loglevel="5" />
+<event name="P01_DETAILPAGE" loglevel="5" />
+<event name="P02_DETAILPAGE" loglevel="5" />
+<event name="P03_DETAILPAGE" loglevel="5" />
+<event name="P04_DETAILPAGE" loglevel="5" />
+<event name="Q01_WATCHOPTION" loglevel="5" />
+<event name="Q02_CASTCREWS" loglevel="5" />
+<event name="Q04_OTHEREPISODES" loglevel="5" />
+<event name="Q3^_RAILERS" loglevel="5" />
+<event name="Q3_TRAILERS" loglevel="5" />
+<event name="REELZ" loglevel="5" />
+<event name="RELATEDCONTENT" loglevel="5" />
+<event name="ROTTENTOMATO" loglevel="5" />
+<event name="SAMSUNGLOGIN" loglevel="99" />
+<event name="SAMSUNGLOGOUT" loglevel="99" />
+<event name="SELECTBANNER" loglevel="5" />
+<event name="SELECTCP" loglevel="5" />
+<event name="SELECTITEM" loglevel="5" />
+<event name="SELECTMENU" loglevel="5" />
+<event name="SHARE" loglevel="5" />
+<event name="SHOWBANNER" loglevel="5" />
+<event name="SNSLOGIN" loglevel="5" />
+<event name="SNSLOGOUT" loglevel="5" />
+<event name="TRAILER" loglevel="5" />
+<event name="TRAILERPLAY" loglevel="5" />
+<event name="WATCHNOW" loglevel="5" />
+<event name="WATCHOPTIONS" loglevel="5" />
+</service>
+<service name="mtkappaccess" url="https://lcprd1.samsungcloudsolution.net/openapi/log/mtkappaccess" queue_max="30" expiration="60" loglevel="10" >
+<event name="MTK_APP_START" loglevel="5" />
+<event name="MTK_APP_STOP" loglevel="5" />
+</service>
+<service name="mycontent" url="https://lcprd1.samsungcloudsolution.net/openapi/log/mycontent" queue_max="30" expiration="60" loglevel="10" >
+<event name="B_HOME" loglevel="5" />
+<event name="CANCELITEM" loglevel="5" />
+<event name="CG_HOME" loglevel="5" />
+<event name="CONNECTDEVICE" loglevel="5" />
+<event name="DELETE" loglevel="5" />
+<event name="ENTER" loglevel="5" />
+<event name="EXIT" loglevel="5" />
+<event name="FILTER" loglevel="5" />
+<event name="MP_HOME" loglevel="5" />
+<event name="ONECANCELITEM" loglevel="5" />
+<event name="ONESELECTITEM" loglevel="5" />
+<event name="PLAYSELECTED" loglevel="5" />
+<event name="SELECT" loglevel="5" />
+<event name="SELECTCONTENTS" loglevel="5" />
+<event name="SELECTITEM" loglevel="5" />
+<event name="SELECTOPTIONS" loglevel="5" />
+<event name="SORT" loglevel="5" />
+<event name="UHD_HOME" loglevel="5" />
+<event name="SELECT_PARTYMODE" loglevel="5" />
+<event name="SELECT_USB_FOLDER" loglevel="5" />
+<event name="SELECT_DLNA_FOLDER" loglevel="5" />
+<event name="B_DEPTH" loglevel="5" />
+</service>
+<service name="networkspeaker" url="https://lcprd1.samsungcloudsolution.net/openapi/log/networkspeaker" queue_max="30" expiration="60" loglevel="10" >
+<event name="SURROUNDINFO" loglevel="5" />
+<event name="MULTIROOMINFO" loglevel="5" />
+<event name="PHONEINFO" loglevel="5" />
+<event name="TVINFO" loglevel="5" />
+<event name="ALARMSETTING" loglevel="5" />
+<event name="COLDSTARTINFO" loglevel="5" />
+<event name="SPKINFO" loglevel="5" />
+<event name="CPINFO" loglevel="5" />
+<event name="NETWORKINFO" loglevel="5" />
+<event name="CONNECT_CLOUDAPP" loglevel="5" />
+<event name="DISCONNECT_CLOUDAPP" loglevel="5" />
+<event name="CONNECT_MEDIARECEIVE" loglevel="5" />
+<event name="DISCONNECT_MEDIARECEIVE" loglevel="5" />
+<event name="SOURCETIME" loglevel="5" />
+</service>
+<service name="notificationservice" url="https://lcprd1.samsungcloudsolution.net/openapi/log/notificationservice" queue_max="30" expiration="60" loglevel="10" >
+<event name="SET_REMINDER_SELECT" loglevel="5" />
+<event name="SET_REMINDER_CLOSE" loglevel="5" />
+<event name="SERVICE_NOTI_SELECT_1" loglevel="5" />
+<event name="SERVICE_NOTI_SELECT_2" loglevel="5" />
+<event name="NOTI_PAGE" loglevel="5" />
+</service>
+<service name="ontv" url="https://lcprd1.samsungcloudsolution.net/openapi/log/ontv" queue_max="30" expiration="60" loglevel="1" >
+<event name="DISLIKE" loglevel="5" />
+<event name="H01_HOME" loglevel="5" />
+<event name="H02_TIMELINEVIEW" loglevel="5" />
+<event name="H03_DETAILVIEW" loglevel="5" />
+<event name="LIKE" loglevel="5" />
+<event name="MOVETOPANEL" loglevel="5" />
+<event name="RESERVE" loglevel="5" />
+<event name="SCHEDULE" loglevel="5" />
+<event name="SELECTITEM" loglevel="5" />
+<event name="SELECTITEM" loglevel="5" />
+<event name="SELECTMENU" loglevel="5" />
+<event name="SHARE" loglevel="5" />
+<event name="TUNE" loglevel="5" />
+<event name="WATCH" loglevel="5" />
+</service>
+<service name="photovideosnmusicpanel" url="https://lcprd1.samsungcloudsolution.net/openapi/log/photovideosnmusicpanel" queue_max="30" expiration="60" loglevel="10" >
+<event name="B01_SETTING" loglevel="5" />
+<event name="C01_HOME" loglevel="5" />
+<event name="D01_PHOTOS" loglevel="5" />
+<event name="D02_VIDEOS" loglevel="5" />
+<event name="D03_MUSIC" loglevel="5" />
+<event name="D04_RECORDEDTV" loglevel="5" />
+<event name="D05_ALLCONTENT" loglevel="5" />
+<event name="E01_CONTENTLIST" loglevel="5" />
+<event name="EDIT" loglevel="5" />
+<event name="FILTER" loglevel="5" />
+<event name="J01_LOGIN" loglevel="5" />
+<event name="K01_REGISTER" loglevel="5" />
+<event name="LINKEDDEVICE" loglevel="5" />
+<event name="LOGIN" loglevel="5" />
+<event name="LOGINCANCEL" loglevel="5" />
+<event name="REGISTER" loglevel="5" />
+<event name="REGISTERCANCEL" loglevel="5" />
+<event name="SELECTITEM" loglevel="5" />
+<event name="SELECTMENU" loglevel="5" />
+<event name="SETUPNOW" loglevel="5" />
+<event name="UNLINKEDDEVICE" loglevel="5" />
+<event name="VIEW" loglevel="5" />
+</service>
+<service name="player" url="https://lcprd1.samsungcloudsolution.net/openapi/log/player" queue_max="30" expiration="60" loglevel="10" >
+<event name="OPTIONPP" loglevel="5" />
+<event name="OPTIONVP" loglevel="5" />
+<event name="PHOTOPLAYER" loglevel="5" />
+<event name="PHOTOPLAYEREXIT" loglevel="5" />
+<event name="PLAYBACKPP" loglevel="5" />
+<event name="PLAYBACKVP" loglevel="5" />
+<event name="PLAYFINISHVP" loglevel="5" />
+<event name="PLAYSTARTVP" loglevel="5" />
+<event name="SHOWIFNOBARPP" loglevel="5" />
+<event name="SHOWIFNOBARVP" loglevel="5" />
+<event name="THUMBNAILPP" loglevel="5" />
+<event name="THUMBNAILVP" loglevel="5" />
+<event name="VIDEOPLAYER" loglevel="5" />
+<event name="VIDEOPLAYEREXIT" loglevel="5" />
+</service>
+<service name="pvr" url="https://lcprd1.samsungcloudsolution.net/openapi/log/pvr" queue_max="30" expiration="60" loglevel="10" >
+<event name="RCDE" loglevel="5" />
+<event name="TS" loglevel="5" />
+</service>
+<service name="registertv" url="https://lcprd1.samsungcloudsolution.net/openapi/log/registertv" queue_max="30" expiration="60" loglevel="10" >
+<event name="REQUESTREGISTERTV" loglevel="5" />
+</service>
+<service name="remocon" url="https://lcprd1.samsungcloudsolution.net/openapi/log/remocon" queue_max="30" expiration="60" loglevel="10" >
+<event name="MBR" loglevel="5" />
+<event name="REMOCON" loglevel="5" />
+</service>
+<service name="samsungapps" url="https://lcprd1.samsungcloudsolution.net/openapi/log/samsungapps" queue_max="30" expiration="60" loglevel="10" >
+<event name="ACCOUNT" loglevel="5" />
+<event name="BUY" loglevel="5" />
+<event name="DOWNLOAD" loglevel="5" />
+<event name="HELP" loglevel="5" />
+<event name="KEYGUIDE" loglevel="5" />
+<event name="LOGIN" loglevel="5" />
+<event name="P01_STOREMAIN" loglevel="5" />
+<event name="P02_APPDETAIL" loglevel="5" />
+<event name="RUN" loglevel="5" />
+<event name="SCREENSHOT" loglevel="5" />
+<event name="SEARCH" loglevel="5" />
+<event name="SELECTITEM" loglevel="5" />
+<event name="UNINSTALL" loglevel="5" />
+</service>
+<service name="si" url="https://lcprd1.samsungcloudsolution.net/openapi/log/si" queue_max="30" expiration="60" loglevel="10" >
+<event name="MOTIONEVENT" loglevel="5" />
+</service>
+<service name="smartview_mobile" url="https://lcprd1.samsungcloudsolution.net/openapi/log/smartview_mobile" queue_max="30" expiration="60" loglevel="10" >
+<event name="ADD_TO_PLAY" loglevel="5" />
+<event name="APP_START" loglevel="5" />
+<event name="BTN_CONNECT" loglevel="5" />
+<event name="BTN_POWER" loglevel="5" />
+<event name="BTN_REFRESH" loglevel="5" />
+<event name="BTN_WIFI" loglevel="5" />
+<event name="DISCOVERED_TV" loglevel="5" />
+<event name="ERROR_NOT_SUPPORT" loglevel="5" />
+<event name="ERROR_UNKNOWN" loglevel="5" />
+<event name="MENU_CHANGE_TV" loglevel="5" />
+<event name="MENU_HOME" loglevel="5" />
+<event name="MENU_LICENSE_INFO" loglevel="5" />
+<event name="MENU_PARTYMODE" loglevel="5" />
+<event name="MENU_PRIVACY_POLICY" loglevel="5" />
+<event name="MENU_SEND_REPORT" loglevel="5" />
+<event name="MENU_VERSION_INFO" loglevel="5" />
+<event name="MINI_PLAY" loglevel="5" />
+<event name="MUSIC" loglevel="5" />
+<event name="NOT_FOUND_TV" loglevel="5" />
+<event name="PARTY_MODE" loglevel="5" />
+<event name="PHOTO" loglevel="5" />
+<event name="PIN_INCORRECT" loglevel="5" />
+<event name="PIN_TIMEOUT" loglevel="5" />
+<event name="PIN_TRY_ERROR" loglevel="5" />
+<event name="QUEUE_LIST_PLAY" loglevel="5" />
+<event name="SEND_LIST" loglevel="5" />
+<event name="SHARING" loglevel="5" />
+<event name="SLIDESHOW" loglevel="5" />
+<event name="SUCCESS_PAIRING" loglevel="5" />
+<event name="USAGE_TIME" loglevel="5" />
+<event name="VIDEO" loglevel="5" />
+<event name="REMOTE_CONTROL" loglevel="5" />
+<event name="ENTER_REMOTE_CONTROL" loglevel="5" />
+<event name="BTN_PLAY" loglevel="5" />
+<event name="RC_POWER" loglevel="5" />
+<event name="RC_VOLUME" loglevel="5" />
+<event name="RC_MUTE" loglevel="5" />
+<event name="RC_CHANNEL" loglevel="5" />
+<event name="RC_NUM_BTN" loglevel="5" />
+<event name="RC_DIRECTION_PAD" loglevel="5" />
+<event name="RC_ENTER" loglevel="5" />
+<event name="RC_RETURN" loglevel="5" />
+<event name="RC_SMART_HUB" loglevel="5" />
+<event name="RC_EXTRA" loglevel="5" />
+<event name="RC_REWIND" loglevel="5" />
+<event name="RC_PLAY" loglevel="5" />
+<event name="RC_PAUSE" loglevel="5" />
+<event name="RC_FF" loglevel="5" />
+<event name="RC_MORE_BTN" loglevel="5" />
+<event name="RC_MENU_SOURCE" loglevel="5" />
+<event name="RC_MENU_SETTINGS" loglevel="5" />
+<event name="RC_MENU_CH_LIST" loglevel="5" />
+<event name="RC_MENU_GUIDE" loglevel="5" />
+<event name="RC_CLOSED_NUM_BTN" loglevel="5" />
+<event name="RC_NUM" loglevel="5" />
+<event name="RC_PRE_CH" loglevel="5" />
+<event name="ENTER_HOME" loglevel="5" />
+</service>
+<service name="smartview_window" url="https://lcprd1.samsungcloudsolution.net/openapi/log/smartview_window" queue_max="30" expiration="60" loglevel="10" >
+<event name="APP_START" loglevel="5" />
+<event name="BTN_CANCEL" loglevel="5" />
+<event name="BTN_CONNECT" loglevel="5" />
+<event name="BTN_OK" loglevel="5" />
+<event name="BTN_REFRESH" loglevel="5" />
+<event name="DISCOVERED_TV" loglevel="5" />
+<event name="ERROR_UNABLE" loglevel="5" />
+<event name="HOME" loglevel="5" />
+<event name="LIST_PLAY" loglevel="5" />
+<event name="MENU_CONNECT_TV" loglevel="5" />
+<event name="MENU_EXIT" loglevel="5" />
+<event name="MENU_GUIDE" loglevel="5" />
+<event name="MENU_LICENSE_INFO" loglevel="5" />
+<event name="MENU_SLIDE_SETTING" loglevel="5" />
+<event name="MENU_VERSION_INFO" loglevel="5" />
+<event name="NOT_FOUND_TV" loglevel="5" />
+<event name="PAIRING" loglevel="5" />
+<event name="PIN_INCORRECT" loglevel="5" />
+<event name="PIN_TIMEOUT" loglevel="5" />
+<event name="PIN_TRY_ERROR" loglevel="5" />
+<event name="SUCCESS_PAIRING" loglevel="5" />
+<event name="USAGE_TIME" loglevel="5" />
+<event name="TV_NOT_SUPPORT" loglevel="5" />
+<event name="ENTER_HOME" loglevel="5" />
+<event name="CONNECTION_LOST" loglevel="5" />
+</service>
+<service name="socialpanel" url="https://lcprd1.samsungcloudsolution.net/openapi/log/socialpanel" queue_max="30" expiration="60" loglevel="10" >
+<event name="ALSOWATCHED" loglevel="5" />
+<event name="B01_SETTING" loglevel="5" />
+<event name="C01_COLDSTART" loglevel="5" />
+<event name="CANCEL" loglevel="5" />
+<event name="COMMENT" loglevel="5" />
+<event name="COMMENTDETAIL" loglevel="5" />
+<event name="D01_HOME" loglevel="5" />
+<event name="DONE" loglevel="5" />
+<event name="E01_FRIENDSPICK" loglevel="5" />
+<event name="F01_CONTENTDETAIL" loglevel="5" />
+<event name="FILTER" loglevel="5" />
+<event name="G01_MORE" loglevel="5" />
+<event name="H01_COMMENTWRITE" loglevel="5" />
+<event name="I01_COMMENTDETAIL" loglevel="5" />
+<event name="INSTALL" loglevel="5" />
+<event name="INSTALLCANCEL" loglevel="5" />
+<event name="K01_MORE" loglevel="5" />
+<event name="L01_RELATEDTWEET" loglevel="5" />
+<event name="LIKE" loglevel="5" />
+<event name="LOGIN" loglevel="5" />
+<event name="LOGINCANCEL" loglevel="5" />
+<event name="MORE" loglevel="5" />
+<event name="N01_MORE" loglevel="5" />
+<event name="O01_COMMENTWRITE" loglevel="5" />
+<event name="P01_ALSOWATCHED" loglevel="5" />
+<event name="PLAY" loglevel="5" />
+<event name="Q01_COMMENTDETAIL" loglevel="5" />
+<event name="R01_WHATSHOT" loglevel="5" />
+<event name="REFRESH" loglevel="5" />
+<event name="SELECTFRIEND" loglevel="5" />
+<event name="SELECTITEM" loglevel="5" />
+<event name="SELECTMENU" loglevel="5" />
+<event name="SETTING" loglevel="5" />
+<event name="SKYPEINSTALL" loglevel="5" />
+<event name="SKYPELOGIN" loglevel="5" />
+<event name="SNSLOGIN" loglevel="5" />
+<event name="T01_MORE" loglevel="5" />
+<event name="U01_FRIENDS" loglevel="5" />
+<event name="V01_FRIENDDETAIL" loglevel="5" />
+<event name="VIDEOCALL" loglevel="5" />
+<event name="W01_VIDEOCALL" loglevel="5" />
+</service>
+<service name="socialtv" url="https://lcprd1.samsungcloudsolution.net/openapi/log/socialtv" queue_max="30" expiration="60" loglevel="10" >
+<event name="A01_GOOGLETALK" loglevel="5" />
+<event name="ADDSNS" loglevel="5" />
+<event name="AUTORUN" loglevel="5" />
+<event name="B01_COLDSTART" loglevel="5" />
+<event name="C01_TWEETLIVE" loglevel="5" />
+<event name="CHANGEVIEW" loglevel="5" />
+<event name="CREATESKYPEACCOUNT" loglevel="5" />
+<event name="D01_FACEBOOK" loglevel="5" />
+<event name="E01_TWITTER" loglevel="5" />
+<event name="F01_SKYPECOLDSTART" loglevel="5" />
+<event name="G01_SKYPEHOME" loglevel="5" />
+<event name="LIKE" loglevel="5" />
+<event name="MOVELINK" loglevel="5" />
+<event name="MOVETOAPP" loglevel="5" />
+<event name="READREPLY" loglevel="5" />
+<event name="REPLY" loglevel="5" />
+<event name="RETWEET" loglevel="5" />
+<event name="SEARCH" loglevel="5" />
+<event name="SELECTITEM" loglevel="5" />
+<event name="SELECTOPTION" loglevel="5" />
+<event name="SELECTPLUS" loglevel="5" />
+<event name="SETSTATUS" loglevel="5" />
+<event name="SIGNOUT" loglevel="5" />
+<event name="SKYPELOGIN" loglevel="5" />
+<event name="VIDEOCALL" loglevel="5" />
+<event name="VOICECALL" loglevel="5" />
+<event name="WIRELESSDUID" loglevel="5" />
+<event name="WRITE" loglevel="5" />
+<event name="WRITEREPLY" loglevel="5" />
+</service>
+<service name="speakerselect" url="https://lcprd1.samsungcloudsolution.net/openapi/log/speakerselect" queue_max="30" expiration="60" loglevel="10" >
+<event name="SPEAKER_SELECT" loglevel="5" />
+</service>
+<service name="sso" url="https://lcprd1.samsungcloudsolution.net/openapi/log/sso" queue_max="30" expiration="60" loglevel="10" >
+<event name="SSOLOGIN" loglevel="5" />
+<event name="SSOLOGOUT" loglevel="5" />
+</service>
+<service name="stb_pnp" url="https://lcprd1.samsungcloudsolution.net/openapi/log/stb_pnp" queue_max="30" expiration="60" loglevel="10" >
+<event name="A01_AUTO" loglevel="5" />
+<event name="C01_CLOCK" loglevel="5" />
+<event name="C02_CABLECARD" loglevel="5" />
+<event name="CABLESTATE" loglevel="5" />
+<event name="CANCEL" loglevel="5" />
+<event name="CHANGE" loglevel="5" />
+<event name="DST" loglevel="5" />
+<event name="ERROR" loglevel="5" />
+<event name="G01_GUIDE" loglevel="5" />
+<event name="L01_LANG" loglevel="5" />
+<event name="LANG" loglevel="5" />
+<event name="N01_NW" loglevel="5" />
+<event name="NWTYPE" loglevel="5" />
+<event name="P01_PROVIDER" loglevel="5" />
+<event name="R01_RF" loglevel="5" />
+<event name="RETRY" loglevel="5" />
+<event name="RFSTATE" loglevel="5" />
+<event name="S01_SMARTHUB" loglevel="5" />
+<event name="S02_SUPP" loglevel="5" />
+<event name="SCAN" loglevel="5" />
+<event name="STOPCANCEL" loglevel="5" />
+<event name="STOPSCAN" loglevel="5" />
+<event name="SUBMIT" loglevel="5" />
+<event name="SUPP" loglevel="5" />
+<event name="TERMS" loglevel="5" />
+<event name="TIMEZONE" loglevel="5" />
+<event name="U01_UPDATE" loglevel="5" />
+<event name="UPLATER" loglevel="5" />
+<event name="UPNOW" loglevel="5" />
+</service>
+<service name="watchdog" url="https://lcprd1.samsungcloudsolution.net/openapi/log/watchdog" queue_max="1" expiration="60" loglevel="10" >
+<event name="NEWWATCHDOG" loglevel="5" />
+<event name="WATCHDOG" loglevel="5" />
+</service>
+<service name="webengine" url="https://lcprd1.samsungcloudsolution.net/openapi/log/webengine" queue_max="30" expiration="60" loglevel="10" >
+<event name="W01_GEO" loglevel="5" />
+</service>
+<service name="widget" url="https://lcprd1.samsungcloudsolution.net/openapi/log/widget" queue_max="30" expiration="60" loglevel="10" >
+<event name="application" loglevel="5" />
+</service>
+</list>
+</rsp>

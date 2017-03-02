@@ -1,0 +1,143 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<style>
+  body{
+    font-family: 'Segoe UI';
+    color: windowtext;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  li {
+    margin-top: 7px;
+  }
+  th{
+    font-size: 70%;
+    font-family: 'Segoe UI';
+    vertical-align: top;
+    text-align: left;
+    padding-left: 2px;
+  }
+  .link{
+    cursor: hand;
+    text-decoration: underline;
+    font-size: 75%;
+  }
+  .bluelink{
+    cursor: hand;
+    text-decoration: underline;
+    color: blue;
+  }
+  .content{
+    width: 100%;
+    border-top: 'none';
+    color: black;
+  }
+  .control{
+    FONT-FAMILY: 'Segoe UI';
+    FONT-SIZE: 4pt;
+    width: 25%;
+    background: threedface;
+    border: solid 1px gray;
+  }
+  .title-bar{
+    margin-top: 10px;
+    border: solid gray 1px;
+    width: 100%;
+    padding: 3px;
+    font-size: 78%;
+    vertical-align: middle;
+    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='buttonhighlight',EndColorStr='threedshadow');
+  }
+  .info{ font-size: 75%; }
+</style>
+</head>
+<script language="vbscript">
+
+dim url
+
+sub window_onload()
+
+  dim Text
+
+  Text = location.search
+
+  Text = Right(Text, Len(Text) - 1)
+  url = Text
+
+end sub
+
+</script>
+
+<body>
+  <div class="title-bar" id="title" id="titleOverview">Teljesítményfigyelő - áttekintés</div>
+  <div style="min-height: 110px; overflow-y: scroll;">
+    <table class="content" style="background: threedface" cellpadding="7px">
+      <tr>
+        <td valign="top" width="32px">
+          <a class="bluelink" onclick="open(Url)">
+            <img src="res://wdc.dll/perfmon.gif"/>
+          </a>
+        </td>
+        <td class="info">
+          <div id="textDescription">
+            A Teljesítményfigyelő használatával valós időben vagy naplófájlból tekinthetők meg a teljesítményre vonatkozó adatok.
+            Adatgyűjtő-csoportosítók létrehozásával beállítható és ütemezhető a teljesítményszámlálókra, az események nyomon követésére és
+            a konfigurációs adatokra vonatkozó információgyűjtés, ezáltal elemezhetők az eredmények és megtekinthetők a jelentések.
+            <br/><br/>
+            A művelet megkezdéséhez bontsa ki a Figyelőeszközök csomópontot és válassza a Teljesítményfigyelő lehetőséget, vagy bontsa ki az Adatgyűjtő-csoportosítók vagy a Jelentések csomópontot.
+            <br/><br/>
+            Az új Erőforrás-figyelő használatával megtekinthetők az operációs rendszer, a szolgáltatások és a működő alkalmazások által használt hardvererőforrások 
+            (processzor, lemez, hálózat és memória) és rendszererőforrások (például leírók és modulok) valós idejű részletes
+            adatai. Az Erőforrás-figyelő ezenkívül alkalmas
+            a folyamatok leállítására, a szolgáltatások elindítására és leállítására, a folyamatholtpontok elemzésére, a szálvárakoztatási láncok megtekintésére és a fájlzároló folyamatok
+            azonosítására.
+          </div>
+          <br/>
+          <div id="resmonLink"><a class="bluelink" onclick="open(Url)">Az Erőforrás-figyelő megnyitása</a></div>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div class="title-bar" id="title">Rendszer összegzése</div>
+  <table class="content" style="background: threedface" cellspacing="10px">
+    <tr>
+      <td height="140px" class="control">
+        <object width="100%" height="100%" id="Report" classid="CLSID:C4D2D8E0-D1DD-11CE-940F-008029004347">
+          <param name="_Version" value="393219" />
+          <param name="DisplayType" value="3"/>
+          <param name="ShowLegend" value="0"/>
+          <param name="ShowToolbar" value="0"/>
+          <param name="ShowValueBar" value="0"/>
+          <param name="ReadOnly" value="1"/>
+          <param name="ShowScaleLabels" value="1"/>
+          <param name="TimeAxisLabels" value="0"/>
+          <param name="BackColor" value="-2147483643"/>
+          <param name="WrapTimeLine" value="1"/>
+          <param name="AmbientFont" value="0"/>
+          <param name="FontName" value="Segoe UI"/>
+          <param name="FontSize" value="8"/>
+          <param name="FontItalic" value="0"/>
+          <param name="FontUnderline" value="0"/>
+          <param name="FontStrikethrough" value="0"/>
+          <param name="FontWeight" value="100"/>
+          <param name="CounterCount" value="10" />
+          <param name="Counter00001.Path" value="\Processor Information(*)\% Processor Time"/>
+          <param name="Counter00002.Path" value="\Processor Information(*)\% Interrupt Time"/>
+          <param name="Counter00003.Path" value="\Processor Information(*)\Parking Status"/>
+          <param name="Counter00004.Path" value="\Memory\Available MBytes"/>
+          <param name="Counter00005.Path" value="\Memory\% Committed Bytes In Use" />
+          <param name="Counter00006.Path" value="\Memory\Cache Faults/sec" />
+          <param name="Counter00007.Path" value="\Memory\Cache Faults/sec" />
+          <param name="Counter00008.Path" value="\PhysicalDisk(*)\% Idle Time"/>
+          <param name="Counter00009.Path" value="\PhysicalDisk(*)\Avg. Disk Queue Length" />
+          <param name="Counter00010.Path" value="\Network Interface(*)\Bytes Total/sec"/>
+        </object>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
+

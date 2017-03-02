@@ -1,0 +1,13 @@
+﻿<ServiceInfo Version="1.0" Key="MediaGuide">
+  <FriendlyName>Media Guide</FriendlyName>
+  <Color MediaPlayer="#0063B0" />
+  <Image MenuURL="http://images.windowsmedia.com/svcswitch/media_guide_16x16.png" ServiceLargeURL="http://images.windowsmedia.com/svcswitch/mg4_wmp12_30x30_2.png"/>
+  <ServiceTask1 URL="http://www.windowsmedia.com/RadioUI/Home.aspx?culture=hu-hu">
+    <ButtonText>Media Guide</ButtonText>
+    <ButtonTip>Media Guide</ButtonTip>
+  </ServiceTask1>
+  <Navigate BaseURL="http://www.windowsmedia.com/RadioUI/Home.aspx?culture=hu-hu" />
+  <AlbumInfo URL="http://www.windowsmedia.com/RadioUI/Home.aspx?culture=hu-hu" />
+  <InfoCenter URL="http://images.windowsmedia.com/svcswitch/MGinfocenter.htm" />
+  <BuyCD MediaPlayerURL="http://go.microsoft.com/fwlink/?LinkId=142266" MediaCenterURL="http://go.microsoft.com/fwlink/?LinkId=140882" BrowserURL="http://go.microsoft.com/fwlink/?LinkId=142266" />
+</ServiceInfo>
